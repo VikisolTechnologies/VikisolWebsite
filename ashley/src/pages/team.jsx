@@ -6,8 +6,8 @@ import CallToActionSection from "@components/sections/CallToAction";
 const TeamData = [
     {
         "image": "/img/faces/1.jpg",
-        "name": "Anna Oldman",
-        "role": "Art Director",
+        "name": "Syam Prabhakar Seeli",
+        "role": "CEO/Founder",
         "social": [
             {
                 "link": "https://behance.net/",
@@ -33,8 +33,8 @@ const TeamData = [
     },
     {
         "image": "/img/faces/3.jpg",
-        "name": "Oscar Freeman",
-        "role": "Frontend Dev",
+        "name": "Jennifer Israel Seeli",
+        "role": "CTO",
         "social": [
             {
                 "link": "https://behance.net/",

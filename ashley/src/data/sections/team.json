@@ -10,8 +10,8 @@
     "col1_items": [
         {
             "image": "/img/faces/1.jpg",
-            "name": "Anna Oldman",
-            "role": "Art Director",
+            "name": "Syam Prabhakar Seeli",
+            "role": "CEO/Founder",
             "social": [
                 {
                     "icon": "fab fa-behance",
@@ -37,8 +37,8 @@
         },
         {
             "image": "/img/faces/3.jpg",
-            "name": "Oscar Freeman",
-            "role": "Frontend Dev",
+            "name": "Jennifer Israel Seeli",
+            "role": "CTO",
             "social": [
                 {
                     "icon": "fab fa-behance",
