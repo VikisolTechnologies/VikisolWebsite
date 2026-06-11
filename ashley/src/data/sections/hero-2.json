@@ -1,41 +1,36 @@
 {
-    "title": "Ashley <br/>Goodman",
-    "subtitle": "Hello! My name is",
-    "text": "Passionately Creating Design Wonders: <br/>Unleashing Boundless Creativity",
+    "title": "Vikisol <br/>Technologies",
+    "subtitle": "Welcome to",
+    "text": "Technology. Talent. Transformation. <br/>Delivered at Enterprise Scale.",
     "button": {
         "link": "/services",
-        "label": "More about me"
+        "label": "Explore solutions"
     },
     "image": {
         "url": "/img/faces/large/1.png",
         "alt": "Portrait"
     },
     "bottom": {
-        "title": "Designing a Better World Today",
+        "title": "Trusted by Enterprises Worldwide",
         "button": {
             "link": "/projects",
-            "label": "View portfolio"
+            "label": "View our work"
         },
         "social": [
             {
-                "icon": "fab fa-behance",
-                "link": "https://behance.com",
-                "title": "behance"
-            },
-            {
-                "icon": "fab fa-dribbble",
-                "link": "https://dribbble.com",
-                "title": "dribbble"
+                "icon": "fab fa-linkedin",
+                "link": "https://linkedin.com",
+                "title": "LinkedIn"
             },
             {
                 "icon": "fab fa-twitter",
                 "link": "https://twitter.com",
-                "title": "twitter"
+                "title": "Twitter"
             },
             {
                 "icon": "fab fa-github",
                 "link": "https://github.com",
-                "title": "github"
+                "title": "GitHub"
             }
         ]
     }

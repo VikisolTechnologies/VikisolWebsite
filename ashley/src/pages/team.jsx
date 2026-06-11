@@ -7,216 +7,136 @@ const TeamData = [
     {
         "image": "/img/faces/1.jpg",
         "name": "Syam Prabhakar Seeli",
-        "role": "CEO/Founder",
+        "role": "Founder & CEO",
         "social": [
             {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
+                "link": "https://linkedin.com/",
+                "icon": "fab fa-linkedin",
+                "title": "LinkedIn"
             },
             {
                 "link": "https://twitter.com/",
                 "icon": "fab fa-twitter",
                 "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
             }
         ]
     },
     {
         "image": "/img/faces/3.jpg",
         "name": "Jennifer Israel Seeli",
-        "role": "CTO",
+        "role": "Chief Technology Officer",
         "social": [
             {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
+                "link": "https://linkedin.com/",
+                "icon": "fab fa-linkedin",
+                "title": "LinkedIn"
             },
             {
                 "link": "https://twitter.com/",
                 "icon": "fab fa-twitter",
                 "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
             }
         ]
     },
     {
         "image": "/img/faces/2.jpg",
-        "name": "Emma Newman",
-        "role": "Founder",
+        "name": "Arjun Reddy",
+        "role": "Head of SAP Practice",
         "social": [
             {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
+                "link": "https://linkedin.com/",
+                "icon": "fab fa-linkedin",
+                "title": "LinkedIn"
             },
             {
                 "link": "https://twitter.com/",
                 "icon": "fab fa-twitter",
                 "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
             }
         ]
     },
     {
         "image": "/img/faces/4.jpg",
-        "name": "Lisa Trueman",
-        "role": "UI/UX Designer",
+        "name": "Priya Mehta",
+        "role": "Head of Talent Solutions",
         "social": [
             {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
+                "link": "https://linkedin.com/",
+                "icon": "fab fa-linkedin",
+                "title": "LinkedIn"
             },
             {
                 "link": "https://twitter.com/",
                 "icon": "fab fa-twitter",
                 "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
             }
         ]
     },
     {
         "image": "/img/faces/5.jpg",
-        "name": "Tom Oldman",
-        "role": "Art Director",
+        "name": "Rahul Verma",
+        "role": "Head of Cloud & DevOps",
         "social": [
             {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
+                "link": "https://linkedin.com/",
+                "icon": "fab fa-linkedin",
+                "title": "LinkedIn"
             },
             {
                 "link": "https://twitter.com/",
                 "icon": "fab fa-twitter",
                 "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
             }
         ]
     },
     {
         "image": "/img/faces/6.jpg",
-        "name": "Corey Trueman",
-        "role": "Technical Director",
+        "name": "Kiran Patel",
+        "role": "Head of Software Engineering",
         "social": [
             {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
+                "link": "https://linkedin.com/",
+                "icon": "fab fa-linkedin",
+                "title": "LinkedIn"
             },
             {
                 "link": "https://twitter.com/",
                 "icon": "fab fa-twitter",
                 "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
             }
         ]
     },
     {
         "image": "/img/faces/7.jpg",
-        "name": "Justin Newman",
-        "role": "Copywriter",
+        "name": "Anita Reddy",
+        "role": "Head of Cyber Security",
         "social": [
             {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
+                "link": "https://linkedin.com/",
+                "icon": "fab fa-linkedin",
+                "title": "LinkedIn"
             },
             {
                 "link": "https://twitter.com/",
                 "icon": "fab fa-twitter",
                 "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
             }
         ]
     },
     {
         "image": "/img/faces/8.jpg",
-        "name": "Spunkie",
-        "role": "Paw giver",
+        "name": "Shreya Nair",
+        "role": "Head of Business Development",
         "social": [
             {
-                "link": "https://behance.net/",
-                "icon": "fab fa-behance",
-                "title": "Behance"
-            },
-            {
-                "link": "https://dribbble.com/",
-                "icon": "fab fa-dribbble",
-                "title": "Dribbble"
+                "link": "https://linkedin.com/",
+                "icon": "fab fa-linkedin",
+                "title": "LinkedIn"
             },
             {
                 "link": "https://twitter.com/",
                 "icon": "fab fa-twitter",
                 "title": "Twitter"
-            },
-            {
-                "link": "https://github.com/",
-                "icon": "fab fa-github",
-                "title": "Github"
             }
         ]
     }
@@ -225,7 +145,7 @@ const TeamData = [
 const Team = () => {
   return (
     <Layouts>
-        <PageBanner pageTitle={"Meet <span className=\"mil-thin\">Our</span><br> Creative <span className=\"mil-thin\">Team</span>"} breadTitle={"Team"} anchorLabel={"Our team"} anchorLink={"#team"} />
+        <PageBanner pageTitle={"Our <span className=\"mil-thin\">Leadership</span><br> & <span className=\"mil-thin\">Expert Team</span>"} breadTitle={"Leadership"} anchorLabel={"Meet the team"} anchorLink={"#team"} />
       
         {/* team */}
         <section id="team">

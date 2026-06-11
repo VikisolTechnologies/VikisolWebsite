@@ -64,16 +64,16 @@ const DefaultFooter = ( { extraClass } ) => {
 
                             <div className="col-md-6 col-lg-5 mil-mb-60">
 
-                                <h6 className="mil-muted mil-up mil-mb-30">Canada</h6>
+                                <h6 className="mil-muted mil-up mil-mb-30">India</h6>
 
-                                <p className="mil-light-soft mil-up">71 South Los Carneros Road, California <span className="mil-no-wrap">+51 174 705 812</span></p>
+                                <p className="mil-light-soft mil-up">Maximus Towers, Mindspace, Hyderabad <span className="mil-no-wrap">+91 7989595796</span></p>
 
                             </div>
                             <div className="col-md-6 col-lg-5 mil-mb-60">
 
-                                <h6 className="mil-muted mil-up mil-mb-30">Germany</h6>
+                                <h6 className="mil-muted mil-up mil-mb-30">Global Reach</h6>
 
-                                <p className="mil-light-soft mil-up">Leehove 40, 2678 MC De Lier, Netherlands <span className="mil-no-wrap">+31 174 705 811</span></p>
+                                <p className="mil-light-soft mil-up">UAE · Saudi Arabia · Qatar · Oman · USA · UK · Australia <span className="mil-no-wrap">connect@vikisol.in</span></p>
 
                             </div>
                         </div>

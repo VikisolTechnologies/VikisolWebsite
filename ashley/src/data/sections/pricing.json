@@ -1,46 +1,46 @@
 {
-    "title": "Reasonable <span class=\"mil-thin\">prices</span> <br/>for innovative <span class=\"mil-thin\">solutions</span>",
-    "description": "At our agency, we have a unique approach to web design and development. <br/>We believe in creating in terms of user experience, functionality.",
+    "title": "Our Engagement <span class=\"mil-thin\">Models</span>",
+    "description": "We offer flexible engagement models designed to match your business needs,<br/>delivery timeline, and strategic investment goals.",
     "items": [
         {
-            "title": "Tailored Designs for<br> Every Budget",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
+            "title": "Project-Based<br>Delivery",
+            "text": "Fixed-scope engagements with defined milestones, deliverables, and timelines. Ideal for discrete technology initiatives with clear outcomes.",
             "price": {
-                "value": "19",
-                "symbol": "$"
+                "value": "01",
+                "symbol": ""
             },
             "link": "/contact"
         },
         {
-            "title": "Tailored Designs for<br> Every Budget",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
+            "title": "Dedicated<br>Development Teams",
+            "text": "Fully managed, long-term teams that operate as an extension of your engineering organization with full accountability and governance.",
             "price": {
-                "value": "29",
-                "symbol": "$"
+                "value": "02",
+                "symbol": ""
             },
             "link": "/contact"
         },
         {
-            "title": "Unleashing the Beauty of Space <br> with Unique Designs",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
+            "title": "Managed Services<br>& Support",
+            "text": "Ongoing operational support, proactive monitoring, and continuous optimization for SAP landscapes, cloud environments, and enterprise platforms.",
             "price": {
-                "value": "49",
-                "symbol": "$"
+                "value": "03",
+                "symbol": ""
             },
             "link": "/contact"
         },
         {
-            "title": "Exquisite Design Concepts <br> for Discerning Clients",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
+            "title": "Resource Deployment<br>& Augmentation",
+            "text": "Rapid on-demand deployment of specialist technology professionals to scale your team capacity without the overhead of permanent hiring.",
             "price": {
-                "value": "199",
-                "symbol": "$"
+                "value": "04",
+                "symbol": ""
             },
             "link": "/contact"
         }
     ],
     "button": {
-        "label": "individual solution",
+        "label": "Discuss your requirements",
         "link": "/contact"
     }
 }

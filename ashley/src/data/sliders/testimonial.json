@@ -1,24 +1,24 @@
 {
-    "title": "Customer <span class=\"mil-thin\">Voices:</span> <br>Hear What <span class=\"mil-thin\">They Say!</span>",
-    "subtitle": "Customer reviews are a valuable source <br>of information for both businesses and consumers.",
+    "title": "Client <span class=\"mil-thin\">Success</span> <br>Stories",
+    "subtitle": "Trusted by enterprises across India, the Middle East,<br>and global markets to deliver technology transformation at scale.",
     "items": [
         {
-            "name": "Paul Trueman",
-            "image": "/img/customers/1.jpg",
-            "role": "Eqanta app",
-            "text": "Working with Courtney Davis as our UI designer was an absolute pleasure. Her attention to detail and creative approach brought our vision to life. The user interface she designed exceeded our expectations, and we received positive feedback from our clients. Highly recommended!"
+            "name": "Rajesh Kumar",
+            "image": "/img/faces/customers/1.jpg",
+            "role": "VP of Technology, Manufacturing Enterprise",
+            "text": "Vikisol's SAP S/4HANA implementation team delivered our migration on time and within budget. Their consultants demonstrated deep functional expertise and managed the transition with minimal disruption to our operations. A truly reliable technology partner."
         },
         {
-            "name": "Olivia Oldman",
-            "image": "/img/customers/2.jpg",
-            "role": "Eqanta app",
-            "text": "I had the opportunity to collaborate with Courtney, and I must say she is incredibly talented. Her ability to understand our brand and translate it into a interface was impressive. Courtney's designs were intuitive, and enhanced the overall user experience. I look forward to working with her again!"
+            "name": "Priya Sharma",
+            "image": "/img/faces/customers/2.jpg",
+            "role": "Head of Digital Transformation, Financial Services",
+            "text": "We engaged Vikisol for resource deployment across our cloud modernization programme. Within three weeks they had deployed eight highly skilled engineers who integrated seamlessly with our internal teams. The calibre of talent they provide is consistently exceptional."
         },
         {
-            "name": "Jennifer Israel Seeli",
-            "image": "/img/customers/3.jpg",
-            "role": "Eqanta app",
-            "text": "Courtney Davis is an exceptional UI designer. She has a keen eye for aesthetics and understands how to create interfaces. Courtney's designs greatly improved the usability of our application, and we couldn't be happier with the results. Highly skilled and reliable!"
+            "name": "Ahmed Al-Rashid",
+            "image": "/img/faces/customers/3.jpg",
+            "role": "CIO, Logistics & Supply Chain Group",
+            "text": "Vikisol delivered our AI automation solution ahead of schedule and reduced our manual processing time by over sixty percent. Their team brought a rare combination of technical depth and business understanding that made them stand out from every other vendor we evaluated."
         }
     ]
 }

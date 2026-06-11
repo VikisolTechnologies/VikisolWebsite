@@ -1,8 +1,8 @@
 {
-    "title": "Popular Publications:",
+    "title": "Technology <span class=\"mil-thin\">Insights:</span>",
     "button": {
         "link": "/blog",
-        "button": "View all"
+        "button": "View all insights"
     },
     "numOfItems": 2
 }

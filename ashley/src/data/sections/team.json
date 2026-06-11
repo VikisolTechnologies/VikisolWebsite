@@ -1,120 +1,80 @@
 {
-    "title": "Meet <br>Our Team",
-    "description": "<p>We are talented individuals who are passionate about bringing ideas to life. With a diverse range of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.</p><p>Together, our creative team is committed to delivering impactful work that exceeds expectations.</p>",
-    "subtitle": "<span class=\"mil-thin\">We</span> delivering <br><span class=\"mil-thin\">exceptional</span> results.",
+    "title": "Meet Our <br>Leadership",
+    "description": "<p>Our leadership team brings together deep expertise across enterprise technology consulting, software engineering, cybersecurity, artificial intelligence, and global workforce solutions.</p><p>Guided by a shared commitment to delivering measurable business outcomes, our leaders partner closely with clients to drive transformation at scale across India and international markets.</p>",
+    "subtitle": "<span class=\"mil-thin\">Leading</span> with expertise, <br><span class=\"mil-thin\">delivering</span> with excellence.",
     "button": {
         "link": "/team",
-        "label": "Read more"
+        "label": "Meet the team"
     },
-    "note": "<span class=\"mil-accent\">*</span> The founders of our agency",
+    "note": "<span class=\"mil-accent\">*</span> Vikisol founding leadership",
     "col1_items": [
         {
             "image": "/img/faces/1.jpg",
             "name": "Syam Prabhakar Seeli",
-            "role": "CEO/Founder",
+            "role": "Founder & CEO",
             "social": [
                 {
-                    "icon": "fab fa-behance",
-                    "link": "https://behance.com",
-                    "title": "behance"
-                },
-                {
-                    "icon": "fab fa-dribbble",
-                    "link": "https://dribbble.com",
-                    "title": "dribbble"
+                    "icon": "fab fa-linkedin",
+                    "link": "https://linkedin.com",
+                    "title": "LinkedIn"
                 },
                 {
                     "icon": "fab fa-twitter",
                     "link": "https://twitter.com",
-                    "title": "twitter"
-                },
-                {
-                    "icon": "fab fa-github",
-                    "link": "https://github.com",
-                    "title": "github"
+                    "title": "Twitter"
                 }
             ]
         },
         {
-            "image": "/img/faces/3.jpg",
-            "name": "Jennifer Israel Seeli",
-            "role": "CTO",
+            "image": "/img/faces/2.jpg",
+            "name": "Arjun Reddy",
+            "role": "Head of SAP Practice",
             "social": [
                 {
-                    "icon": "fab fa-behance",
-                    "link": "https://behance.com",
-                    "title": "behance"
-                },
-                {
-                    "icon": "fab fa-dribbble",
-                    "link": "https://dribbble.com",
-                    "title": "dribbble"
+                    "icon": "fab fa-linkedin",
+                    "link": "https://linkedin.com",
+                    "title": "LinkedIn"
                 },
                 {
                     "icon": "fab fa-twitter",
                     "link": "https://twitter.com",
-                    "title": "twitter"
-                },
-                {
-                    "icon": "fab fa-github",
-                    "link": "https://github.com",
-                    "title": "github"
+                    "title": "Twitter"
                 }
             ]
         }
     ],
     "col2_items": [
         {
-            "image": "/img/faces/2.jpg",
-            "name": "Emma Newman",
-            "role": "Founder",
+            "image": "/img/faces/3.jpg",
+            "name": "Jennifer Israel Seeli",
+            "role": "Chief Technology Officer",
             "social": [
                 {
-                    "icon": "fab fa-behance",
-                    "link": "https://behance.com",
-                    "title": "behance"
-                },
-                {
-                    "icon": "fab fa-dribbble",
-                    "link": "https://dribbble.com",
-                    "title": "dribbble"
+                    "icon": "fab fa-linkedin",
+                    "link": "https://linkedin.com",
+                    "title": "LinkedIn"
                 },
                 {
                     "icon": "fab fa-twitter",
                     "link": "https://twitter.com",
-                    "title": "twitter"
-                },
-                {
-                    "icon": "fab fa-github",
-                    "link": "https://github.com",
-                    "title": "github"
+                    "title": "Twitter"
                 }
             ]
         },
         {
             "image": "/img/faces/4.jpg",
-            "name": "Lisa Trueman",
-            "role": "UI/UX Designer",
+            "name": "Priya Mehta",
+            "role": "Head of Talent Solutions",
             "social": [
                 {
-                    "icon": "fab fa-behance",
-                    "link": "https://behance.com",
-                    "title": "behance"
-                },
-                {
-                    "icon": "fab fa-dribbble",
-                    "link": "https://dribbble.com",
-                    "title": "dribbble"
+                    "icon": "fab fa-linkedin",
+                    "link": "https://linkedin.com",
+                    "title": "LinkedIn"
                 },
                 {
                     "icon": "fab fa-twitter",
                     "link": "https://twitter.com",
-                    "title": "twitter"
-                },
-                {
-                    "icon": "fab fa-github",
-                    "link": "https://github.com",
-                    "title": "github"
+                    "title": "Twitter"
                 }
             ]
         }

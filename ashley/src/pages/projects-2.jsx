@@ -8,7 +8,7 @@ import { getSortedProjectsData } from "@library/projects";
 const Projects2 = (props) => {
   return (
     <Layouts>
-      <PageBanner pageTitle={"Designing a <br> Better <span className=\"mil-thin\">World Today</span>"} breadTitle={"Portfolio"} anchorLabel={"Our works"} anchorLink={"#portfolio"} />
+      <PageBanner pageTitle={"Client <span className=\"mil-thin\">Engagements</span><br> & <span className=\"mil-thin\">Case Studies</span>"} breadTitle={"Case Studies"} anchorLabel={"View case studies"} anchorLink={"#portfolio"} />
 
       <ProjectsGrid projects={props.projects} />
       

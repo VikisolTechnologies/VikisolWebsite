@@ -1,5 +1,5 @@
-import PageBanner from "@/src/components/PageBanner";
-import Layouts from "@/src/layouts/Layouts";
+import PageBanner from "@components/PageBanner";
+import Layouts from "@layouts/Layouts";
 import { Formik } from 'formik';
 import AppData from "@data/app.json";
 
@@ -8,7 +8,7 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 const Contact = () => {
   return (
     <Layouts>
-        <PageBanner pageTitle={"Get in touch!"} breadTitle={"Contact"} anchorLabel={"Send message"} anchorLink={"#contact"} paddingBottom={1} align={"center"} />
+        <PageBanner pageTitle={"Let's Build <span className=\"mil-thin\">Together</span>"} breadTitle={"Contact"} anchorLabel={"Send a message"} anchorLink={"#contact"} paddingBottom={1} align={"center"} />
 
         {/* map */}
         <div className="mil-map-frame mil-up">
@@ -111,8 +111,8 @@ const Contact = () => {
                         />
                     </div>
                     <div className="col-lg-12 mil-up">
-                        <textarea 
-                            placeholder="Tell us about our project"
+                        <textarea
+                            placeholder="Tell us about your project or requirements"
                             name="message" 
                             required="required"
                             onChange={handleChange}

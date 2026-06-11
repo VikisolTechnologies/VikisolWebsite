@@ -1,12 +1,12 @@
 {
-    "title": "Designing <span class=\"mil-thin\">a Better</span><br> World <span class=\"mil-thin\">Today</span>",
-    "description": "Welcome to our world of endless imagination and boundless creativity. Together, let's embark on a remarkable journey where dreams become tangible realities.",
+    "title": "Powering <span class=\"mil-thin\">Future</span><br> Ready <span class=\"mil-thin\">Enterprises</span>",
+    "description": "Driving digital transformation through SAP consulting, software engineering, artificial intelligence, cybersecurity, and strategic workforce solutions for global enterprises.",
     "button1": {
         "link": "/services",
-        "label": "What we do"
+        "label": "Explore solutions"
     },
     "button2": {
         "link": "/projects",
-        "label": "View works"
+        "label": "View our work"
     }
 }

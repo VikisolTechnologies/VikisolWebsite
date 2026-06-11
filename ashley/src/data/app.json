@@ -1,6 +1,6 @@
 {
     "settings": {
-        "siteName": "Ashley",
+        "siteName": "Vikisol",
         "formspreeURL": "https://formspree.io/f/your_api_key",
         "mailchimp": {
             "url": "",
@@ -9,43 +9,26 @@
     },
     "header": {
         "logo": {
-            "symbol": "A.",
+            "symbol": "V.",
             "link": "/"
         },
         "menu": [
             {
-                "label": "Homepage",
+                "label": "Home",
                 "link": "/",
-                "children": [
-                    {
-                        "label": "Landing Page",
-                        "link": "/"
-                    },
-                    {
-                        "label": "Personal",
-                        "link": "/home-2"
-                    },
-                    {
-                        "label": "Home Slider",
-                        "link": "/projects-3"
-                    }
-                ]
+                "children": 0
             },
             {
-                "label": "Portfolio",
+                "label": "Our Work",
                 "link": "/projects",
                 "children": [
                     {
-                        "label": "Grid Type 1",
+                        "label": "All Projects",
                         "link": "/projects"
                     },
                     {
-                        "label": "Grid Type 2",
+                        "label": "Case Studies",
                         "link": "/projects-2"
-                    },
-                    {
-                        "label": "Slider",
-                        "link": "/projects-3"
                     }
                 ]
             },
@@ -54,25 +37,45 @@
                 "link": "/services",
                 "children": [
                     {
-                        "label": "Services List",
+                        "label": "All Services",
                         "link": "/services"
                     },
                     {
-                        "label": "Single Service",
-                        "link": "/services/service-1"
+                        "label": "SAP Consulting",
+                        "link": "/services/sap-consulting"
+                    },
+                    {
+                        "label": "Software Engineering",
+                        "link": "/services/software-engineering"
+                    },
+                    {
+                        "label": "AI & Automation",
+                        "link": "/services/ai-automation"
+                    },
+                    {
+                        "label": "Cyber Security",
+                        "link": "/services/cyber-security"
+                    },
+                    {
+                        "label": "Cloud & DevOps",
+                        "link": "/services/cloud-devops"
+                    },
+                    {
+                        "label": "Talent & Workforce",
+                        "link": "/services/talent-workforce"
                     }
                 ]
             },
             {
-                "label": "Blog",
+                "label": "Insights",
                 "link": "/blog",
                 "children": [
                     {
-                        "label": "Blog list",
+                        "label": "All Insights",
                         "link": "/blog"
                     },
                     {
-                        "label": "Publication",
+                        "label": "Technology Trends",
                         "link": "/blog/play-to-your-strength-and-supercharge-your-business-4"
                     }
                 ]
@@ -83,16 +86,16 @@
                 "children": 0
             },
             {
-                "label": "Other",
+                "label": "Company",
                 "link": "/team",
                 "children": [
                     {
-                        "label": "Team",
+                        "label": "Leadership Team",
                         "link": "/team"
                     },
                     {
-                        "label": "404",
-                        "link": "/404"
+                        "label": "About Us",
+                        "link": "/"
                     }
                 ]
             }

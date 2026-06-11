@@ -1,31 +1,31 @@
 {
-    "title1": "Unique <span class=\"mil-thin\">Ideas</span>",
-    "title2": "For Your <span class=\"mil-thin\">Business.</span>",
-    "subtitle": "Professionals focused on helping your brand<br/> grow and move forward.",
+    "title1": "Enterprise <span class=\"mil-thin\">Technology</span>",
+    "title2": "Solutions <span class=\"mil-thin\">That Scale.</span>",
+    "subtitle": "Empowering enterprises through technology,<br/> talent, and digital transformation.",
     "button": {
         "link": "/services",
-        "label": "What we do"
+        "label": "All services"
     },
     "items": [
         {
-            "title": "Branding and <br>Identity Design",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-1"
+            "title": "SAP Consulting<br>& Transformation",
+            "text": "End-to-end SAP implementation, migration, and support for enterprise digital transformation.",
+            "link": "/services/sap-consulting"
         },
         {
-            "title": "Website Design <br>and Development",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-2"
+            "title": "Software <br>Engineering",
+            "text": "Custom web, mobile, and enterprise application development built for performance and scale.",
+            "link": "/services/software-engineering"
         },
         {
-            "title": "Advertising and <br>Marketing Campaigns",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-3"
+            "title": "AI & Automation<br>Solutions",
+            "text": "Generative AI, intelligent automation, and data analytics that transform business operations.",
+            "link": "/services/ai-automation"
         },
         {
-            "title": "Creative Consulting <br>and Development",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-4"
+            "title": "Talent & Workforce<br>Solutions",
+            "text": "Strategic staffing, dedicated teams, and resource deployment for global technology enterprises.",
+            "link": "/services/talent-workforce"
         }
     ]
 }
