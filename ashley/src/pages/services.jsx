@@ -10,6 +10,50 @@ import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import LinesIcon from "@layouts/svg-icons/Lines";
 
+const enterpriseCapabilities = [
+  "AI & Data",
+  "Cloud",
+  "Customer Experience",
+  "Cybersecurity",
+  "Digital Engineering",
+  "Emerging Technology",
+  "Finance & Risk Management",
+  "Infrastructure & Capital Projects",
+  "Learning",
+  "Managed Services",
+  "Marketing & Experience",
+  "Metaverse",
+  "Sales & Commerce",
+  "Strategy",
+  "Supply Chain",
+  "Sustainability",
+  "Talent & Organization",
+  "Technology Transformation"
+];
+
+const industries = [
+  "Aerospace & Defense",
+  "Automotive",
+  "Banking",
+  "Capital Markets",
+  "Chemicals",
+  "Communications & Media",
+  "Consumer Goods & Services",
+  "Energy",
+  "Health",
+  "High Tech",
+  "Industrial",
+  "Insurance",
+  "Life Sciences",
+  "Natural Resources",
+  "Public Service",
+  "Private Equity",
+  "Retail",
+  "Software & Platforms",
+  "Travel",
+  "Utilities"
+];
+
 const Services = (props) => {
   return (
     <Layouts>
@@ -56,6 +100,50 @@ const Services = (props) => {
           </section>
       </div>
       {/* services end */}
+
+        <section>
+          <div className="container mil-p-120-60">
+            <div className="row align-items-end mil-mb-60">
+              <div className="col-lg-8 mil-mb-30">
+                <h3 className="mil-up">Enterprise Technology Domains</h3>
+                <p className="mil-text mil-up">
+                These are the broader capability areas we use to frame Vikisol as a multi-domain technology partner.
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              {enterpriseCapabilities.map((item, key) => (
+              <div className="col-md-6 col-lg-3" key={`domain-item-${key}`}>
+                <div className="mil-soft-bg mil-p-30-30 mil-mb-30">
+                  <h5 className="mil-up">{item}</h5>
+                </div>
+              </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="mil-soft-bg">
+          <div className="container mil-p-120-90">
+            <div className="row align-items-end mil-mb-60">
+              <div className="col-lg-8 mil-mb-30">
+                <h3 className="mil-up">Industries We Serve</h3>
+                <p className="mil-text mil-up">
+                We tailor delivery models to regulated, high-scale, and operationally complex sectors.
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              {industries.map((industry, key) => (
+              <div className="col-6 col-md-4 col-lg-3" key={`industry-item-${key}`}>
+                <div className="mil-service-card-sm mil-up mil-mb-30">
+                  <h6 className="mil-up">{industry}</h6>
+                </div>
+              </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
       <CallToActionSection />
       

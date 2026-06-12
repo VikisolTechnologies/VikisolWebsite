@@ -1,32 +1,32 @@
----
+﻿---
 #preview
-title: '10 Content Proofreading Tips to Catch More Avoidable Goofs'
-date: '2022-02-02'
-image: "/img/blog/5.jpg"
+title: 'How Vikisol Presents Its Quality Mindset'
+date: '2026-05-24'
+image: "/img/blog/6.jpg"
 category:
-    - Copywrighting
+    - Delivery
 categories:
-    - copywrighting
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+    - code
+short: Quality messaging should reflect governance, consistency, and delivery discipline.
 
 #full details
-introTitle: 10 Content Proofreading Tips to <span class="mil-thin">Catch</span><br> More Avoidable <span class="mil-thin">Goofs</span>
+introTitle: 'How Vikisol Presents Its <br> <span class="mil-thin">Quality</span> Mindset'
 
 author:
-    name: "Paul Trueman"
-
-additional:
-    enabled: 1
-    content: "
-        <h5>Voluptatem odit ullam veritatis</h5>
-        <p>Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.</p>
-    "
+    name: "Vikisol Insights Team"
 ---
 
-##### Voluptatem odit ullam veritatis
+Quality is not a decorative theme in an enterprise portfolio. It is the proof that the company can be trusted with client work, confidential information, and delivery commitments.
 
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+For Vikisol, the quality story should connect governance, communication, and execution. That includes how the company manages staffing, delivery oversight, client expectations, and post-engagement support.
 
-> I don't know why we are here, but I'm pretty sure that it is not in order to enjoy ourselves.
+###### Quality signals to keep visible
 
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+- Clear ownership across every engagement
+- Consistent document structure and terminology
+- Response discipline and follow-through
+- Professional presentation across all channels
+
+###### The result
+
+A clean quality story helps the reader see Vikisol as structured and dependable. That matters because enterprise buyers usually equate documentation quality with delivery quality.

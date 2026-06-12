@@ -280,10 +280,10 @@ export default function Careers() {
               </p>
             </div>
             <div className="col-lg-6 mil-mb-30">
-              <p className="mil-up" style={{ color: "#888", fontSize: "14px" }}>
+              {/* <p className="mil-up" style={{ color: "#888", fontSize: "14px" }}>
                 Experience range: 4+ to 12 years across engineering, testing, scrum, cloud, SAP,
                 AI, security, and architecture roles.
-              </p>
+              </p> */}
             </div>
           </div>
 

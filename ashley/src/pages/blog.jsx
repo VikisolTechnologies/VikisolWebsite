@@ -16,7 +16,7 @@ import PopularsPostsData from "@data/sections/popular-posts.json";
 const Blog = ( { posts, totalPosts, currentPage, categories, popular } ) => {
   return (
     <Layouts>
-      <PageBanner pageTitle={"Exploring <span className=\"mil-thin\">the World</span> <br> Through Our <span className=\"mil-thin\">Blog</span>"} breadTitle={"Blog"} anchorLabel={"Publications"} anchorLink={"#blog"} paddingBottom={1} />
+      <PageBanner pageTitle={"Vikisol <span className=\"mil-thin\">Insights</span><br>Industry trends and <span className=\"mil-thin\">perspectives</span>"} breadTitle={"Blog"} anchorLabel={"Publications"} anchorLink={"#blog"} paddingBottom={1} />
 
       <PopularPosts posts={popular} />
 

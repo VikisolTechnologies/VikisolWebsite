@@ -1,32 +1,32 @@
----
+﻿---
 #preview
-title: '10 Content Proofreading Tips to Catch More Avoidable Goofs'
-date: '2022-04-02'
-image: "/img/blog/2.jpg"
+title: 'How Vikisol Speaks to Decision Makers'
+date: '2026-05-20'
+image: "/img/blog/6.jpg"
 category:
-    - Copywrighting
+    - Delivery
 categories:
-    - copywrighting
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+    - code
+short: Decision makers want concise language, business relevance, and clear outcomes.
 
 #full details
-introTitle: 10 Content Proofreading Tips to <span class="mil-thin">Catch</span><br> More Avoidable <span class="mil-thin">Goofs</span>
+introTitle: 'How Vikisol Speaks to <br> <span class="mil-thin">Decision</span> Makers'
 
 author:
-    name: "Paul Trueman"
-
-additional:
-    enabled: 1
-    content: "
-        <h5>Voluptatem odit ullam veritatis</h5>
-        <p>Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.</p>
-    "
+    name: "Vikisol Insights Team"
 ---
 
-##### Voluptatem odit ullam veritatis
+When Vikisol speaks to enterprise buyers, every sentence should help the reader make a decision. That means cutting filler, avoiding vague claims, and leading with the business value of each service.
 
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+The tone should feel like a consulting partner speaking to procurement, operations, or technology leadership. The best content sounds calm, measurable, and practical.
 
-> I don't know why we are here, but I'm pretty sure that it is not in order to enjoy ourselves.
+###### Messaging principles
 
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+- State the problem clearly
+- Explain the delivery model simply
+- Show proof where possible
+- Use language that sounds credible in a boardroom
+
+###### The outcome
+
+This approach helps the portfolio sound like it belongs in client meetings, vendor reviews, and executive presentations rather than in a generic marketing folder.

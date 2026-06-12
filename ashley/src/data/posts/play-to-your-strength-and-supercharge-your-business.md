@@ -1,46 +1,34 @@
----
+﻿---
 #preview
-title: 'Play to Your Strengths and Supercharge Your Business'
-date: '2022-01-02'
+title: 'How Vikisol Positions Itself as a Technology Partner'
+date: '2026-06-10'
 image: "/img/blog/5.jpg"
 category:
-    - Art
+    - Strategy
 categories:
     - art
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Vikisol should read like a transformation partner, not a list of services.
 
 #full details
-introTitle: Play to Your Strengths and<br> <span class="mil-thin">Supercharge</span> Your <span class="mil-thin">Business</span>
+introTitle: 'How Vikisol Positions Itself as a <br> <span class="mil-thin">Technology</span> Partner'
 
 author:
-    name: "Paul Trueman"
-
-gallery:
-    enabled: 1
-    items:
-        - image: /img/blog/3.jpg
-          alt: "image"
-
-        - image: /img/blog/2.jpg
-          alt: "image"
+    name: "Vikisol Insights Team"
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+Vikisol does not need a generic services brochure. It needs a clear story that shows how the company reduces complexity across consulting, delivery, staffing, and long-term support.
 
-###### Voluptatem odit ullam veritatis
+When an enterprise buyer reviews a partner, the real question is not how many services are listed. The real question is whether one team can own the outcome from discovery through delivery. Vikisol's strongest position is that it can combine SAP consulting, software engineering, workforce solutions, and digital delivery under one accountable partner.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+###### The message enterprise buyers need
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+- One partner for strategy, build, staffing, and support
+- Clear ownership from discovery to delivery
+- A model that scales across regions and functions
+- Commercial terms that are easy to evaluate in procurement
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+###### What makes the story credible
 
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+The profile should consistently show scope, scale, geography, and evidence of delivery. That means using verified numbers, real engagement types, and a visual language that feels like a consulting firm rather than a staffing vendor.
 
-> I don't know why we are here, but I'm pretty sure that it is not in order to enjoy ourselves.
-
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+When the story is framed this way, Vikisol reads as a transformation partner with delivery depth instead of a company simply selling people or hours.

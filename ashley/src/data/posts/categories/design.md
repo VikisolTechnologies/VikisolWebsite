@@ -1,5 +1,5 @@
----
+﻿---
 #preview
-title: Design
-introTitle: Publications <br>Category <span class=\"mil-thin\">Design</span>
+title: Operations
+introTitle: Publications <br>Category <span class="mil-thin">Operations</span>
 ---

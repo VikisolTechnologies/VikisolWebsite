@@ -1,46 +1,34 @@
----
+﻿---
 #preview
-title: 'Play to Your Strengths and Supercharge Your Business'
-date: '2022-02-02'
-image: "/img/blog/8.jpg"
+title: 'Why Fragmented Vendors Slow Enterprise Delivery'
+date: '2026-06-08'
+image: "/img/blog/4.jpg"
 category:
-    - Art
+    - Delivery
 categories:
-    - art
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+    - code
+short: Fragmented ownership creates delays, rework, and unclear accountability.
 
 #full details
-introTitle: Play to Your Strengths and<br> <span class="mil-thin">Supercharge</span> Your <span class="mil-thin">Business</span>
+introTitle: 'Why Fragmented Vendors Slow <br> <span class="mil-thin">Enterprise</span> Delivery'
 
 author:
-    name: "Paul Trueman"
-
-gallery:
-    enabled: 1
-    items:
-        - image: /img/blog/4.jpg
-          alt: "image"
-
-        - image: /img/blog/5.jpg
-          alt: "image"
+    name: "Vikisol Insights Team"
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+Most enterprise projects do not fail because the technology is impossible. They fail because ownership is split across too many vendors, each working from a different scope, timeline, and assumption.
 
-###### Voluptatem odit ullam veritatis
+That fragmentation creates handoffs, duplicate effort, and gaps in accountability. One team designs, another builds, a third tests, and a fourth is expected to support the result. By the time the work reaches production, the original business objective is often diluted.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+###### Common signs of fragmented delivery
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+- Requirements change between teams without a single owner
+- Delivery timelines depend on external dependencies
+- Quality issues surface late in the release cycle
+- Reporting focuses on activity instead of outcomes
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+###### What a better model looks like
 
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+A stronger model combines consulting, engineering, testing, and support under one delivery framework. That gives the client one operating rhythm, one escalation path, and one partner accountable for the result.
 
-> I don't know why we are here, but I'm pretty sure that it is not in order to enjoy ourselves.
-
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+For Vikisol, this is where the consulting narrative becomes powerful. The company is not only providing resources. It is reducing coordination cost and helping clients move faster with less risk.

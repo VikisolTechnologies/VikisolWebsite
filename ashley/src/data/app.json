@@ -95,7 +95,7 @@
                     },
                     {
                         "label": "About Us",
-                        "link": "/"
+                        "link": "/about"
                     }
                 ]
             }
@@ -126,6 +126,10 @@
             {
                 "label": "Blog",
                 "link": "/blog"
+            },
+            {
+                "label": "About Us",
+                "link": "/about"
             }
         ]
     },

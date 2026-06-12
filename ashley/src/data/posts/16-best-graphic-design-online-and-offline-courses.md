@@ -1,47 +1,48 @@
----
+﻿---
 #preview
-title: '16 Best Graphic Design Online and Offline Courses'
-date: '2022-03-02'
+title: 'How Vikisol Explains Its Technology Capabilities'
+date: '2026-05-28'
 image: "/img/blog/5.jpg"
 category:
-    - Marketing
+    - Technology
 categories:
-    - marketing
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+    - technology
+short: The capability story should show platforms, delivery discipline, and business value.
 
 #full details
-introTitle: 16 Best Graphic <span class="mil-thin">Design</span><br> Online and Offline <span class="mil-thin">Courses</span>
+introTitle: 'How Vikisol Explains Its <br> <span class="mil-thin">Technology</span> Capabilities'
 
 author:
-    name: "Paul Trueman"
+    name: "Vikisol Insights Team"
 
 gallery:
     enabled: 1
     items:
         - image: /img/blog/2.jpg
-          alt: "image"
+          alt: "enterprise architecture"
 
         - image: /img/blog/4.jpg
-          alt: "image"
+          alt: "delivery workshop"
 
 additional:
     enabled: 1
     content: "
-        <h5>Voluptatem odit ullam veritatis</h5>
-        <p>Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.</p>
+        <h5>What enterprise buyers need to see</h5>
+        <p>Buyers want to understand the scope of capability, the delivery model, and how the team turns technical work into business outcomes. That is why the content should describe SAP, software engineering, cloud, AI, and support in practical business terms.</p>
     "
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+Vikisol's technology capability story should not read like a list of tools. It should show how the company helps clients solve business problems through engineering, implementation, and support.
 
-###### Voluptatem odit ullam veritatis
+That means presenting each capability as part of a delivery system. SAP, cloud, software development, and AI should all be linked to process improvement, speed, reliability, and measurable outcomes.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+###### A stronger way to frame capabilities
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+- Explain the business problem first
+- Show the delivery approach second
+- Name the relevant technology third
+- Close with the outcome the client receives
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+###### Why this works
+
+This structure makes the portfolio feel consultative and enterprise ready. It also gives Vikisol room to expand later without having to rewrite the positioning each time a new service is added.

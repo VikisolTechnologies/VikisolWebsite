@@ -14,12 +14,14 @@ const Contact = () => {
         <div className="mil-map-frame mil-up">
             <div className="mil-map">
                 <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1396.5769090312324!2d-73.6519672!3d45.5673453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f8abc30e0ff%3A0xfc6d9cbb49022e9c!2sManoir%20Saint-Joseph!5e0!3m2!1sen!2sua!4v1685485811069!5m2!1sen!2sua" 
+                // src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1396.5769090312324!2d-73.6519672!3d45.5673453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f8abc30e0ff%3A0xfc6d9cbb49022e9c!2sManoir%20Saint-Joseph!5e0!3m2!1sen!2sua!4v1685485811069!5m2!1sen!2sua" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60901.08357665583!2d78.33143625712422!3d17.444500568787095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93e0a670c8ff%3A0xbedb158f71239b92!2sMaximus%202B!5e0!3m2!1sen!2sin!4v1781225374357!5m2!1sen!2sin"
                 style={{"border": "0"}} 
                 allowFullScreen 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade" 
                 />
+                
             </div>
         </div>
         {/* map end */}

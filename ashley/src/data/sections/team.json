@@ -1,7 +1,7 @@
 {
-    "title": "Meet Our <br>Leadership",
+    "title": "Meet Our <br><span class=\"mil-thin\">Leadership</span>",
     "description": "<p>Our leadership team brings together deep expertise across enterprise technology consulting, software engineering, cybersecurity, artificial intelligence, and global workforce solutions.</p><p>Guided by a shared commitment to delivering measurable business outcomes, our leaders partner closely with clients to drive transformation at scale across India and international markets.</p>",
-    "subtitle": "<span class=\"mil-thin\">Leading</span> with expertise, <br><span class=\"mil-thin\">delivering</span> with excellence.",
+    "subtitle": "<span class=\"mil-thin\">Experienced</span> leaders, <br><span class=\"mil-thin\">enterprise</span> outcomes.",
     "button": {
         "link": "/team",
         "label": "Meet the team"

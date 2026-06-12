@@ -1,47 +1,34 @@
----
+﻿---
 #preview
-title: '5 Steps to Create an Outstanding Marketing Plan'
-date: '2022-01-02'
-image: "/img/blog/4.jpg"
+title: 'What Procurement Teams Expect From an IT Partner'
+date: '2026-06-02'
+image: "/img/blog/1.jpg"
 category:
-    - Code
+    - Delivery
 categories:
     - code
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Procurement teams care about risk, evidence, compliance, and delivery clarity.
 
 #full details
-introTitle: 5 Steps to Create an Outstanding<br> <span class="mil-thin">Marketing</span> Plan
+introTitle: 'What Procurement Teams Expect From an <br> <span class="mil-thin">IT</span> Partner'
 
 author:
-    name: "Paul Trueman"
-
-gallery:
-    enabled: 1
-    items:
-        - image: /img/blog/3.jpg
-          alt: "image"
-
-        - image: /img/blog/1.jpg
-          alt: "image"
-
-additional:
-    enabled: 1
-    content: "
-        <h5>Voluptatem odit ullam veritatis</h5>
-        <p>Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.</p>
-    "
+    name: "Vikisol Insights Team"
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+A strong sales deck does not close enterprise work on its own. Procurement, vendor management, and due diligence decide whether the relationship can move forward.
 
-###### Voluptatem odit ullam veritatis
+That is why Vikisol's profile must answer the practical questions early. Buyers want to know what the company delivers, where it operates, how it manages confidentiality, and whether the team can support a real business process instead of a one-time request.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+###### What procurement teams usually check
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+- Legal entity and registration details
+- Service scope and delivery ownership
+- Industry references and engagement type
+- Compliance, security, and support model
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+###### How the profile should respond
+
+The content should be direct, specific, and easy to validate. If Vikisol has 100+ projects, 500+ consultants, and global delivery across India, UAE, Saudi Arabia, Qatar, Oman, the US, the UK, and Australia, those facts should be shown cleanly and consistently.
+
+That is what turns a profile into a credible vendor document instead of a generic marketing brochure.

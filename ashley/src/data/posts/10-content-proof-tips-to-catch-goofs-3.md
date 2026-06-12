@@ -1,32 +1,32 @@
----
+﻿---
 #preview
-title: '10 Content Proofreading Tips to Catch More Avoidable Goofs'
-date: '2022-03-02'
-image: "/img/blog/1.jpg"
+title: 'How Vikisol Communicates Enterprise Readiness'
+date: '2026-05-22'
+image: "/img/blog/6.jpg"
 category:
-    - Copywrighting
+    - Delivery
 categories:
-    - copywrighting
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+    - code
+short: Enterprise readiness is communicated through structure, proof, and clarity.
 
 #full details
-introTitle: 10 Content Proofreading Tips to <span class="mil-thin">Catch</span><br> More Avoidable <span class="mil-thin">Goofs</span>
+introTitle: 'How Vikisol Communicates <br> <span class="mil-thin">Enterprise</span> Readiness'
 
 author:
-    name: "Paul Trueman"
-
-additional:
-    enabled: 1
-    content: "
-        <h5>Voluptatem odit ullam veritatis</h5>
-        <p>Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.</p>
-    "
+    name: "Vikisol Insights Team"
 ---
 
-##### Voluptatem odit ullam veritatis
+Enterprise readiness is not only about size. It is about whether the company presents itself in a way that aligns with procurement, vendor onboarding, and client confidence.
 
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+Vikisol should communicate readiness through its language, its visual hierarchy, and the way it explains its service model. The more direct and specific the message is, the easier it becomes for a decision-maker to trust the company.
 
-> I don't know why we are here, but I'm pretty sure that it is not in order to enjoy ourselves.
+###### What the message should show
 
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+- Operating scale
+- Delivery discipline
+- Industry relevance
+- Global support capability
+
+###### Why it matters
+
+A clear, structured message reduces friction. It makes the portfolio useful in real conversations rather than only looking good on first glance.

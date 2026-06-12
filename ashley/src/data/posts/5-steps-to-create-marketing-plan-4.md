@@ -1,47 +1,34 @@
----
+﻿---
 #preview
-title: '5 Steps to Create an Outstanding Marketing Plan'
-date: '2022-04-02'
-image: "/img/blog/3.jpg"
+title: 'How to Build a Credible Client Ecosystem Page'
+date: '2026-05-30'
+image: "/img/blog/4.jpg"
 category:
-    - Code
+    - Operations
 categories:
-    - code
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+    - design
+short: A client ecosystem page should explain relationships, not just display logos.
 
 #full details
-introTitle: 5 Steps to Create an Outstanding<br> <span class="mil-thin">Marketing</span> Plan
+introTitle: 'How to Build a Credible Client <br> <span class="mil-thin">Ecosystem</span> Page'
 
 author:
-    name: "Paul Trueman"
-
-gallery:
-    enabled: 1
-    items:
-        - image: /img/blog/4.jpg
-          alt: "image"
-
-        - image: /img/blog/7.jpg
-          alt: "image"
-
-additional:
-    enabled: 1
-    content: "
-        <h5>Voluptatem odit ullam veritatis</h5>
-        <p>Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.</p>
-    "
+    name: "Vikisol Insights Team"
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+A client ecosystem page works best when it explains the type of relationship behind each name. That is more credible than placing all logos in one undifferentiated wall.
 
-###### Voluptatem odit ullam veritatis
+For Vikisol, the page should separate direct clients, resource deployment engagements, and consulting or staffing partnerships. This makes the portfolio easier to trust during diligence because the viewer understands what kind of work each logo represents.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+###### A clean structure
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+- Direct clients and project delivery
+- Resource deployment and staffing engagements
+- Technology consulting support engagements
+- Strategic partnerships or ecosystem alliances
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+###### Why this matters
+
+Large enterprises care about precision. If a logo is shown, the audience should know whether Vikisol delivered a project, supported a talent need, or contributed as a consulting partner. That distinction protects credibility and gives the portfolio a more mature consulting-company tone.
+
+When the page is written this way, the logos support the narrative instead of creating confusion.

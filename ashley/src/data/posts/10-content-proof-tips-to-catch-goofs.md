@@ -1,32 +1,39 @@
----
+﻿---
 #preview
-title: '10 Content Proofreading Tips to Catch More Avoidable Goofs'
-date: '2022-01-02'
+title: 'How Vikisol Builds Trust Through Quality and Accuracy'
+date: '2026-05-26'
 image: "/img/blog/6.jpg"
 category:
-    - Copywrighting
+    - Delivery
 categories:
-    - copywrighting
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+    - code
+short: Trust comes from accuracy, clean messaging, and evidence the client can verify.
 
 #full details
-introTitle: 10 Content Proofreading Tips to <span class="mil-thin">Catch</span><br> More Avoidable <span class="mil-thin">Goofs</span>
+introTitle: 'How Vikisol Builds Trust Through <br> <span class="mil-thin">Quality</span> and Accuracy'
 
 author:
-    name: "Paul Trueman"
+    name: "Vikisol Insights Team"
 
 additional:
     enabled: 1
     content: "
-        <h5>Voluptatem odit ullam veritatis</h5>
-        <p>Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.</p>
+        <h5>Proof points matter</h5>
+        <p>Enterprise buyers look for consistency across wording, numbers, visuals, and claims. If the document says 500+ consultants, 100+ projects, and global delivery coverage, those statements should appear the same way throughout the profile and website.</p>
     "
 ---
 
-##### Voluptatem odit ullam veritatis
+Trust in an enterprise profile comes from precision. That means clean language, accurate claims, consistent naming, and a structure that helps the reader move from context to proof.
 
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+For Vikisol, the strongest credibility signal is not dramatic marketing copy. It is the ability to present the company clearly and professionally enough that a client, vendor manager, or procurement lead can understand the offer without needing clarification.
 
-> I don't know why we are here, but I'm pretty sure that it is not in order to enjoy ourselves.
+###### What improves trust immediately
 
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+- Verified company facts
+- Simple and direct language
+- Accurate photos, names, and roles
+- No placeholder text or template filler
+
+###### Why the writing style matters
+
+The writing should support decision-making. When the tone is steady and factual, the document feels reliable, and reliability is exactly what enterprise buyers are looking for in a technology partner.

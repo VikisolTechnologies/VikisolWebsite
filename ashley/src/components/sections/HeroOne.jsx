@@ -1,7 +1,24 @@
-import Data from "@data/sections/hero-1.json";
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
+
+const heroTitle = (
+    <>
+        Designing a Better<br /> World Today
+    </>
+);
+
+const heroDescription = "Driving digital transformation through SAP consulting, software engineering, artificial intelligence, cybersecurity, and strategic workforce solutions for global enterprises.";
+
+const heroButton1 = {
+    link: "/services",
+    label: "Explore solutions"
+};
+
+const heroButton2 = {
+    link: "/projects",
+    label: "View our work"
+};
 
 const HeroOne = () => {
     return (
@@ -26,21 +43,24 @@ const HeroOne = () => {
                     <div className="container">
                         <div className="mil-banner-content mil-up">
 
-                            <h1 className="mil-muted mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
+                            {/* <h1 className="mil-muted mil-mb-60">{heroTitle}</h1> */}
+
+                            <h1 className="mil-muted mil-mb-60">{heroTitle}</h1>
+
 
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">
-                                    <p className="mil-light-soft mil-mb-60">{Data.description}</p>
+                                    <p className="mil-light-soft mil-mb-60">{heroDescription}</p>
                                 </div>
                             </div>
 
-                            <Link href={Data.button1.link} className="mil-button mil-arrow-place mil-btn-space">
-                                <span>{Data.button1.label}</span>
+                            <Link href={heroButton1.link} className="mil-button mil-arrow-place mil-btn-space">
+                                <span>{heroButton1.label}</span>
                                 <ArrowIcon />
                             </Link>
 
-                            <Link href={Data.button2.link} className="mil-link mil-muted mil-arrow-place">
-                                <span>{Data.button2.label}</span>
+                            <Link href={heroButton2.link} className="mil-link mil-muted mil-arrow-place">
+                                <span>{heroButton2.label}</span>
                                 <ArrowIcon />
                             </Link>
 
