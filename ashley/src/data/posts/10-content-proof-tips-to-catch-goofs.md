@@ -14,26 +14,26 @@ introTitle: 'How Vikisol Builds Trust Through <br> <span class="mil-thin">Qualit
 
 author:
     name: "Vikisol Insights Team"
-
-additional:
-    enabled: 1
-    content: "
-        <h5>Proof points matter</h5>
-        <p>Enterprise buyers look for consistency across wording, numbers, visuals, and claims. If the document says 500+ consultants, 100+ projects, and global delivery coverage, those statements should appear the same way throughout the profile and website.</p>
-    "
 ---
 
-Trust in an enterprise profile comes from precision. That means clean language, accurate claims, consistent naming, and a structure that helps the reader move from context to proof.
+Enterprise trust is built on precision. When a client reviews a portfolio, they look for consistency in names, roles, metrics, visuals, and wording. If those details shift from page to page, the credibility of the whole document drops.
 
-For Vikisol, the strongest credibility signal is not dramatic marketing copy. It is the ability to present the company clearly and professionally enough that a client, vendor manager, or procurement lead can understand the offer without needing clarification.
+For Vikisol, trust should come from the same discipline the company brings to delivery work: clear scope, accurate claims, and no filler. A procurement lead should be able to read the profile and immediately understand what the company does, where it operates, and how it delivers.
 
 ###### What improves trust immediately
 
-- Verified company facts
-- Simple and direct language
-- Accurate photos, names, and roles
-- No placeholder text or template filler
+- Verified company facts that stay consistent across pages
+- Accurate names, titles, photos, and engagement labels
+- Simple language that explains the value without hype
+- Real metrics such as projects delivered, consultants deployed, and countries served
 
 ###### Why the writing style matters
 
-The writing should support decision-making. When the tone is steady and factual, the document feels reliable, and reliability is exactly what enterprise buyers are looking for in a technology partner.
+The tone should feel steady and factual because that is how enterprise buyers judge reliability. The better Vikisol matches its story to its real delivery capability, the more the profile feels like a credible business document rather than a template.
+
+###### What to avoid
+
+- Placeholder text
+- Inconsistent logos or roles
+- Overstated claims that cannot be verified
+- Mixed messaging between consulting, staffing, and project delivery

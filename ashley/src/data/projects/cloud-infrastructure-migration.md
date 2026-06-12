@@ -1,15 +1,16 @@
 ---
 #preview
-title: Cloud Infrastructure Migration
+title: Cloud Infrastructure Migration and Landing Zone Build
 image: /img/works/2.jpg
 category: CLOUD & DEVOPS
-date: june 2024
+date: '2024-06-01'
 
 #params
-layout: "two"
+layout: "four"
 
 #full details
-introTitle: "Cloud Infrastructure <span class=\"mil-thin\">Migration</span>"
+introTitle: "Cloud Infrastructure <span class=\"mil-thin\">Migration</span> and Landing Zone Build"
+fullImage: /img/works/2/1.gif
 details:
     - label: "Client:"
       value: "HIC Global"
@@ -24,8 +25,8 @@ description:
     enabled: 1
     title: "Zero-Downtime Cloud Transformation"
     content: "
-      <p>Vikisol executed a full cloud infrastructure migration for HIC Global, moving their on-premise data centre workloads to Microsoft Azure. The engagement covered cloud readiness assessment, workload prioritisation, migration execution, and post-migration optimisation — delivered with zero critical downtime across the entire programme.</p>
-      <p>The migration reduced infrastructure operating costs by 35%, improved system availability to 99.95%, and enabled the client to scale compute resources on demand. A robust disaster recovery architecture was implemented as part of the programme, reducing RTO from 12 hours to under 45 minutes.</p>
+      <p>Vikisol executed a cloud migration programme for HIC Global, moving key workloads from an on-premise environment to Microsoft Azure. The work included cloud readiness assessment, dependency mapping, landing zone design, migration waves, and post-migration stabilization.</p>
+      <p>The engagement was structured to protect business continuity while improving scalability, availability, and supportability. Vikisol also introduced disaster recovery planning and infrastructure optimization so the client could operate with better resilience and lower infrastructure overhead.</p>
     "
 
 demoLink: ""

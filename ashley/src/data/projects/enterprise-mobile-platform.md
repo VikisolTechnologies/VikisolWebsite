@@ -1,15 +1,15 @@
 ---
 #preview
-title: Enterprise Mobile Platform
+title: Enterprise Mobile Platform for Field Operations
 image: /img/works/5.jpg
 category: SOFTWARE ENGINEERING
-date: november 2023
+date: '2023-11-01'
 
 #params
 layout: "five"
 
 #full details
-introTitle: Enterprise Mobile <span class="mil-thin">Platform</span>
+introTitle: Enterprise Mobile <span class="mil-thin">Platform</span> for Field Operations
 fullImage: /img/works/5/1.jpg
 details:
     - label: "Client:"
@@ -40,12 +40,12 @@ gallery:
           alt: "Cross-Platform Testing"
 
 description:
-    enabled: 1
-    title: "Cross-Platform Enterprise Mobility Solution"
-    content: "
-        <p>Vikisol engineered a cross-platform enterprise mobile application for Innowrap Technologies, enabling their field teams to access real-time data, submit work orders, and collaborate across locations — including offline-first capability. Built with React Native, the app delivered a native-like experience on both iOS and Android with role-based access control and push notifications.</p>
-        <p>The platform integrated with the client's SAP backend via custom REST APIs. Deployment to 500+ field users was completed within six weeks and achieved a 97% adoption rate in the first month, with measurable improvements in field team productivity and data accuracy across all regions.</p>
-    "
+  enabled: 1
+  title: "Cross-Platform Enterprise Mobility Solution"
+  content: "
+    <p>Vikisol engineered a cross-platform enterprise mobile application for Innowrap Technologies so field teams could access live data, submit work orders, and coordinate activity across locations. The application included offline-first capability so users could keep working even in low-connectivity environments.</p>
+    <p>Built with React Native, the platform integrated with the client’s SAP backend through custom APIs and included role-based access, notifications, and a mobile experience tailored to operational users. The rollout was designed to improve data accuracy, speed up field execution, and support adoption at scale.</p>
+  "
 
 gallery2: 
     enabled: 1

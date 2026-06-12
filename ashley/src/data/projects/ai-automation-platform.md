@@ -1,15 +1,16 @@
 ---
 #preview
-title: AI Automation Platform
+title: AI Automation Platform for Intelligent Workflow Processing
 image: /img/works/3.jpg
 category: AI & AUTOMATION
-date: september 2024
+date: '2024-09-01'
 
 #params
-layout: "three"
+layout: "four"
 
 #full details
-introTitle: AI Automation <span class="mil-thin">Platform</span>
+introTitle: AI Automation <span class="mil-thin">Platform</span> for Workflow Processing
+fullImage: /img/works/3/1.jpg
 
 details:
     - label: "Client:"
@@ -25,8 +26,8 @@ description:
     enabled: 1
     title: "Intelligent Process Automation at Scale"
     content: "
-      <p>Vikisol designed and deployed a custom AI automation platform for Webority Technologies, enabling intelligent document processing, automated workflow routing, and AI-assisted decision support across their operations. The platform integrated with existing ERP and CRM systems via REST APIs and was built on a scalable microservices architecture.</p>
-      <p>The solution reduced manual document processing time by 65%, eliminated over 12,000 hours of repetitive work annually, and improved processing accuracy to 98.7%. The platform is designed to support future AI capability expansion including predictive analytics and generative AI integration.</p>
+      <p>Vikisol designed and deployed an AI automation platform for Webority Technologies to streamline document intake, workflow routing, and decision support across core operations. The solution connected with existing ERP and CRM systems through APIs and used a modular architecture so the platform could evolve over time.</p>
+      <p>The platform reduced repetitive manual handling, improved processing accuracy, and gave operations teams a consistent way to route work based on rules, exceptions, and business priority. The design also leaves room for future capabilities such as predictive analytics and generative AI-assisted assistance.</p>
     "
 
 gallery: 

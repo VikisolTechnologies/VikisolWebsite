@@ -25,10 +25,8 @@ const ProjectsMasonry = ({ projects }) => {
                         <div className={row_key%2==0 ? key%2 == 0 ? "col-lg-5" : "col-lg-6" : key%2 == 0 ? "col-lg-6" : "col-lg-5"} key={`projects-item-${row_key}-${key}`}>
 
                             <Link href={`/projects/${item.id}`} className={row_key%2==0 ? key%2 == 0 ? "mil-portfolio-item mil-more mil-mb-60" : "mil-portfolio-item mil-more mil-parallax mil-mb-60" : key%2 == 0 ? "mil-portfolio-item mil-more mil-parallax mil-mb-60" : "mil-portfolio-item mil-more mil-mb-60"} data-value-1="60" data-value-2="-60">
-                                <div className={row_key%2==0 ? key%2 == 0 ? "mil-cover-frame mil-vert mil-up" : "mil-cover-frame mil-hori mil-up" : key%2 == 0 ? "mil-cover-frame mil-hori mil-up" : "mil-cover-frame mil-vert mil-up"}>
-                                    <div className="mil-cover">
-                                        <img src={item.image} alt={item.title} />
-                                    </div>
+                                <div className="mil-image-frame mil-horizontal mil-up">
+                                    <img src={item.image} alt={item.title} />
                                 </div>
                                 <div className="mil-descr">
                                     <div className="mil-labels mil-up mil-mb-15">

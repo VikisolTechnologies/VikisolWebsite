@@ -9,12 +9,14 @@ import Pentagon from "@layouts/pentagon/Index";
 const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddingBottom, align, headingSize = 1 }) => {
   const { asPath } = useRouter();
   let clearBreadTitle;
+  const safePageTitle = typeof pageTitle === 'string' ? pageTitle : '';
+  const safeBreadTitle = typeof breadTitle === 'string' ? breadTitle : '';
 
-  if ( breadTitle != undefined ) {
-    clearBreadTitle = breadTitle;
+  if ( safeBreadTitle ) {
+    clearBreadTitle = safeBreadTitle;
   } else {
     const regex = /(<([^>]+)>)/gi;
-    clearBreadTitle = pageTitle.replace(regex, "");
+    clearBreadTitle = safePageTitle.replace(regex, "");
   }
 
   const headTitle = `${AppData.settings.siteName} - ${clearBreadTitle}`;
@@ -52,10 +54,10 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
               <li><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
             </ul>
             {headingSize == 1 &&
-            <h1 className="mil-mb-60" dangerouslySetInnerHTML={{__html : pageTitle}} />
+              <h1 className="mil-mb-60" dangerouslySetInnerHTML={{__html : safePageTitle}} />
             }
             {headingSize == 2 &&
-            <h2 className={anchorLink != 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{__html : pageTitle}} />
+              <h2 className={anchorLink != 0 ? "mil-mb-60" : ""} dangerouslySetInnerHTML={{__html : safePageTitle}} />
             }
             {anchorLink != 0 &&
             <a href={anchorLink} className="mil-link mil-dark mil-arrow-place mil-down-arrow">

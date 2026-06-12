@@ -3,6 +3,10 @@
         "url": "/img/photo/1.jpg",
         "alt": "Vikisol Technologies"
     },
+    "video": {
+        "url": "https://res.cloudinary.com/drqgvncx1/video/upload/v1751395820/founder.mov_iqnznf.mp4",
+        "type": "video/mp4"
+    },
     "avatar": {
         "image": "/img/faces/1.jpg",
         "alt": "Syam Prabhakar Seeli, CEO & Founder"

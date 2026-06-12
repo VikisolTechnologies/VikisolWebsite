@@ -37,33 +37,23 @@ const HeroOne = () => {
                             <Pentagon />
                         </div>
                     </div>
-
                     <div className="mil-gradient" />
-
                     <div className="container">
                         <div className="mil-banner-content mil-up">
-
-                            {/* <h1 className="mil-muted mil-mb-60">{heroTitle}</h1> */}
-
                             <h1 className="mil-muted mil-mb-60">{heroTitle}</h1>
-
-
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">
                                     <p className="mil-light-soft mil-mb-60">{heroDescription}</p>
                                 </div>
                             </div>
-
                             <Link href={heroButton1.link} className="mil-button mil-arrow-place mil-btn-space">
                                 <span>{heroButton1.label}</span>
                                 <ArrowIcon />
                             </Link>
-
                             <Link href={heroButton2.link} className="mil-link mil-muted mil-arrow-place">
                                 <span>{heroButton2.label}</span>
                                 <ArrowIcon />
                             </Link>
-
                             <div className="mil-circle-text">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enableBackground="new 0 0 300 300" xmlSpace="preserve" className="mil-ct-svg mil-rotate" data-value="360">
                                     <defs>
@@ -82,7 +72,6 @@ const HeroOne = () => {
                                     <ArrowIcon />
                                 </a>
                             </div>
-
                         </div>
                     </div>
                 </div>

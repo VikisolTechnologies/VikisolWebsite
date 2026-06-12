@@ -1,15 +1,15 @@
 ---
 #preview
-title: SAP S/4HANA Implementation
+title: SAP S/4HANA Implementation and Process Transformation
 image: /img/works/1.jpg
 category: SAP CONSULTING
-date: march 2024
+date: '2024-03-01'
 
 #params
-layout: "one"
+layout: "four"
 
 #full details
-introTitle: "SAP S/4HANA <span class=\"mil-thin\">Implementation</span>"
+introTitle: "SAP S/4HANA <span class=\"mil-thin\">Implementation</span> and Process Transformation"
 fullImage: /img/works/1/1.jpg
 details:
     - label: "Client:"
@@ -25,8 +25,8 @@ description:
     enabled: 1
     title: "Enterprise ERP Transformation"
     content: "
-      <p>Vikisol delivered a full-scope SAP S/4HANA implementation for Altruist Services, migrating their legacy ERP landscape to a modern, cloud-ready platform. The engagement covered Finance (FI/CO), Procurement (MM), Sales (SD), and Human Resources — with seamless integration across all business units and zero critical go-live issues.</p>
-      <p>Post-implementation, the client achieved a 40% reduction in month-end close time, real-time financial visibility across all entities, and a scalable platform foundation ready for future digital transformation initiatives. The engagement was delivered on time and within the agreed budget.</p>
+      <p>Vikisol led an end-to-end SAP S/4HANA implementation for Altruist Services, replacing a fragmented legacy ERP landscape with a cleaner, cloud-ready operating model. The programme covered discovery, business process alignment, data migration, system configuration, testing, cutover, and post-go-live support.</p>
+      <p>The solution brought Finance, Procurement, Sales, and Human Resources onto a unified platform with tighter process control and better visibility across business units. The engagement also included change support and user enablement so the client could adopt the new system without disrupting day-to-day operations.</p>
     "
 
 gallery: 

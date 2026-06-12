@@ -1,15 +1,15 @@
 ---
 #preview
-title: DevOps Transformation Programme
+title: DevOps Transformation Programme for Continuous Delivery
 image: /img/works/6.jpg
 category: CLOUD & DEVOPS
-date: august 2024
+date: '2024-08-01'
 
 #params
 layout: "six"
 
 #full details
-introTitle: DevOps Transformation <span class="mil-thin">Programme</span>
+introTitle: DevOps Transformation <span class="mil-thin">Programme</span> for Continuous Delivery
 fullImage: /img/works/6/1.jpg
 details:
     - label: "Client:"
@@ -25,8 +25,8 @@ description:
     enabled: 1
     title: "End-to-End DevOps Transformation"
     content: "
-      <p>Vikisol led a full-scale DevOps transformation for Sourcebea, helping them shift from manual, release-cycle-bound deployments to a fully automated CI/CD delivery model. The programme covered culture coaching, toolchain implementation, pipeline automation, containerisation with Kubernetes, and infrastructure-as-code adoption across their entire engineering organisation.</p>
-      <p>Within three months, deployment frequency increased from monthly to daily, lead time for changes reduced by 78%, and mean time to recovery (MTTR) dropped from 4 hours to under 20 minutes. The engineering teams were fully upskilled through embedded DevOps champions and hands-on training workshops across all squads.</p>
+      <p>Vikisol led a DevOps transformation for Sourcebea to move the engineering organization from manual release cycles to a repeatable continuous delivery model. The programme included toolchain design, pipeline automation, containerization, infrastructure as code, and release governance.</p>
+      <p>The engagement also included team enablement so engineers could maintain the new delivery model without relying on outside support for every release. As a result, the client gained faster deployments, shorter recovery times, and a more predictable path from development to production.</p>
     "
 
 gallery: 

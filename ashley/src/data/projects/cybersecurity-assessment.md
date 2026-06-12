@@ -1,15 +1,15 @@
 ---
 #preview
-title: Enterprise Cybersecurity Assessment
+title: Enterprise Cybersecurity Assessment and Remediation
 image: /img/works/4.jpg
 category: CYBER SECURITY
-date: january 2024
+date: '2024-01-01'
 
 #params
 layout: "four"
 
 #full details
-introTitle: Enterprise Cybersecurity <span class="mil-thin">Assessment</span>
+introTitle: Enterprise Cybersecurity <span class="mil-thin">Assessment</span> and Remediation
 details:
     - label: "Client:"
       value: "Techglore"
@@ -45,8 +45,8 @@ description:
     enabled: 1
     title: "Comprehensive VAPT & Security Hardening"
     content: "
-      <p>Vikisol conducted a comprehensive Vulnerability Assessment and Penetration Testing (VAPT) engagement for Techglore, covering their web applications, internal network infrastructure, cloud environment, and mobile platforms. The assessment identified 47 vulnerabilities across critical, high, and medium severity levels with detailed remediation guidance for each finding.</p>
-      <p>Vikisol's security team provided hands-on remediation support, closing all critical and high-severity findings within 45 days. The client subsequently achieved ISO 27001 certification, with Vikisol supporting the full audit preparation and evidence-gathering process from start to finish.</p>
+      <p>Vikisol conducted a Vulnerability Assessment and Penetration Testing engagement for Techglore across web applications, internal network infrastructure, cloud services, and mobile endpoints. The assessment produced a prioritized risk register with evidence, severity levels, and practical remediation guidance for each finding.</p>
+      <p>After the assessment, Vikisol worked with the client team to close critical findings, harden exposed services, and prepare supporting evidence for compliance review. The engagement helped Techglore move toward a stronger security posture with clearer governance around remediation and ongoing controls.</p>
     "
 
 gallery2: 
