@@ -4,11 +4,6 @@ title: 'SAP Programs That Stay Aligned to Business Outcomes'
 date: '2026-06-06'
 image: "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352514/3_ri4ekk.jpg"
 
-
-title: 'Why Fragmented Vendors Slow Enterprise Delivery'
-date: '2026-06-04'
-image: '/img/blog/2.jpg'
-
 category:
   - Delivery
 
@@ -21,6 +16,7 @@ introTitle: 'Why Fragmented Vendors Slow <br> <span class="mil-thin">Enterprise<
 
 author:
   name: 'Vikisol Insights Team'
+---
 
 Most enterprise programmes do not fail because the technology is impossible. They fail because ownership is split across too many vendors, each working from a different scope, timeline, and assumption.
 
