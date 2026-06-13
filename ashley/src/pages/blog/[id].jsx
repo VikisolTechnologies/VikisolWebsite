@@ -24,7 +24,7 @@ const PostsDetail = ( props ) => {
                       <div className="mil-info mil-up mil-mb-90">
                           <div>Category: &nbsp;<span className="mil-dark">{postData.category}</span></div>
                           <div>Date: &nbsp;<span className="mil-dark"><Date dateString={postData.date} /></span></div>
-                          <div>Author: &nbsp;<span className="mil-dark">{postData.author.name}</span></div>
+                          <div>Author: &nbsp;<span className="mil-dark">{postData.author?.name || "Vikisol Insights Team"}</span></div>
                       </div>
 
                   </div>
