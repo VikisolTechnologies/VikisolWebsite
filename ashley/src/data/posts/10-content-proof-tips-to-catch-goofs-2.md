@@ -2,7 +2,7 @@
 #preview
 title: 'Cloud Migration When Downtime Is Not an Option'
 date: '2026-05-22'
-image: "/img/blog/6.jpg"
+image: "/img/blog/7.jpg"
 category:
     - Technology
 categories:

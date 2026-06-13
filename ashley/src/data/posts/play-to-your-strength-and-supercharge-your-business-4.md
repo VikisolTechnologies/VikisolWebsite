@@ -2,7 +2,7 @@
 #preview
 title: 'How Vikisol Explains Its Technology Capabilities'
 date: '2026-05-24'
-image: "/img/blog/6.jpg"
+image: "/img/blog/9.jpg"
 category:
     - Technology
 categories:
