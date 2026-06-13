@@ -2,7 +2,7 @@
 #preview
 title: 'Managed Services That Keep Operations Stable'
 date: '2026-05-16'
-image: "/img/blog/4.jpg"
+image: "https://res.cloudinary.com/drqgvncx1/image/upload/v1781358092/managed_osmg0h.png"
 category:
     - Operations
 categories:

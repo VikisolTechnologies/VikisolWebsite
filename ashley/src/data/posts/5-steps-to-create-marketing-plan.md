@@ -2,7 +2,7 @@
 #preview
 title: 'Enterprise Delivery Models That Reduce Fragmentation'
 date: '2026-06-02'
-image: "/img/blog/1.jpg"
+image: "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352514/1_zr9kjx.jpg"
 category:
     - Delivery
 categories:

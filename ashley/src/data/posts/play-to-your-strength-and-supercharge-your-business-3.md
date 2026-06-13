@@ -2,7 +2,7 @@
 #preview
 title: 'SAP Programs That Stay Aligned to Business Outcomes'
 date: '2026-06-06'
-image: "/img/blog/3.jpg"
+image: "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352514/3_ri4ekk.jpg"
 ---
 #preview
 title: 'Why Fragmented Vendors Slow Enterprise Delivery'
