@@ -1,6 +1,6 @@
 {
     "settings": {
-        "siteName": "Vikisol Technologies Pvt Ltd",
+        "siteName": "Vikisol Technologies | SAP, AI & Software Solutions",
         "formspreeURL": "https://formspree.io/f/your_api_key",
         "mailchimp": {
             "url": "",
@@ -16,6 +16,11 @@
             {
                 "label": "Home",
                 "link": "/",
+                "children": 0
+            },
+            {
+                "label": "Careers",
+                "link": "/careers",
                 "children": 0
             },
             {
@@ -98,7 +103,7 @@
                         "link": "/about"
                     }
                 ]
-            }
+            }         
         ]
     },
     "footer": {
@@ -112,8 +117,12 @@
                 "link": "/"
             },
             {
-                "label": "Portfolio",
-                "link": "/projects"
+                    "label": "Portfolio",
+                    "link": "/projects"
+            },
+            {
+                "label": "Careers",
+                "link": "/careers"
             },
             {
                 "label": "Services",
