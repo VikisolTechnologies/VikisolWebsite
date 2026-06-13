@@ -43,7 +43,7 @@ const TeamData = [
 const Team = () => {
   return (
     <Layouts>
-        <PageBanner pageTitle={"Our <span className=\"mil-thin\">Leadership</span><br> & <span className=\"mil-thin\">Expert Team</span>"} breadTitle={"Leadership"} anchorLabel={"Meet the team"} anchorLink={"#team"} />
+        <PageBanner pageTitle={`<span class="mil-thin">Our</span> Leadership<br> <span class="mil-thin">&</span> Expert <span class="mil-thin">Team</span>`} breadTitle={"Leadership"} anchorLabel={"Meet the team"} anchorLink={"#team"} />
       
         {/* team */}
         <section id="team">

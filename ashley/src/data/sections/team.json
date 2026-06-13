@@ -24,23 +24,6 @@
                     "title": "Twitter"
                 }
             ]
-        },
-        {
-            "image": "/img/faces/2.jpg",
-            "name": "Arjun Reddy",
-            "role": "Head of SAP Practice",
-            "social": [
-                {
-                    "icon": "fab fa-linkedin",
-                    "link": "https://linkedin.com",
-                    "title": "LinkedIn"
-                },
-                {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com",
-                    "title": "Twitter"
-                }
-            ]
         }
     ],
     "col2_items": [
@@ -48,23 +31,6 @@
             "image": "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352536/3_bdclix.jpg",
             "name": "Jennifer Israel Seeli",
             "role": "Chief Technology Officer",
-            "social": [
-                {
-                    "icon": "fab fa-linkedin",
-                    "link": "https://linkedin.com",
-                    "title": "LinkedIn"
-                },
-                {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com",
-                    "title": "Twitter"
-                }
-            ]
-        },
-        {
-            "image": "/img/faces/4.jpg",
-            "name": "Priya Mehta",
-            "role": "Head of Talent Solutions",
             "social": [
                 {
                     "icon": "fab fa-linkedin",
