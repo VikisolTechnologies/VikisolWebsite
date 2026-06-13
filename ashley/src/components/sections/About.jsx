@@ -12,11 +12,13 @@ const AboutSection = () => {
 
                             <div className="mil-mb-60">
                                 <h2 className="mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
+
                                 <div className="mil-text mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.description}} />
                                 
                                 <div className="mil-about-quote">
                                     <div className="mil-avatar mil-up">
-                                        <img src={Data.avatar.image} alt={Data.avatar.alt} />
+                                        <img src="https://res.cloudinary.com/drqgvncx1/image/upload/v1781356301/avtar_hommmd.png" alt={Data.avatar.alt} />
+
                                     </div>
                                     <h6 className="mil-quote mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                                 </div>

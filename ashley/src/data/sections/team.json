@@ -9,7 +9,7 @@
     "note": "<span class=\"mil-accent\">*</span> Vikisol founding leadership",
     "col1_items": [
         {
-            "image": "/img/faces/1.jpg",
+            "image": "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352537/1_ixldtl.jpg",
             "name": "Syam Prabhakar Seeli",
             "role": "Founder & CEO",
             "social": [
@@ -45,7 +45,7 @@
     ],
     "col2_items": [
         {
-            "image": "/img/faces/3.jpg",
+            "image": "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352536/3_bdclix.jpg",
             "name": "Jennifer Israel Seeli",
             "role": "Chief Technology Officer",
             "social": [

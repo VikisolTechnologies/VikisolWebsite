@@ -3,22 +3,22 @@
     "subtitle": "Trusted by enterprises across India, the Middle East,<br>and global markets to deliver technology transformation at scale.",
     "items": [
         {
-            "name": "Rajesh Kumar",
-            "image": "/img/faces/customers/1.jpg",
-            "role": "VP of Technology, Manufacturing Enterprise",
-            "text": "Vikisol's SAP S/4HANA implementation team delivered our migration on time and within budget. Their consultants demonstrated deep functional expertise and managed the transition with minimal disruption to our operations. A truly reliable technology partner."
+            "name": "Michael Anderson",
+            "image": "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352551/1_mpttrf.jpg",
+            "role": "Chief Technology Officer, Global Logistics Solutions",
+            "text": "Vikisol helped us modernize our cloud infrastructure and streamline critical business processes without disrupting day-to-day operations. Their team demonstrated strong technical expertise, proactive communication, and a deep understanding of enterprise-scale technology challenges. The results exceeded our expectations."
         },
         {
-            "name": "Priya Sharma",
-            "image": "/img/faces/customers/2.jpg",
-            "role": "Head of Digital Transformation, Financial Services",
-            "text": "We engaged Vikisol for resource deployment across our cloud modernization programme. Within three weeks they had deployed eight highly skilled engineers who integrated seamlessly with our internal teams. The calibre of talent they provide is consistently exceptional."
+            "name": "Sarah Williams",
+            "image": "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352551/2_beifij.jpg",
+            "role": "Director of Operations, MedCare Systems",
+            "text": "Working with Vikisol was a seamless experience from planning through delivery. Their ability to combine technology, automation, and business process optimization helped us improve operational efficiency significantly. The professionalism and commitment of their team stood out throughout the engagement."
         },
         {
-            "name": "Ahmed Al-Rashid",
-            "image": "/img/faces/customers/3.jpg",
-            "role": "CIO, Logistics & Supply Chain Group",
-            "text": "Vikisol delivered our AI automation solution ahead of schedule and reduced our manual processing time by over sixty percent. Their team brought a rare combination of technical depth and business understanding that made them stand out from every other vendor we evaluated."
+            "name": "David Chen",
+            "image": "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352551/3_yfc05b.jpg",
+            "role": "Digital Transformation Manager, Apex Manufacturing",
+            "text": "Vikisol played a key role in accelerating our digital transformation initiatives. Their consultants quickly understood our business requirements and delivered scalable solutions that integrated smoothly with our existing systems. We continue to see measurable improvements in productivity and process visibility."
         }
     ]
 }

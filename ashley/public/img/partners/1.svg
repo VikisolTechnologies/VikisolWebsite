@@ -1,13 +1,47 @@
-<svg width="75" height="28" viewBox="0 0 75 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1045_1722)">
-<path d="M60.0062 0.141113H47.8264V11.7912H60.0062V0.141113Z" fill="black"/>
-<path d="M60.0062 16.0276H47.8264V27.6777H60.0062V16.0276Z" fill="black"/>
-<path d="M74.8333 0.141113H62.6538V27.6777H74.8333V0.141113Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0.166748 0.141113H8.11H12.3464L16.5828 13.9094V0.141113H24.526H28.7624L32.9988 13.9094V0.141113H45.1785V27.6777H37.2352H32.9988L28.7624 13.9094V27.6777H20.8192H16.5828L12.3464 13.9094V27.6777H0.166748V0.141113Z" fill="black"/>
-</g>
-<defs>
-<clipPath id="clip0_1045_1722">
-<rect width="75" height="28" fill="white"/>
-</clipPath>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 178" width="100%" height="100%">
+  <defs>
+    <linearGradient id="azureLeft" x1="16.48" y1="106.67" x2="69.49" y2="40.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#114a82"/>
+      <stop offset="0.22" stop-color="#165b9b"/>
+      <stop offset="0.59" stop-color="#1e78c4"/>
+      <stop offset="0.89" stop-color="#238be0"/>
+      <stop offset="1" stop-color="#2592ea"/>
+    </linearGradient>
+
+    <linearGradient id="azureMain" x1="61.7" y1="120.31" x2="88.35" y2="15.82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#114a82"/>
+      <stop offset="0.16" stop-color="#196ab3"/>
+      <stop offset="0.43" stop-color="#2599f5"/>
+      <stop offset="0.59" stop-color="#26a0fc"/>
+      <stop offset="0.77" stop-color="#3ccbfd"/>
+      <stop offset="1" stop-color="#50e4fe"/>
+    </linearGradient>
+
+    <linearGradient id="azureFront" x1="51.81" y1="113.88" x2="103.95" y2="60.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#005ba1"/>
+      <stop offset="0.27" stop-color="#006eb3"/>
+      <stop offset="0.69" stop-color="#008ecc"/>
+      <stop offset="0.97" stop-color="#00a2db"/>
+      <stop offset="1" stop-color="#00a6e3"/>
+    </linearGradient>
+
+    <linearGradient id="azureBack" x1="42.66" y1="58.64" x2="72.16" y2="12.01" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#114a82"/>
+      <stop offset="0.5" stop-color="#1c73bc"/>
+      <stop offset="1" stop-color="#2592ea"/>
+    </linearGradient>
+  </defs>
+
+  <g id="AzureLogo" transform="translate(0,0)">
+    <path d="M78.6,10.1L45.4,52.2l25.3,16L115.9,43L78.6,10.1z" fill="url(#azureBack)"/>
+    
+    <path d="M12.1,105.1l33.3-52.9L70.7,68.2L27.6,114.9C21.8,114.9,12.1,105.1,12.1,105.1z" fill="url(#azureLeft)"/>
+    
+    <path d="M45.4,52.2l33.2-42.1c0,0,5.9,5.2,10.5,10.4L51,114.9c0,0-13-1-23.4,0L45.4,52.2z" fill="url(#azureMain)"/>
+    
+    <path d="M51,114.9l64.9-71.9l0.1,43c0,0-8.9,12-16.7,19.1C91.6,112,51,114.9,51,114.9z" fill="url(#azureFront)"/>
+  </g>
+  
+  <text transform="translate(12, 142)" fill="#114a82" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">Microsoft Azure</text>
+
 </svg>

@@ -27,7 +27,7 @@ const ServicesSection = () => {
                         </div>
 
                         <div className="mil-complex-text justify-content-center mil-up mil-mb-15">
-                            <span className="mil-text-image"><img src="img/photo/2.jpg" alt="team" /></span>
+                            <span className="mil-text-image"><img src="https://res.cloudinary.com/drqgvncx1/image/upload/v1751397203/2_gt2dyg.jpg" alt="team" /></span>
                             <h2 className="mil-h1 mil-muted mil-center" dangerouslySetInnerHTML={{__html : Data.title1}} />
                         </div>
 

@@ -40,7 +40,20 @@ const HeroOne = () => {
                     <div className="mil-gradient" />
                     <div className="container">
                         <div className="mil-banner-content mil-up">
-                            <h1 className="mil-muted mil-mb-60">{heroTitle}</h1>
+                            <h1 className="mil-muted mil-mb-60">
+                            <span style={{ fontWeight: 500 }}>
+                                Designing 
+                            </span> {" "}
+                            <span style={{ fontWeight: 100 }}>
+                                a Better
+                            </span>
+                                
+                            <br />
+                                 World {" "}
+                            <span style={{ fontWeight: 100 }}>
+                                  Today
+                            </span>
+                            </h1>
                             <div className="row">
                                 <div className="col-md-7 col-lg-5">
                                     <p className="mil-light-soft mil-mb-60">{heroDescription}</p>
