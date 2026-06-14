@@ -1,7 +1,7 @@
 ---
 #preview
 title: DevOps Transformation Programme for Continuous Delivery
-image: /img/works/6.jpg
+image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781472973/Cloud2_cdu30i.jpg
 category: CLOUD & DEVOPS
 date: '2024-08-01'
 

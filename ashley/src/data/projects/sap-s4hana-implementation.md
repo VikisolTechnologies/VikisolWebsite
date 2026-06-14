@@ -1,7 +1,7 @@
 ---
 #preview
 title: SAP S/4HANA Implementation and Process Transformation
-image: /img/works/1.jpg
+image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781472973/Cloud1_jlhas0.jpg
 category: SAP CONSULTING
 date: '2024-03-01'
 

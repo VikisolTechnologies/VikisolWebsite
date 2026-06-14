@@ -1,7 +1,7 @@
 ---
 #preview
-title: Enterprise Mobile Platform for Field Operations
-image: /img/works/5.jpg
+title: Enterprise Software Engineering & Digital Solutions
+image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781472973/Cloud4_r3ydg9.jpg
 category: SOFTWARE ENGINEERING
 date: '2023-11-01'
 

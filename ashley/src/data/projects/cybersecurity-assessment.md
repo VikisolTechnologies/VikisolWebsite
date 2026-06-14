@@ -1,7 +1,7 @@
 ---
 #preview
 title: Enterprise Cybersecurity Assessment and Remediation
-image: /img/works/4.jpg
+image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781472973/Cloud3_fka08u.jpg
 category: CYBER SECURITY
 date: '2024-01-01'
 

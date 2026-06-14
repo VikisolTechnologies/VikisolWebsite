@@ -1,7 +1,7 @@
 ---
 #preview
 title: AI Automation Platform for Intelligent Workflow Processing
-image: /img/works/3.jpg
+image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781473375/Cloud5_nyovs4.jpg
 category: AI & AUTOMATION
 date: '2024-09-01'
 
@@ -9,7 +9,7 @@ date: '2024-09-01'
 layout: "four"
 
 #full details
-introTitle: AI Automation <span class="mil-thin">Platform</span> for Workflow Processing
+introTitle: <span class="mil-thin">AI</span> Automation <span class="mil-thin">Platform for</span> Workflow Processing
 fullImage: /img/works/3/1.jpg
 
 details:

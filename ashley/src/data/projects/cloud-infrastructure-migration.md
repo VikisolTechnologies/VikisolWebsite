@@ -1,7 +1,7 @@
 ---
 #preview
 title: Cloud Infrastructure Migration and Landing Zone Build
-image: /img/works/2.jpg
+image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781473375/Cloud6_xaj73w.jpg
 category: CLOUD & DEVOPS
 date: '2024-06-01'
 
