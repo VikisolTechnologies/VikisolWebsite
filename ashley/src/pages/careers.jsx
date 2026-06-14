@@ -188,8 +188,14 @@ export default function Careers() {
   };
 
   const closeModal = () => {
-    setSelectedJob(null);
-    setSubmitted(false);
+  if (document.activeElement instanceof HTMLElement) {
+    document.activeElement.blur();
+  }
+
+  setSelectedJob(null);
+  setSubmitted(false);
+
+  document.body.style.zoom = "100%";
   };
 
   const handleChange = (event) => {
@@ -203,6 +209,9 @@ export default function Careers() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (document.activeElement instanceof HTMLElement) {
+    document.activeElement.blur();
+  }
     setSubmitted(true);
   };
 
@@ -227,6 +236,19 @@ export default function Careers() {
       window.removeEventListener("keydown", closeOnEscape);
     };
   }, [selectedJob]);
+
+  useEffect(() => {
+  if (submitted) {
+    document.activeElement?.blur();
+
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }, 100);
+  }
+}, [submitted]);
 
   return (
     <Layouts>
