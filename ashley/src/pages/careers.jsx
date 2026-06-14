@@ -117,6 +117,7 @@ const inputStyle = {
   marginBottom: "16px",
   width: "100%",
   display: "block",
+  fontSize: "16px",
 };
 
 function JobTag({ children, highlight }) {
@@ -417,7 +418,7 @@ export default function Careers() {
                       accept=".pdf,.doc,.docx"
                       required
                       onChange={handleChange}
-                      style={{ fontSize: "14px", color: "#555" }}
+                      style={{ fontSize: "16px", color: "#555" }}
                     />
                   </div>
 
