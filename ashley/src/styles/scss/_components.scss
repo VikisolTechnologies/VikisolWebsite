@@ -285,6 +285,11 @@ frame
         width: auto;
         }
 
+@media screen and (max-width: 768px) {
+    .mil-logo img {
+        height: 120px;
+    }
+}        
 /* -------------------------------------------
 
 menu button
