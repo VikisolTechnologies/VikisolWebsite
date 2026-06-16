@@ -41,10 +41,10 @@ const HeroOne = () => {
                     <div className="container">
                         <div className="mil-banner-content mil-up">
                             <h1 className="mil-muted mil-mb-60">
-                            <span style={{ fontWeight: 500 }}>
+                            <span style={{ fontWeight: 100 }}>
                                 Designing 
                             </span> {" "}
-                            <span style={{ fontWeight: 100 }}>
+                            <span style={{ fontWeight: 500 }}>
                                 a Better
                             </span>
                                 

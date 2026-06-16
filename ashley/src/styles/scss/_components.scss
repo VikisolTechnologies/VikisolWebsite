@@ -263,6 +263,12 @@ frame
     }
 }
 
+// .mil-frame-top .mil-logo {
+//     position: relative;
+//     top: -78px;
+//     left: -110px;
+// }
+
 .mil-frame-top {
     display: flex;
     justify-content: space-between;
@@ -273,6 +279,11 @@ frame
         color: $dark;
     }
 }
+
+.mil-logo img {
+        height: 80px;
+        width: auto;
+        }
 
 /* -------------------------------------------
 

@@ -2,7 +2,6 @@ import Link from "next/link";
 import { useState } from "react";
 import AppData from "@data/app.json";
 import { useRouter } from 'next/router';
-
 import BackToTop from "../back-to-top/Index";
 import Pentagon from "@layouts/pentagon/Index";
 
@@ -50,7 +49,15 @@ const DefaultHeader = ({ extraClass }) => {
     <div className={`mil-menu-frame ${toggle ? "mil-active" : ""}`}>
         {/* frame clone */}
         <div className="mil-frame-top">
-            <Link href={AppData.header.logo.link} className="mil-logo">{AppData.header.logo.symbol}</Link>
+            <Link
+                href={AppData.header.logo.link}
+                className="mil-logo"
+                >
+                <img
+                src={AppData.header.logo.symbol}
+                alt="Vikisol"
+                />
+                </Link>
             <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}>
                 <span />
             </div>
@@ -155,11 +162,23 @@ const DefaultHeader = ({ extraClass }) => {
       {/* frame */}
       <div className="mil-frame">
         <div className="mil-frame-top">
-          <Link href={AppData.header.logo.link} className="mil-logo">{AppData.header.logo.symbol}</Link>
-          <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}>
-              <span />
-          </div>
-        </div>
+            <Link
+                href={AppData.header.logo.link}
+                className="mil-logo"
+            >
+                <img
+                src={AppData.header.logo.symbol}
+                alt="Vikisol"
+                />
+            </Link>
+
+            <div
+                className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
+                onClick={() => setToggle(!toggle)}
+            >
+                <span />
+            </div>
+            </div>
         <div className="mil-frame-bottom">
             <div className="mil-current-page" />
 
