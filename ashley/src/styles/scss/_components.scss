@@ -213,11 +213,11 @@ frame
     & .mil-frame-top {
         @media screen and (max-width: 1200px) {
             height: 90px;
-            background-color: $dt-95;
-            border-bottom: solid 1px $lt-10;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e5e5e5;
             padding: 0 30px;
             backdrop-filter: blur(8px);
-
+            
             & .mil-logo {
                 color: $light;
             }
@@ -227,7 +227,7 @@ frame
                 & span,
                 & span:after,
                 & span:before {
-                    background: $light;
+                    background: $dark;
                 }
             }
 
@@ -263,11 +263,6 @@ frame
     }
 }
 
-// .mil-frame-top .mil-logo {
-//     position: relative;
-//     top: -78px;
-//     left: -110px;
-// }
 
 .mil-frame-top {
     display: flex;
@@ -284,12 +279,6 @@ frame
         height: 80px;
         width: auto;
         }
-
-@media screen and (max-width: 768px) {
-    .mil-logo img {
-        height: 120px;
-    }
-}        
 /* -------------------------------------------
 
 menu button
