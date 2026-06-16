@@ -217,7 +217,7 @@ frame
             border-bottom: 1px solid #e5e5e5;
             padding: 0 30px;
             backdrop-filter: blur(8px);
-            
+
             & .mil-logo {
                 color: $light;
             }
@@ -2644,4 +2644,17 @@ html.is-animating {
         opacity: 0;
         transition-delay: .3s;
     }
+}
+
+
+@media (max-width: 991px) {
+
+  .mil-frame {
+    transition: transform 0.8s ease-in-out;
+  }
+
+  .mil-hide-header {
+    transform: translateY(-120%);
+  }
+
 }

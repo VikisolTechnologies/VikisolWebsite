@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AppData from "@data/app.json";
 import { useRouter } from 'next/router';
 import BackToTop from "../back-to-top/Index";
@@ -7,6 +7,7 @@ import Pentagon from "@layouts/pentagon/Index";
 
 const DefaultHeader = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
+  const [showHeader, setShowHeader] = useState(true);
 
   const navItems = [];
 
@@ -41,6 +42,28 @@ const DefaultHeader = ({ extraClass }) => {
     e.target.classList.toggle('mil-active');
     e.target.parentNode.querySelector('ul').classList.toggle('mil-active');
   }
+
+  useEffect(() => {
+  if (window.innerWidth > 991) return;
+
+  let lastScrollY = window.scrollY;
+
+  const handleScroll = () => {
+    if (window.scrollY > lastScrollY && window.scrollY > 100) {
+      setShowHeader(false); // hide when scrolling down
+    } else {
+      setShowHeader(true); // show when scrolling up
+    }
+
+    lastScrollY = window.scrollY;
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
 
   return (
     <>
@@ -160,7 +183,7 @@ const DefaultHeader = ({ extraClass }) => {
       {/* curtain end */}
 
       {/* frame */}
-      <div className="mil-frame">
+      <div className={`mil-frame ${showHeader ? "mil-show-header" : "mil-hide-header"}`}>
         <div className="mil-frame-top">
             <Link
                 href={AppData.header.logo.link}
