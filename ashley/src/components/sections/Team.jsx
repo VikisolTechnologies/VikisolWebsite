@@ -36,6 +36,7 @@ const TeamSection = () => {
 
                                     <div key={`services1-item-${key}`} className="mil-team-card mil-up mil-mb-30">
                                         <img src={item.image} alt={item.name} />
+                                        
                                         <div className="mil-description">
                                             <div className="mil-secrc-text">
                                                 <h5 className="mil-muted mil-mb-5">{item.name}</h5>

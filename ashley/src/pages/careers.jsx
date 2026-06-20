@@ -253,7 +253,7 @@ export default function Careers() {
   return (
     <Layouts>
       <PageBanner
-        pageTitle={"Join Our <span className=\"mil-thin\">Team</span>"}
+        pageTitle={"Join <span class=\"mil-thin\">Our</span> Team"}
         breadTitle={"Careers"}
         anchorLabel={"View openings"}
         anchorLink={"#openings"}

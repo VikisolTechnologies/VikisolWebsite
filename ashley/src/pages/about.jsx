@@ -69,7 +69,7 @@ const About = () => {
   return (
     <Layouts>
       <PageBanner
-        pageTitle={'About <span className="mil-thin">Vikisol</span><br>Technology. Talent. <span className="mil-thin">Transformation.</span>'}
+        pageTitle={"<span class=\"mil-thin\">About</span> Vikisol<br><span class=\"mil-thin\">Your</span> Partner <span class=\"mil-thin\">in</span> <span className=\"mil-thin\">Technology, Talent <span class=\"mil-thin\">&</span> Transformation</span>"}
         breadTitle={"About Us"}
         anchorLabel={"About Vikisol"}
         anchorLink={"#about"}
@@ -77,18 +77,32 @@ const About = () => {
       />
 
       <section>
-        <div className="container mil-p-120-90">
+        <div className="container mil-p-0-90">
           <div className="row justify-content-between align-items-center flex-lg-row-reverse">
             <div className="col-lg-5 mil-mb-60">
               <div className="mil-about-photo">
                 <div className="mil-up mil-img-frame" style={{"paddingBottom": "135%"}}>
-                  <img src="/img/photo/1.jpg" alt="Vikisol Technologies" className="mil-scale" data-value-1="1" data-value-2="1.08" />
+                  <div className="about-video-wrapper">
+                      <video
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        preload="auto"
+                        className="about-video"
+                      >
+                        <source
+                          src="https://res.cloudinary.com/drqgvncx1/video/upload/v1781993199/diverse-team-collaboration-at-colorful-sticky-note-2025-12-17-17-47-05-utc_wwfmxp.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>  
                 </div>
               </div>
             </div>
             <div className="col-lg-6 col-xl-5 mil-mb-60">
               <p className="mil-label mil-upper mil-accent mil-up mil-mb-15">Who we are</p>
-              <h2 className="mil-up mil-mb-30">A technology partner built for enterprise delivery.</h2>
+              <h2 className="mil-up mil-mb-30"><span className="mil-thin"> A</span> technology partner <span className="mil-thin">built for</span> enterprise delivery.</h2>
               <p className="mil-text mil-up mil-mb-30">
                 Vikisol Technologies Pvt. Ltd. helps organizations modernize business-critical systems, strengthen delivery capacity,
                 and scale with skilled teams across technology and operations.

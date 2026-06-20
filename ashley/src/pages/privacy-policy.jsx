@@ -139,7 +139,7 @@ export default function PrivacyPolicy() {
                   Hi-Tech City, Hyderabad — 500081<br />
                   Telangana, India<br />
                   Email: <a href="mailto:connect@vikisol.in" style={{ color: "inherit", textDecoration: "underline" }}>connect@vikisol.in</a><br />
-                  Phone: <a href="tel:+917989595796" style={{ color: "inherit", textDecoration: "underline" }}>+91 7989595796</a>
+                  Phone: <a href="tel:+919063615796" style={{ color: "inherit", textDecoration: "underline" }}>+91 9063615796</a>
                 </address>
               </Section>
 
