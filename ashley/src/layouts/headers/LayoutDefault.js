@@ -158,6 +158,9 @@ const DefaultHeader = ({ extraClass }) => {
                                       <h6 className="mil-muted mil-mb-30">India</h6>
 
                                       <p className="mil-light-soft mil-up">Maximus Towers, Mindspace, Hyderabad <span className="mil-no-wrap">+91 9063615796</span></p>
+                                                          <br/>
+                                <p className="mil-light-soft mil-up">Meridian Towers 2nd and 3rd Floors, Kormangala, 2nd Block, Karnataka <span className="mil-no-wrap">+91 7989595796</span></p>
+
 
                                   </div>
                                   <div className="col-lg-4 mil-mb-60">

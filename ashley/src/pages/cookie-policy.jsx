@@ -153,10 +153,20 @@ export default function CookiePolicy() {
                   <Link href="/privacy-policy" style={{ color: "inherit", textDecoration: "underline" }}>Privacy Policy</Link>. If you have any questions about our use of cookies, contact us:
                 </p>
                 <address style={{ fontStyle: "normal", lineHeight: "2", marginTop: "16px" }}>
-                  <strong>Vikisol Technologies Private Limited</strong><br />
-                  Maximus Towers, Mindspace IT Park<br />
-                  Hi-Tech City, Hyderabad — 500081<br />
-                  Telangana, India<br />
+                  <strong style={{ fontWeight: "bold"}}>Vikisol Technologies Private Limited</strong>
+                  <div style={{ display: "flex", gap: "48px", flexWrap: "wrap", marginTop: "4px" }}>
+                    <div>
+                      Maximus Towers, Mindspace IT Park<br />
+                      Hi-Tech City, Hyderabad — 500081<br />
+                      Telangana, India
+                    </div>
+                    <div>
+                      Meridian Towers, 2nd and 3rd Floors<br />
+                      Koramangala, 2nd Block<br />
+                      Bengaluru — 560034<br />
+                      Karnataka, India
+                    </div>
+                  </div>
                   Email: <a href="mailto:connect@vikisol.in" style={{ color: "inherit", textDecoration: "underline" }}>connect@vikisol.in</a>
                 </address>
               </Section>
