@@ -39,4 +39,37 @@ list:
         <p>We design, develop, and manage RESTful and GraphQL APIs that connect your applications, data sources, and third-party services. Our integration specialists build seamless data pipelines that eliminate silos and enable real-time business intelligence.</p>
         <p>From SAP integrations and cloud connector solutions to middleware development and iPaaS implementation, we ensure your systems communicate reliably and securely at enterprise scale.</p>
       "
+
+engagement:
+  tag: "How we engage"
+  title: "Engineering <span class=\"mil-thin\">Engagement</span> Models"
+  description: "From a single sprint to a full product team, we plug into your engineering<br/>organization the way that fits your roadmap best."
+  items:
+    - icon: team
+      title: "Dedicated Product<br>Squads"
+      text: "Fully staffed, cross-functional teams — engineers, QA, and a delivery lead — embedded in your roadmap as a long-term extension of your product org."
+      meta: "Long-term · Embedded squad"
+      price: { value: "01", symbol: "" }
+      link: /contact
+    - icon: rocket
+      title: "Fixed-Scope<br>MVP Build"
+      text: "Time-boxed builds with a defined scope, budget, and launch date. Ideal for validating a new product or feature before committing to a full team."
+      meta: "Fixed scope · Fixed timeline"
+      price: { value: "02", symbol: "" }
+      link: /contact
+    - icon: puzzle
+      title: "Engineering Staff<br>Augmentation"
+      text: "Senior developers who slot directly into your existing sprints and tooling to close skill gaps or absorb short-term capacity spikes."
+      meta: "On-demand · Flexible scale"
+      price: { value: "03", symbol: "" }
+      link: /contact
+    - icon: gear
+      title: "Managed Engineering<br>Support"
+      text: "Ongoing maintenance, bug fixes, and incremental feature delivery for live products, backed by defined SLAs and response times."
+      meta: "SLA-backed · Continuous"
+      price: { value: "04", symbol: "" }
+      link: /contact
+  button:
+    label: "Discuss your requirements"
+    link: /contact
 ---

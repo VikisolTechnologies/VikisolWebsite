@@ -23,6 +23,16 @@
             "link": "/services/ai-automation"
         },
         {
+            "title": "Salesforce<br>Consulting",
+            "text": "CRM implementation, customisation, and managed services that unify sales, service, and marketing operations.",
+            "link": "/services/salesforce-consulting"
+        },
+        {
+            "title": "ServiceNow<br>Consulting",
+            "text": "Transform IT and enterprise service management with ServiceNow implementation, integration, and optimisation.",
+            "link": "/services/servicenow-consulting"
+        },
+        {
             "title": "Talent & Workforce<br>Solutions",
             "text": "Strategic staffing, dedicated teams, and resource deployment for global technology enterprises.",
             "link": "/services/talent-workforce"

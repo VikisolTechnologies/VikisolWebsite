@@ -39,4 +39,37 @@ list:
         <p>We build predictive models and data intelligence platforms that transform raw data into actionable business insights. From customer churn prediction and demand forecasting to risk analytics and operational optimization, our data science team delivers models that drive smarter, faster decisions.</p>
         <p>We work across the full analytics stack — data engineering, model development, visualization, and production deployment — to ensure your organization extracts maximum value from its data assets.</p>
       "
+
+engagement:
+  tag: "How we engage"
+  title: "AI <span class=\"mil-thin\">Engagement</span> Models"
+  description: "From a scoped proof of concept to fully managed AI operations, we shape the<br/>engagement around your risk appetite and data maturity."
+  items:
+    - icon: bot
+      title: "AI Proof<br>of Concept"
+      text: "A time-boxed, fixed-scope build that validates a specific AI use case against your real data before you commit further investment."
+      meta: "Fixed scope · Time-boxed"
+      price: { value: "01", symbol: "" }
+      link: /contact
+    - icon: rocket
+      title: "Automation Rollout<br>Projects"
+      text: "End-to-end delivery of an agreed AI or RPA solution, from design through production deployment, with a defined go-live date."
+      meta: "Fixed scope · Go-live driven"
+      price: { value: "02", symbol: "" }
+      link: /contact
+    - icon: team
+      title: "Dedicated<br>AI/ML Pod"
+      text: "An embedded team of data scientists and ML engineers who own your AI roadmap long-term as models and use cases evolve."
+      meta: "Long-term · Embedded pod"
+      price: { value: "03", symbol: "" }
+      link: /contact
+    - icon: gear
+      title: "Managed AI<br>Operations"
+      text: "Ongoing model monitoring, retraining, and infrastructure management to keep production AI systems accurate and reliable."
+      meta: "SLA-backed · Continuous"
+      price: { value: "04", symbol: "" }
+      link: /contact
+  button:
+    label: "Discuss your requirements"
+    link: /contact
 ---

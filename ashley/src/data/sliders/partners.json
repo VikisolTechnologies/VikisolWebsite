@@ -1,20 +1,30 @@
 {
-    "items": [
-        {
-            "image": "/img/partners/1.svg",
-            "alt": "logo"
-        },
-        {
-            "image": "/img/partners/2.svg",
-            "alt": "logo"
-        },
-        {
-            "image": "/img/partners/1.svg",
-            "alt": "logo"
-        },
-        {
-            "image": "/img/partners/2.svg",
-            "alt": "logo"
-        }
+    "row1": [
+        { "image": "/img/partners/tech/sap.svg", "alt": "SAP" },
+        { "image": "/img/partners/tech/microsoftazure.svg", "alt": "Microsoft Azure" },
+        { "image": "/img/partners/tech/amazonaws.svg", "alt": "AWS" },
+        { "image": "/img/partners/tech/googlecloud.svg", "alt": "Google Cloud" },
+        { "image": "/img/partners/tech/oracle.svg", "alt": "Oracle" },
+        { "image": "/img/partners/tech/salesforce.svg", "alt": "Salesforce" },
+        { "image": "/img/partners/tech/servicenow.svg", "alt": "ServiceNow" },
+        { "image": "/img/partners/tech/kubernetes.svg", "alt": "Kubernetes" },
+        { "image": "/img/partners/tech/docker.svg", "alt": "Docker" },
+        { "image": "/img/partners/tech/githubactions.svg", "alt": "GitHub" },
+        { "image": "/img/partners/tech/jenkins.svg", "alt": "Jenkins" },
+        { "image": "/img/partners/tech/terraform.svg", "alt": "Terraform" }
+    ],
+    "row2": [
+        { "image": "/img/partners/tech/react.svg", "alt": "React" },
+        { "image": "/img/partners/tech/nodedotjs.svg", "alt": "Node.js" },
+        { "image": "/img/partners/tech/openjdk.svg", "alt": "Java" },
+        { "image": "/img/partners/tech/springboot.svg", "alt": "Spring Boot" },
+        { "image": "/img/partners/tech/postgresql.svg", "alt": "PostgreSQL" },
+        { "image": "/img/partners/tech/mongodb.svg", "alt": "MongoDB" },
+        { "image": "/img/partners/tech/typescript.svg", "alt": "TypeScript" },
+        { "image": "/img/partners/tech/python.svg", "alt": "Python" },
+        { "image": "/img/partners/tech/graphql.svg", "alt": "GraphQL" },
+        { "image": "/img/partners/tech/redis.svg", "alt": "Redis" },
+        { "image": "/img/partners/tech/mysql.svg", "alt": "MySQL" },
+        { "image": "/img/partners/tech/angular.svg", "alt": "Angular" }
     ]
 }

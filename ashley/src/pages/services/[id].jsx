@@ -64,7 +64,7 @@ const ServiceDetail = ( { data, related } ) => {
       </section>
       {/* service end */}
       
-      <PricingSection />
+      <PricingSection data={postData.engagement} />
 
       <RelatedServices services={related} />
       
@@ -78,7 +78,7 @@ export async function getStaticPaths() {
 
     return {
       paths,
-      fallback: false
+      fallback: 'blocking'
     }
 }
 

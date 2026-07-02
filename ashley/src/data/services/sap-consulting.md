@@ -39,4 +39,37 @@ list:
         <p>Our SAP Application Management Services (AMS) provide ongoing support, monitoring, and optimization for your SAP environment. We offer flexible support models — from full managed services to blended on-site and remote support — aligned to your business needs.</p>
         <p>Our certified support team ensures maximum system availability, rapid issue resolution, and continuous performance improvement across your SAP landscape.</p>
       "
+
+engagement:
+  tag: "How we engage"
+  title: "SAP <span class=\"mil-thin\">Engagement</span> Models"
+  description: "From a single S/4HANA rollout to full landscape ownership, we shape the<br/>engagement around your SAP roadmap and internal capacity."
+  items:
+    - icon: rocket
+      title: "Implementation<br>Sprints"
+      text: "Structured, milestone-driven S/4HANA and module rollouts with a fixed scope, timeline, and go-live date."
+      meta: "Fixed scope · Go-live driven"
+      price: { value: "01", symbol: "" }
+      link: /contact
+    - icon: gear
+      title: "Managed AMS<br>Support"
+      text: "Ongoing Application Management Services covering monitoring, incident resolution, and continuous system optimization."
+      meta: "SLA-backed · 24/7 coverage"
+      price: { value: "02", symbol: "" }
+      link: /contact
+    - icon: team
+      title: "SAP Center of<br>Excellence"
+      text: "A dedicated, embedded team that owns your SAP roadmap long-term — from enhancements and upgrades to governance."
+      meta: "Long-term · Embedded team"
+      price: { value: "03", symbol: "" }
+      link: /contact
+    - icon: puzzle
+      title: "SAP Staff<br>Augmentation"
+      text: "On-demand certified SAP consultants who slot into your project to fill functional and technical skill gaps."
+      meta: "On-demand · Flexible scale"
+      price: { value: "04", symbol: "" }
+      link: /contact
+  button:
+    label: "Discuss your requirements"
+    link: /contact
 ---

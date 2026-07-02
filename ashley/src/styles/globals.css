@@ -17,3 +17,23 @@ img.mfp-img {
 .mil-wrapper .swiper-container {
     overflow: visible;
 }
+
+/* horizontal services scroll strip */
+.mil-services-scroll-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    border-top: solid 1px rgba(255,255,255,.1);
+}
+.mil-services-scroll-wrap::-webkit-scrollbar {
+    display: none;
+}
+.mil-services-scroll-item {
+    flex: 0 0 calc(100% / 6);
+    min-width: 240px;
+    border-right: solid 1px rgba(255,255,255,.1);
+}
+.mil-services-scroll-item:first-child {
+    border-left: solid 1px rgba(255,255,255,.1);
+}

@@ -39,4 +39,37 @@ list:
         <p>We help organizations navigate complex regulatory landscapes — including ISO 27001, SOC 2, GDPR, HIPAA, and PCI DSS — through comprehensive compliance assessment, gap analysis, and remediation programs.</p>
         <p>Our GRC specialists build robust risk management frameworks that identify, quantify, and mitigate cyber risks while ensuring alignment with business objectives and regulatory requirements across global markets.</p>
       "
+
+engagement:
+  tag: "How we engage"
+  title: "Security <span class=\"mil-thin\">Engagement</span> Models"
+  description: "From a one-time assessment to always-on protection, we shape the engagement<br/>around your risk profile and compliance obligations."
+  items:
+    - icon: scan
+      title: "Security Assessment<br>Engagements"
+      text: "Time-boxed vulnerability assessments and penetration tests with a defined scope, deliverable report, and remediation roadmap."
+      meta: "Fixed scope · Point-in-time"
+      price: { value: "01", symbol: "" }
+      link: /contact
+    - icon: shield
+      title: "Managed Detection<br>& Response"
+      text: "24x7 security monitoring, threat detection, and incident response backed by SIEM platforms and defined response SLAs."
+      meta: "SLA-backed · 24/7 coverage"
+      price: { value: "02", symbol: "" }
+      link: /contact
+    - icon: retainer
+      title: "Virtual CISO<br>Retainer"
+      text: "An embedded security advisor who owns your risk posture, governance, and roadmap on a recurring, long-term basis."
+      meta: "Recurring · Advisory"
+      price: { value: "03", symbol: "" }
+      link: /contact
+    - icon: lock
+      title: "Compliance Audit<br>Sprints"
+      text: "Structured gap analysis and remediation programs aligned to ISO 27001, SOC 2, GDPR, HIPAA, or PCI DSS deadlines."
+      meta: "Fixed scope · Deadline driven"
+      price: { value: "04", symbol: "" }
+      link: /contact
+  button:
+    label: "Discuss your requirements"
+    link: /contact
 ---

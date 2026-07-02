@@ -1,10 +1,13 @@
 {
-    "title": "Our Engagement <span class=\"mil-thin\">Models</span>",
-    "description": "We offer flexible engagement models designed to match your business needs,<br/>delivery timeline, and strategic investment goals.",
+    "tag": "How we engage",
+    "title": "Engagement <span class=\"mil-thin\">Models</span> built around your outcome",
+    "description": "There's no single right way to work together. We shape the engagement around your timeline,<br/>internal capacity, and risk appetite — not the other way round.",
     "items": [
         {
+            "icon": "target",
             "title": "Project-Based<br>Delivery",
             "text": "Fixed-scope engagements with defined milestones, deliverables, and timelines. Ideal for discrete technology initiatives with clear outcomes.",
+            "meta": "Fixed scope · Fixed timeline",
             "price": {
                 "value": "01",
                 "symbol": ""
@@ -12,8 +15,10 @@
             "link": "/contact"
         },
         {
+            "icon": "team",
             "title": "Dedicated<br>Development Teams",
             "text": "Fully managed, long-term teams that operate as an extension of your engineering organization with full accountability and governance.",
+            "meta": "Long-term · Embedded squad",
             "price": {
                 "value": "02",
                 "symbol": ""
@@ -21,8 +26,10 @@
             "link": "/contact"
         },
         {
+            "icon": "shield",
             "title": "Managed Services<br>& Support",
             "text": "Ongoing operational support, proactive monitoring, and continuous optimization for SAP landscapes, cloud environments, and enterprise platforms.",
+            "meta": "SLA-backed · 24/7 coverage",
             "price": {
                 "value": "03",
                 "symbol": ""
@@ -30,8 +37,10 @@
             "link": "/contact"
         },
         {
+            "icon": "puzzle",
             "title": "Resource Deployment<br>& Augmentation",
             "text": "Rapid on-demand deployment of specialist technology professionals to scale your team capacity without the overhead of permanent hiring.",
+            "meta": "On-demand · Flexible scale",
             "price": {
                 "value": "04",
                 "symbol": ""

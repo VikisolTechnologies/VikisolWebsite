@@ -39,4 +39,37 @@ list:
         <p>We automate cloud infrastructure provisioning, configuration, and management using Infrastructure as Code tools including Terraform, AWS CloudFormation, and Azure Bicep. Our IaC approach ensures repeatable, version-controlled, and auditable infrastructure deployments that eliminate manual drift.</p>
         <p>We also implement cloud cost optimization programs to help organizations right-size resources, eliminate waste, and achieve better unit economics as they scale in the cloud.</p>
       "
+
+engagement:
+  tag: "How we engage"
+  title: "Cloud & DevOps <span class=\"mil-thin\">Engagement</span> Models"
+  description: "From a single migration sprint to full operational ownership, we shape the<br/>engagement around your cloud maturity and internal team."
+  items:
+    - icon: rocket
+      title: "Cloud Migration<br>Sprints"
+      text: "Fixed-scope, milestone-driven migration engagements — from assessment to workload cutover — with a defined timeline and budget."
+      meta: "Fixed scope · Time-boxed"
+      price: { value: "01", symbol: "" }
+      link: /contact
+    - icon: gear
+      title: "Managed Cloud<br>Operations"
+      text: "Ongoing monitoring, incident response, and infrastructure management across AWS, Azure, and Google Cloud with defined SLAs."
+      meta: "SLA-backed · 24/7 coverage"
+      price: { value: "02", symbol: "" }
+      link: /contact
+    - icon: team
+      title: "Dedicated<br>DevOps Pod"
+      text: "An embedded DevOps team that owns your CI/CD pipelines, container platform, and infrastructure automation long-term."
+      meta: "Long-term · Embedded pod"
+      price: { value: "03", symbol: "" }
+      link: /contact
+    - icon: retainer
+      title: "Cost & Reliability<br>Retainer"
+      text: "A recurring engagement focused on continuous cost optimization, right-sizing, and reliability improvements as you scale."
+      meta: "Recurring · Continuous"
+      price: { value: "04", symbol: "" }
+      link: /contact
+  button:
+    label: "Discuss your requirements"
+    link: /contact
 ---

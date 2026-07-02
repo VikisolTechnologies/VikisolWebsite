@@ -11,13 +11,25 @@ const PartnersSlider = () => {
         <div className="container mil-p-0-120">
             <Swiper
                 {...SliderProps.milInfiniteSlider}
+                className="swiper-container mil-infinite-show mil-up mil-mb-30"
+            >
+                {Data.row1.map((item, key) => (
+                <SwiperSlide className="swiper-slide" key={`partners-slider-row1-item-${key}`}>
+                <div className="mil-partner-frame" style={{"width": "60px"}}>
+                    <img src={item.image} alt={item.alt} title={item.alt} />
+                </div>
+                </SwiperSlide>
+                ))}
+            </Swiper>
+            <Swiper
+                {...SliderProps.milInfiniteSliderReverse}
                 className="swiper-container mil-infinite-show mil-up"
             >
-                {Data.items.map((item, key) => (
-                <SwiperSlide className="swiper-slide" key={`partners-slider-item-${key}`}>
-                <a href={item.link} target="_blank" className="mil-partner-frame" style={{"width": "60px"}}>
-                    <img src={item.image} alt={item.alt} />
-                </a>
+                {Data.row2.map((item, key) => (
+                <SwiperSlide className="swiper-slide" key={`partners-slider-row2-item-${key}`}>
+                <div className="mil-partner-frame" style={{"width": "60px"}}>
+                    <img src={item.image} alt={item.alt} title={item.alt} />
+                </div>
                 </SwiperSlide>
                 ))}
             </Swiper>

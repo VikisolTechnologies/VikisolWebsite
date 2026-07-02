@@ -66,6 +66,14 @@
                         "link": "/services/cloud-devops"
                     },
                     {
+                        "label": "Salesforce Consulting",
+                        "link": "/services/salesforce-consulting"
+                    },
+                    {
+                        "label": "ServiceNow Consulting",
+                        "link": "/services/servicenow-consulting"
+                    },
+                    {
                         "label": "Talent & Workforce",
                         "link": "/services/talent-workforce"
                     }

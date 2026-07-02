@@ -1194,6 +1194,15 @@ partners
 
     & img {
         width: 100%;
+        filter: grayscale(100%);
+        opacity: 0.6;
+        transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1), filter 0.4s ease, opacity 0.4s ease;
+    }
+
+    &:hover img {
+        filter: grayscale(0%);
+        opacity: 1;
+        transform: scale(1.15) translateY(-3px);
     }
 }
 
@@ -2385,6 +2394,127 @@ price
             font-weight: 200;
             font-size: 18px;
         }
+    }
+}
+
+.mil-eyebrow {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 34px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 1px;
+        background-color: $accent;
+    }
+}
+
+.mil-engage-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background-color: $lt-10;
+    border: solid 1px $lt-10;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.mil-engage-card {
+    display: block;
+    position: relative;
+    padding: 50px 40px 40px;
+    background-color: $dark;
+    overflow: hidden;
+    transition: background-color 0.4s ease;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: $accent;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.03);
+
+        &::before {
+            transform: scaleX(1);
+        }
+
+        & .mil-engage-icon {
+            color: $accent;
+            transform: translateY(-4px);
+        }
+
+        & .mil-engage-footer .mil-button {
+            background-color: $accent;
+            border-color: $accent;
+        }
+    }
+
+    & .mil-engage-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    & .mil-engage-icon {
+        width: 48px;
+        height: 48px;
+        color: $light;
+        opacity: 0.85;
+        transition: color 0.4s ease, transform 0.4s ease;
+
+        & svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    & .mil-engage-index {
+        font-size: 14px;
+        font-weight: 500;
+        color: $light;
+        opacity: 0.35;
+        letter-spacing: 1px;
+    }
+
+    & .mil-engage-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        border-top: solid 1px $lt-10;
+    }
+
+    & .mil-engage-meta {
+        font-size: 13px;
+        color: $light;
+        opacity: 0.5;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 40px 30px 30px;
     }
 }
 

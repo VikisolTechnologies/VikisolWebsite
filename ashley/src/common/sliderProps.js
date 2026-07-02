@@ -72,6 +72,23 @@ export const SliderProps = {
         },
     },
   },
+  milInfiniteSliderReverse: {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    speed: 5000,
+    autoplay: true,
+    autoplay: {
+        delay: 0,
+        reverseDirection: true,
+    },
+    loop: true,
+    freeMode: true,
+    breakpoints: {
+        992: {
+            slidesPerView: 4,
+        },
+    },
+  },
   milPortfolioSlider: {
     slidesPerView: 1,
     spaceBetween: 0,

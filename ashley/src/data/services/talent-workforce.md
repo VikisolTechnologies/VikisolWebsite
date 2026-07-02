@@ -39,4 +39,37 @@ list:
         <p>We establish and manage Offshore Development Centers (ODCs) for enterprises looking to build long-term technology capability in India. Our ODC model provides access to deep talent pools, significant cost advantages, and operational flexibility while maintaining enterprise-grade quality and governance standards.</p>
         <p>From initial setup and recruitment to ongoing operations management, we handle the end-to-end ODC lifecycle — allowing you to focus on innovation and business growth while we manage the talent engine.</p>
       "
+
+engagement:
+  tag: "How we engage"
+  title: "Workforce <span class=\"mil-thin\">Engagement</span> Models"
+  description: "From a single contractor to a fully managed offshore center, we shape the<br/>engagement around your hiring timeline and headcount plan."
+  items:
+    - icon: search
+      title: "Permanent<br>Placement"
+      text: "Sourcing and screening of pre-vetted, permanent technology hires across engineering, SAP, data, security, and IT leadership roles."
+      meta: "One-time · Direct hire"
+      price: { value: "01", symbol: "" }
+      link: /contact
+    - icon: puzzle
+      title: "Resource Deployment<br>& Augmentation"
+      text: "Rapid, on-demand deployment of contract technology professionals to scale your team capacity for a specific project or period."
+      meta: "On-demand · Flexible scale"
+      price: { value: "02", symbol: "" }
+      link: /contact
+    - icon: team
+      title: "Dedicated<br>Development Teams"
+      text: "Fully managed teams recruited, onboarded, and operated by us as a long-term extension of your engineering organization."
+      meta: "Long-term · Fully managed"
+      price: { value: "03", symbol: "" }
+      link: /contact
+    - icon: briefcase
+      title: "Offshore Development<br>Centers"
+      text: "End-to-end setup and operation of a dedicated offshore center in India, covering recruitment, facilities, and governance."
+      meta: "Long-term · Fully managed"
+      price: { value: "04", symbol: "" }
+      link: /contact
+  button:
+    label: "Discuss your requirements"
+    link: /contact
 ---

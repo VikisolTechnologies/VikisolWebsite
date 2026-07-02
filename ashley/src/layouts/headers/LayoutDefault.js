@@ -133,6 +133,8 @@ const DefaultHeader = ({ extraClass }) => {
                                           <li><Link href="/services/ai-automation" className="mil-light-soft">AI & Automation</Link></li>
                                           <li><Link href="/services/cyber-security" className="mil-light-soft">Cyber Security</Link></li>
                                           <li><Link href="/services/cloud-devops" className="mil-light-soft">Cloud & DevOps</Link></li>
+                                          <li><Link href="/services/salesforce-consulting" className="mil-light-soft">Salesforce Consulting</Link></li>
+                                          <li><Link href="/services/servicenow-consulting" className="mil-light-soft">ServiceNow Consulting</Link></li>
                                           <li><Link href="/services/talent-workforce" className="mil-light-soft">Talent & Workforce</Link></li>
                                       </ul>
 
@@ -159,7 +161,7 @@ const DefaultHeader = ({ extraClass }) => {
 
                                       <p className="mil-light-soft mil-up">Maximus Towers, Mindspace, Hyderabad <span className="mil-no-wrap">+91 9063615796</span></p>
                                                           <br/>
-                                <p className="mil-light-soft mil-up">Meridian Towers 2nd and 3rd Floors, Kormangala, 2nd Block, Karnataka <span className="mil-no-wrap">+91 7989595796</span></p>
+                                <p className="mil-light-soft mil-up">Meridian Towers 2nd and 3rd Floors, Kormangala, 2nd Block, Bengaluru, Karnataka <span className="mil-no-wrap">+91 7989595796</span></p>
 
 
                                   </div>
