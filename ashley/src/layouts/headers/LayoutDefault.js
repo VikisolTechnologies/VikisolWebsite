@@ -169,7 +169,8 @@ const DefaultHeader = ({ extraClass }) => {
 
                                       <h6 className="mil-muted mil-mb-30">Global</h6>
 
-                                      <p className="mil-light-soft">UAE · Saudi Arabia · Qatar · Oman · USA · UK · Australia <span className="mil-no-wrap">connect@vikisol.in</span></p>
+                                      <p className="mil-light-soft">UAE · Saudi Arabia · Qatar · Oman · USA · UK · Australia</p>
+                                      <p style={{ marginTop: "6px" }}><a href="mailto:connect@vikisol.in" className="mil-accent mil-no-wrap" style={{ fontWeight: 600 }}>connect@vikisol.in</a></p>
 
                                   </div>
                               </div>

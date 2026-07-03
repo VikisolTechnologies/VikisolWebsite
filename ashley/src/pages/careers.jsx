@@ -271,6 +271,12 @@ export default function Careers() {
                 cyber security, cloud, testing, architecture, and agile delivery. We are hiring
                 experienced professionals who can own outcomes and grow with long-term client programs.
               </p>
+              <p className="mil-up" style={{ marginTop: "16px" }}>
+                Prefer email? Send your resume to{" "}
+                <a href="mailto:careers@vikisol.in" className="mil-accent" style={{ fontWeight: 600 }}>
+                  careers@vikisol.in
+                </a>
+              </p>
             </div>
             <div className="col-lg-6">
               <div className="row">
@@ -467,8 +473,14 @@ export default function Careers() {
                 <p style={{ marginBottom: "12px", lineHeight: 1.7 }}>
                   Your application for <strong>{selectedJob.title}</strong> has been received.
                 </p>
-                <p style={{ marginBottom: "28px", lineHeight: 1.7 }}>
+                <p style={{ marginBottom: "12px", lineHeight: 1.7 }}>
                   Our HR team or a relevant team member will contact you within <strong>48 hours</strong>.
+                </p>
+                <p style={{ marginBottom: "28px", lineHeight: 1.7, fontSize: "14px", color: "#888" }}>
+                  Questions in the meantime? Write to{" "}
+                  <a href="mailto:careers@vikisol.in" className="mil-accent" style={{ fontWeight: 600 }}>
+                    careers@vikisol.in
+                  </a>
                 </p>
                 <button type="button" onClick={closeModal} className="mil-button mil-arrow-place">
                   <span>Close</span>

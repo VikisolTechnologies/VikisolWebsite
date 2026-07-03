@@ -74,7 +74,8 @@ const DefaultFooter = ( { extraClass } ) => {
 
                                 <h6 className="mil-muted mil-up mil-mb-30">Global Reach</h6>
 
-                                <p className="mil-light-soft mil-up">UAE · Saudi Arabia · Qatar · Oman · USA · UK · Australia <span className="mil-no-wrap">connect@vikisol.in</span></p>
+                                <p className="mil-light-soft mil-up">UAE · Saudi Arabia · Qatar · Oman · USA · UK · Australia</p>
+                                <p className="mil-up" style={{ marginTop: "6px" }}><a href="mailto:connect@vikisol.in" className="mil-accent mil-no-wrap" style={{ fontWeight: 600 }}>connect@vikisol.in</a></p>
 
                             </div>
                         </div>
