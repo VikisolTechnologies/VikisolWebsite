@@ -10,7 +10,7 @@ layout: "four"
 
 #full details
 introTitle: "SAP S/4HANA <span class=\"mil-thin\">Implementation</span> and Process Transformation"
-fullImage: /img/works/1/1.jpg
+fullImage: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292350/sap1_oibamk.png
 details:
     - label: "Client:"
       value: "Altruist Services"
@@ -32,24 +32,12 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/1/2.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292351/sap2_ljurbe.png
           alt: "SAP Blueprint Design"
 
-        - image: /img/works/1/3.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292352/sap3_pvngdw.png
           alt: "System Configuration"
 
-        - image: /img/works/1/4.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292353/sap4_upccks.png
           alt: "Integration Architecture"
-
-        - image: /img/works/1/5.jpg
-          alt: "Go-Live Execution"
-
-gallery2: 
-    enabled: 1
-    items:
-        - image: /img/works/1/6.jpg
-          alt: "User Training & Adoption"
-
-        - image: /img/works/1/7.jpg
-          alt: "Hypercare & Support"
 ---

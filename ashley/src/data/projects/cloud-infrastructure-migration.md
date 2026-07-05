@@ -10,7 +10,7 @@ layout: "four"
 
 #full details
 introTitle: "Cloud Infrastructure <span class=\"mil-thin\">Migration</span> and Landing Zone Build"
-fullImage: /img/works/2/1.gif
+fullImage: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292389/cl1_qgujgn.png
 details:
     - label: "Client:"
       value: "HIC Global"
@@ -34,15 +34,15 @@ demoLink: ""
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/2/1.gif
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292389/cl1_qgujgn.png
           alt: "Cloud Architecture Design"
 
-        - image: /img/works/2/2.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292390/cl2_frcqmj.png
           alt: "Migration Execution"
 
-        - image: /img/works/2/3.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292392/cl3_bq0aez.png
           alt: "Infrastructure Deployment"
 
-        - image: /img/works/2/4.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292393/cl4_esseem.png
           alt: "Performance Optimisation"
 ---

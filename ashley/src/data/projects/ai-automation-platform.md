@@ -10,7 +10,7 @@ layout: "four"
 
 #full details
 introTitle: <span class="mil-thin">AI</span> Automation <span class="mil-thin">Platform for</span> Workflow Processing
-fullImage: /img/works/3/1.jpg
+fullImage: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292404/ai1_haniv7.png
 
 details:
     - label: "Client:"
@@ -33,15 +33,15 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/3/1.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292404/ai1_haniv7.png
           alt: "Platform Architecture"
 
-        - image: /img/works/3/2.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292406/ai2_oa4lv9.png
           alt: "AI Model Development"
 
-        - image: /img/works/3/3.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292407/ai3_gnb0f6.png
           alt: "System Integration"
 
-        - image: /img/works/3/4.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292408/ai4_kx0q4s.png
           alt: "Automation Dashboard"
 ---

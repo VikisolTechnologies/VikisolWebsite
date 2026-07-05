@@ -10,7 +10,7 @@ layout: "six"
 
 #full details
 introTitle: DevOps Transformation <span class="mil-thin">Programme</span> for Continuous Delivery
-fullImage: /img/works/6/1.jpg
+fullImage: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292360/dev1_fyxo54.png
 details:
     - label: "Client:"
       value: "Sourcebea"
@@ -32,27 +32,15 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/6/2.gif
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292361/dev2_cahmq9.png
           alt: "CI/CD Pipeline Architecture"
 
-        - image: /img/works/6/3.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292361/dev3_i9qdno.png
           alt: "Pipeline Implementation"
 
-        - image: /img/works/6/4.gif
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292362/dev4_ltb6yu.png
           alt: "Container Orchestration"
 
-        - image: /img/works/6/5.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292364/dev5_ahyldp.png
           alt: "Infrastructure as Code"
-
-gallery2: 
-    enabled: 1
-    items:
-        - image: /img/works/6/6.jpg
-          alt: "Team Enablement"
-
-        - image: /img/works/6/7.jpg
-          alt: "Metrics Dashboard"
-
-        - image: /img/works/6/8.jpg
-          alt: "Post-Transformation Results"
 ---

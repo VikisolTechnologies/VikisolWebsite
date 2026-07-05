@@ -23,23 +23,17 @@ details:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/4/1.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292375/cs1_t6esyg.png
           alt: "Security Assessment"
 
-        - image: /img/works/4/2.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292377/cs2_zzjpd9.png
           alt: "Vulnerability Analysis"
 
-        - image: /img/works/4/3.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292378/cs3_p0dahs.png
           alt: "Penetration Testing"
 
-        - image: /img/works/4/4.jpg
+        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292380/cs4_sh4rfy.png
           alt: "Remediation Planning"
-
-        - image: /img/works/4/5.jpg
-          alt: "Security Architecture"
-        
-        - image: /img/works/4/6.jpg
-          alt: "Compliance Review"
 
 description:
     enabled: 1
@@ -48,10 +42,4 @@ description:
       <p>Vikisol conducted a Vulnerability Assessment and Penetration Testing engagement for Techglore across web applications, internal network infrastructure, cloud services, and mobile endpoints. The assessment produced a prioritized risk register with evidence, severity levels, and practical remediation guidance for each finding.</p>
       <p>After the assessment, Vikisol worked with the client team to close critical findings, harden exposed services, and prepare supporting evidence for compliance review. The engagement helped Techglore move toward a stronger security posture with clearer governance around remediation and ongoing controls.</p>
     "
-
-gallery2: 
-    enabled: 1
-    items:
-        - image: /img/works/4/7.jpg
-          alt: "ISO 27001 Certification"
 ---
