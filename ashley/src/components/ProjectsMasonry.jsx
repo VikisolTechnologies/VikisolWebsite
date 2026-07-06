@@ -1,6 +1,6 @@
 import React from "react";
-import Link from "next/link";
 import LinesIcon from "@layouts/svg-icons/Lines";
+import InteractiveProjectCard from "@components/InteractiveProjectCard";
 
 const ProjectsMasonry = ({ projects }) => {
     const projectRows = [];
@@ -8,7 +8,7 @@ const ProjectsMasonry = ({ projects }) => {
     for (var i = 0; i < projects.length; i += 2 ) {
         projectRows.push(projects.slice(i, 2 + i));
     }
-    
+
     return (
       <>
         {/* portfolio */}
@@ -24,22 +24,18 @@ const ProjectsMasonry = ({ projects }) => {
                         {row.map((item, key) => (
                         <div className={row_key%2==0 ? key%2 == 0 ? "col-lg-5" : "col-lg-6" : key%2 == 0 ? "col-lg-6" : "col-lg-5"} key={`projects-item-${row_key}-${key}`}>
 
-                            <Link href={`/projects/${item.id}`} className={row_key%2==0 ? key%2 == 0 ? "mil-portfolio-item mil-more mil-mb-60" : "mil-portfolio-item mil-more mil-parallax mil-mb-60" : key%2 == 0 ? "mil-portfolio-item mil-more mil-parallax mil-mb-60" : "mil-portfolio-item mil-more mil-mb-60"} data-value-1="60" data-value-2="-60">
-                                <div className="mil-image-frame mil-horizontal mil-up">
-                                    {item.video ?
-                                    <video src={item.video} autoPlay loop playsInline controls poster={item.image} />
-                                    :
-                                    <img src={item.image} alt={item.title} />
-                                    }
-                                </div>
-                                <div className="mil-descr">
-                                    <div className="mil-labels mil-up mil-mb-15">
-                                        <div className="mil-label mil-upper mil-accent">{item.category}</div>
-                                        <div className="mil-label mil-upper">{item.date}</div>
-                                    </div>
-                                    <h4 className="mil-up">{item.title}</h4>
-                                </div>
-                            </Link>
+                            <InteractiveProjectCard
+                                href={`/projects/${item.id}`}
+                                image={item.image}
+                                video={item.video}
+                                title={item.title}
+                                category={item.category}
+                                date={item.date}
+                                itemClassName={row_key%2==0 ? key%2 == 0 ? "mil-portfolio-item mil-more mil-mb-60" : "mil-portfolio-item mil-more mil-parallax mil-mb-60" : key%2 == 0 ? "mil-portfolio-item mil-more mil-parallax mil-mb-60" : "mil-portfolio-item mil-more mil-mb-60"}
+                                frameClassName="mil-image-frame mil-horizontal mil-up"
+                                dataValue1="60"
+                                dataValue2="-60"
+                            />
 
                         </div>
                         ))}
@@ -53,4 +49,3 @@ const ProjectsMasonry = ({ projects }) => {
     );
 };
 export default ProjectsMasonry;
-  

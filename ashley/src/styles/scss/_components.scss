@@ -2629,6 +2629,48 @@ images
 
 ***************************/
 
+.mil-interactive-card {
+    &.mil-inspecting {
+        position: relative;
+        z-index: 20;
+    }
+
+    & .mil-image-frame,
+    & .mil-cover-frame {
+        overflow: hidden;
+
+        & video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    & .mil-read-more-btn {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        z-index: 5;
+        padding: 10px 22px;
+        border-radius: 30px;
+        background-color: rgba(255, 255, 255, 0.92);
+        color: #111;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        transition: opacity 0.35s ease;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        transform: none !important;
+        transition: none !important;
+    }
+}
+
 .mil-image-frame {
     position: relative;
     overflow: hidden;
