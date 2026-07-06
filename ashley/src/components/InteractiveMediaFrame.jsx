@@ -1,45 +1,31 @@
 import React, { useRef, useEffect, useState, useCallback } from "react";
-import Link from "next/link";
 
-// Tunables
-const HOVER_START_DELAY = 1000;   // ms of hover before autoscroll begins
-const EDGE_PAUSE = 2000;          // ms to pause once bottom is reached
-const IDLE_RESUME_DELAY = 2000;   // ms of inactivity before autoscroll resumes
-const SCROLL_SPEED = 26;          // px / second (slow, Apple-showcase pace)
-const HOVER_SCALE = 0.88;         // outer card "focus" scale on hover
-const MAX_ZOOM = 3;               // 300%
+// Tunables (kept in sync with InteractiveProjectCard)
+const HOVER_START_DELAY = 1000;
+const EDGE_PAUSE = 2000;
+const IDLE_RESUME_DELAY = 2000;
+const SCROLL_SPEED = 26;
+const MAX_ZOOM = 3;
 const WHEEL_ZOOM_SENSITIVITY = 0.0015;
 
 const clamp = (v, min, max) => Math.min(max, Math.max(min, v));
 const easeInOutSine = (t) => -(Math.cos(Math.PI * t) - 1) / 2;
 
-const InteractiveProjectCard = ({
-  href,
-  image,
-  video,
-  title,
-  category,
-  date,
-  itemClassName,
-  frameClassName,
-  dataValue1,
-  dataValue2,
-}) => {
-  const rootRef = useRef(null);
+// Shared "fit to reveal, slow auto-scroll, click to inspect/zoom" media viewer.
+// Used both for grid/slider project cards and for full-size gallery images on
+// project detail pages, so a tall infographic is never cropped or hidden.
+const InteractiveMediaFrame = ({ src, video, alt, frameClassName }) => {
   const containerRef = useRef(null);
   const mediaRef = useRef(null);
 
   const [isVisible, setIsVisible] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
   const [isInspecting, setIsInspecting] = useState(false);
-  const [readMoreVisible, setReadMoreVisible] = useState(false);
   const [isTouch, setIsTouch] = useState(false);
 
-  // Mutable animation state kept out of React state so the rAF loop never
-  // triggers re-renders (60fps target).
   const s = useRef({
-    mode: "idle",          // idle | fit | inspect
-    phase: "waiting",      // waiting | down | pause-bottom | up
+    mode: "idle",
+    phase: "waiting",
     phaseStart: 0,
     y: 0,
     maxY: 0,
@@ -49,13 +35,11 @@ const InteractiveProjectCard = ({
     panY: 0,
     paused: false,
     lastActivity: 0,
-    reachedBottomOnce: false,
     dragging: false,
     dragStartX: 0,
     dragStartY: 0,
     dragOriginX: 0,
     dragOriginY: 0,
-    pointers: new Map(),
     pinchStartDist: 0,
     pinchStartZoom: 1,
     reducedMotion: false,
@@ -70,18 +54,6 @@ const InteractiveProjectCard = ({
     setIsTouch(typeof window !== "undefined" && window.matchMedia("(hover: none)").matches);
   }, [s]);
 
-  // Autoplay attribute is unreliable across browsers once the element is
-  // hydrated by React - force play() explicitly as a fallback.
-  useEffect(() => {
-    if (!video) return;
-    const el = mediaRef.current;
-    if (el && el.play) {
-      const p = el.play();
-      if (p && p.catch) p.catch(() => {});
-    }
-  }, [video]);
-
-  // Visibility gating (perf): only animate cards on screen.
   useEffect(() => {
     const el = containerRef.current;
     if (!el || typeof IntersectionObserver === "undefined") return;
@@ -119,7 +91,6 @@ const InteractiveProjectCard = ({
     s.maxY = Math.max(0, renderedH - ch);
   }, [s]);
 
-  // Media enters "fit" (un-cropped) mode: full width, natural height, revealed via translateY.
   const enterFitMedia = useCallback(() => {
     const media = mediaRef.current;
     if (!media) return;
@@ -156,8 +127,6 @@ const InteractiveProjectCard = ({
   const tick = useCallback(
     (now) => {
       if (s.mode === "fit" && s.maxY <= 0) {
-        // Video metadata (or image natural size) may not have been ready
-        // when we first measured on hover/visibility - keep retrying.
         measure();
       }
       if (s.mode === "fit" && !s.paused && isVisible && !s.reducedMotion && s.maxY > 0) {
@@ -179,8 +148,6 @@ const InteractiveProjectCard = ({
             if (s.phase === "down") {
               s.phase = "pause-bottom";
               s.phaseStart = now;
-              s.reachedBottomOnce = true;
-              setReadMoreVisible(true);
             } else {
               s.phase = "down";
               s.phaseStart = now;
@@ -210,7 +177,6 @@ const InteractiveProjectCard = ({
     rafRef.current = requestAnimationFrame(tick);
   }, [tick]);
 
-  // Desktop hover lifecycle
   const handleMouseEnter = () => {
     if (isTouch) return;
     setIsHovering(true);
@@ -228,7 +194,6 @@ const InteractiveProjectCard = ({
     if (isTouch) return;
     if (isInspecting) return;
     setIsHovering(false);
-    setReadMoreVisible(false);
     s.mode = "idle";
     stopLoop();
     exitFitMedia();
@@ -240,6 +205,15 @@ const InteractiveProjectCard = ({
   };
 
   const handleWheel = (e) => {
+    if (isInspecting) {
+      e.preventDefault();
+      e.stopPropagation();
+      const delta = -e.deltaY * WHEEL_ZOOM_SENSITIVITY;
+      s.zoom = clamp(s.zoom + delta, s.fitScale || 0.5, MAX_ZOOM);
+      clampPan();
+      applyTransform();
+      return;
+    }
     if (s.mode !== "fit" || s.maxY <= 0) return;
     e.preventDefault();
     registerActivity();
@@ -247,7 +221,6 @@ const InteractiveProjectCard = ({
     applyTransform();
   };
 
-  // Click to inspect
   const enterInspect = () => {
     setIsInspecting(true);
     s.mode = "inspect";
@@ -279,12 +252,8 @@ const InteractiveProjectCard = ({
     }
   }, [exitFitMedia, isHovering, isTouch, s, startLoop]);
 
-  const handleCardClick = (e) => {
-    if (e.target.closest && e.target.closest("[data-read-more]")) return;
-    if (!isInspecting) {
-      e.preventDefault();
-      enterInspect();
-    }
+  const handleClick = () => {
+    if (!isInspecting) enterInspect();
   };
 
   const handleDoubleClick = () => {
@@ -309,16 +278,8 @@ const InteractiveProjectCard = ({
     s.panY = clamp(s.panY, -maxPanY, maxPanY);
   };
 
-  const handleInspectWheel = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    const delta = -e.deltaY * WHEEL_ZOOM_SENSITIVITY;
-    s.zoom = clamp(s.zoom + delta, s.fitScale || 0.5, MAX_ZOOM);
-    clampPan();
-    applyTransform();
-  };
-
-  const handleInspectMouseDown = (e) => {
+  const handleMouseDown = (e) => {
+    if (!isInspecting) return;
     s.dragging = true;
     s.dragStartX = e.clientX;
     s.dragStartY = e.clientY;
@@ -326,8 +287,8 @@ const InteractiveProjectCard = ({
     s.dragOriginY = s.panY;
   };
 
-  const handleInspectMouseMove = (e) => {
-    if (!s.dragging) return;
+  const handleMouseMove = (e) => {
+    if (!isInspecting || !s.dragging) return;
     s.panX = s.dragOriginX + (e.clientX - s.dragStartX);
     s.panY = s.dragOriginY + (e.clientY - s.dragStartY);
     clampPan();
@@ -338,7 +299,6 @@ const InteractiveProjectCard = ({
     s.dragging = false;
   };
 
-  // Touch: pinch-zoom + single-finger pan/scroll
   const touchDist = (touches) => {
     const [a, b] = touches;
     return Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
@@ -350,15 +310,13 @@ const InteractiveProjectCard = ({
       s.pinchStartDist = touchDist(e.touches);
       s.pinchStartZoom = s.zoom || s.fitScale || 1;
       if (s.mode !== "inspect") enterInspect();
-    } else if (e.touches.length === 1) {
+    } else if (e.touches.length === 1 && s.mode === "inspect") {
       const t = e.touches[0];
-      if (s.mode === "inspect") {
-        s.dragging = true;
-        s.dragStartX = t.clientX;
-        s.dragStartY = t.clientY;
-        s.dragOriginX = s.panX;
-        s.dragOriginY = s.panY;
-      }
+      s.dragging = true;
+      s.dragStartX = t.clientX;
+      s.dragStartY = t.clientY;
+      s.dragOriginX = s.panX;
+      s.dragOriginY = s.panY;
     }
   };
 
@@ -386,7 +344,6 @@ const InteractiveProjectCard = ({
     s.paused = true;
   };
 
-  // Mobile auto-scroll: begin when the card enters the viewport.
   useEffect(() => {
     if (!isTouch) return;
     if (isVisible && s.mode !== "inspect") {
@@ -405,30 +362,38 @@ const InteractiveProjectCard = ({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isVisible, isTouch]);
 
-  // Outside click / Escape exits inspect mode.
   useEffect(() => {
     if (!isInspecting) return;
-    const onDocClick = (e) => {
-      if (rootRef.current && !rootRef.current.contains(e.target)) exitInspect();
-    };
     const onKey = (e) => {
       if (e.key === "Escape") exitInspect();
     };
-    document.addEventListener("mousedown", onDocClick);
+    const onDocClick = (e) => {
+      if (containerRef.current && !containerRef.current.contains(e.target)) exitInspect();
+    };
     document.addEventListener("keydown", onKey);
+    document.addEventListener("mousedown", onDocClick);
     return () => {
-      document.removeEventListener("mousedown", onDocClick);
       document.removeEventListener("keydown", onKey);
+      document.removeEventListener("mousedown", onDocClick);
     };
   }, [isInspecting, exitInspect]);
 
   useEffect(() => stopLoop, []);
 
+  useEffect(() => {
+    if (!video) return;
+    const el = mediaRef.current;
+    if (el && el.play) {
+      const p = el.play();
+      if (p && p.catch) p.catch(() => {});
+    }
+  }, [video]);
+
   const media = video ? (
     <video
       ref={mediaRef}
       src={video}
-      poster={image}
+      poster={src}
       autoPlay
       muted
       loop
@@ -437,64 +402,30 @@ const InteractiveProjectCard = ({
       onLoadedMetadata={measure}
     />
   ) : (
-    <img ref={mediaRef} src={image} alt={title} loading="lazy" onLoad={measure} />
+    <img ref={mediaRef} src={src} alt={alt} loading="lazy" onLoad={measure} />
   );
 
   return (
     <div
-      ref={rootRef}
-      className={`${itemClassName} mil-interactive-card${isInspecting ? " mil-inspecting" : ""}`}
-      style={{
-        transform: isHovering && !isInspecting ? `scale(${HOVER_SCALE})` : "scale(1)",
-        transition: "transform 0.4s cubic-bezier(.22,.61,.36,1)",
-      }}
-      data-value-1={dataValue1}
-      data-value-2={dataValue2}
+      ref={containerRef}
+      className={`${frameClassName} mil-interactive-card${isInspecting ? " mil-inspecting" : ""}`}
+      style={{ cursor: isInspecting ? "grab" : "zoom-in" }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={handleCardClick}
+      onWheel={handleWheel}
+      onClick={handleClick}
+      onDoubleClick={handleDoubleClick}
+      onMouseDown={handleMouseDown}
+      onMouseMove={handleMouseMove}
+      onMouseUp={stopDrag}
+      onMouseLeaveCapture={isInspecting ? stopDrag : undefined}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
     >
-      <div
-        ref={containerRef}
-        className={frameClassName}
-        style={{ position: "relative", cursor: isInspecting ? "grab" : "pointer" }}
-        onWheel={isInspecting ? handleInspectWheel : handleWheel}
-        onDoubleClick={handleDoubleClick}
-        onMouseDown={isInspecting ? handleInspectMouseDown : undefined}
-        onMouseMove={isInspecting ? handleInspectMouseMove : undefined}
-        onMouseUp={isInspecting ? stopDrag : undefined}
-        onMouseLeaveCapture={isInspecting ? stopDrag : undefined}
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
-      >
-        {media}
-        <Link
-          href={href}
-          data-read-more
-          className="mil-read-more-btn"
-          style={{
-            opacity: readMoreVisible && !isInspecting ? 1 : 0,
-            pointerEvents: readMoreVisible && !isInspecting ? "auto" : "none",
-          }}
-          onClick={(e) => e.stopPropagation()}
-        >
-          Read More
-        </Link>
-      </div>
-      <div className="mil-descr">
-        <div className="mil-labels mil-up mil-mb-15">
-          <div className="mil-label mil-upper mil-accent">{category}</div>
-          <div className="mil-label mil-upper">{date}</div>
-        </div>
-        <h4 className="mil-up">
-          <Link href={href} onClick={(e) => e.stopPropagation()}>
-            {title}
-          </Link>
-        </h4>
-      </div>
+      {media}
     </div>
   );
 };
 
-export default InteractiveProjectCard;
+export default InteractiveMediaFrame;

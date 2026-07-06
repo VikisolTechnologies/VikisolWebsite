@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ImageView from "@components/ImageView";
+import InteractiveMediaFrame from "@components/InteractiveMediaFrame";
 
 const ProjectInner5 = ({ postData, prev, next }) => {
     return (
@@ -9,11 +10,13 @@ const ProjectInner5 = ({ postData, prev, next }) => {
         {/* project */}
         <section className="mil-p-120-0">
             {typeof postData.fullImage != "undefined" &&
-            <div className="mil-image-frame mil-fw mil-up">
-                <img src={postData.fullImage} alt={postData.title} />
-                <a data-fancybox="gallery" data-no-swup href={postData.fullImage} className="mil-zoom-btn">
-                    <img src="/img/icons/zoom.svg" alt="zoom" />
-                </a>
+            <div className="mil-up">
+                <InteractiveMediaFrame
+                    src={postData.fullImage}
+                    video={postData.video}
+                    alt={postData.title}
+                    frameClassName="mil-image-frame mil-fw"
+                />
             </div>
             }
             <div className="container mil-p-0-120" id="project">
@@ -35,12 +38,12 @@ const ProjectInner5 = ({ postData, prev, next }) => {
                             {postData.gallery.items.map((item, key) => (
                             <SwiperSlide className="swiper-slide" key={`projects-item-${key}`}>
 
-                                <div className="mil-image-frame mil-square mil-drag">
-                                    <img src={item.image} alt={item.alt} />
-                                    <a data-fancybox="gallery" data-no-swup href={item.image} className="mil-zoom-btn">
-                                        <img src="/img/icons/zoom.svg" alt="zoom" />
-                                    </a>
-                                </div>
+                                <InteractiveMediaFrame
+                                    src={item.image}
+                                    video={item.video}
+                                    alt={item.alt}
+                                    frameClassName="mil-image-frame mil-square mil-drag"
+                                />
 
                             </SwiperSlide>
                             ))}
@@ -68,11 +71,13 @@ const ProjectInner5 = ({ postData, prev, next }) => {
                     {postData.gallery2.enabled == 1 &&
                     <>
                         {postData.gallery2.items.map((item, key) => (
-                        <div className="mil-image-frame mil-horizontal mil-up mil-mb-120" key={`gallery2-item-${key}`}>
-                            <img src={item.image} alt={item.alt} />
-                            <a data-fancybox="gallery" data-no-swup href={item.image} className="mil-zoom-btn">
-                                <img src="/img/icons/zoom.svg" alt="zoom" />
-                            </a>
+                        <div className="mil-up mil-mb-120" key={`gallery2-item-${key}`}>
+                            <InteractiveMediaFrame
+                                src={item.image}
+                                video={item.video}
+                                alt={item.alt}
+                                frameClassName="mil-image-frame mil-horizontal"
+                            />
                         </div>
                         ))}
                     </>
