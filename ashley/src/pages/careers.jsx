@@ -299,6 +299,32 @@ export default function Careers() {
         </div>
       </section>
 
+      <section>
+        <div className="container mil-p-120-60">
+          <div className="mil-soft-bg mil-p-60-60">
+            <div className="row justify-content-between align-items-center">
+              <div className="col-lg-7 mil-mb-30">
+                <p className="mil-label mil-upper mil-accent mil-up mil-mb-15">Candidate portal</p>
+                <h3 className="mil-up mil-mb-30">
+                  Apply and track your progress on <span className="mil-thin">Vikisol Arena</span>
+                </h3>
+                <p className="mil-text mil-up">
+                  Vikisol Arena is our dedicated talent platform, built so candidates can browse live openings,
+                  complete role-specific assessments, and track their application status in real time instead of
+                  waiting on email updates.
+                </p>
+              </div>
+              <div className="col-lg-4 mil-mb-30 career-arena-cta">
+                <Link href="/vikisol-arena" className="mil-button mil-arrow-place mil-up">
+                  <span>Explore Vikisol Arena</span>
+                  <ArrowIcon />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="openings">
         <div className="container mil-p-120-90">
           <div className="row align-items-center mil-mb-60">
@@ -541,6 +567,16 @@ export default function Careers() {
 
         .career-apply-cell {
           text-align: right;
+        }
+
+        .career-arena-cta {
+          text-align: right;
+        }
+
+        @media screen and (max-width: 991px) {
+          .career-arena-cta {
+            text-align: left;
+          }
         }
 
         .career-submit-button {
