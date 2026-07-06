@@ -2,6 +2,7 @@
 #preview
 title: Cloud Infrastructure Migration and Landing Zone Build
 image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781473375/Cloud6_xaj73w.jpg
+video: https://res.cloudinary.com/drqgvncx1/video/upload/v1783293664/Untitled_qpkect.mp4
 category: CLOUD & DEVOPS
 date: '2024-06-01'
 

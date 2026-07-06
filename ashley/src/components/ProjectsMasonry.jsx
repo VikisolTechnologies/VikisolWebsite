@@ -26,7 +26,11 @@ const ProjectsMasonry = ({ projects }) => {
 
                             <Link href={`/projects/${item.id}`} className={row_key%2==0 ? key%2 == 0 ? "mil-portfolio-item mil-more mil-mb-60" : "mil-portfolio-item mil-more mil-parallax mil-mb-60" : key%2 == 0 ? "mil-portfolio-item mil-more mil-parallax mil-mb-60" : "mil-portfolio-item mil-more mil-mb-60"} data-value-1="60" data-value-2="-60">
                                 <div className="mil-image-frame mil-horizontal mil-up">
+                                    {item.video ?
+                                    <video src={item.video} autoPlay loop playsInline controls poster={item.image} />
+                                    :
                                     <img src={item.image} alt={item.title} />
+                                    }
                                 </div>
                                 <div className="mil-descr">
                                     <div className="mil-labels mil-up mil-mb-15">

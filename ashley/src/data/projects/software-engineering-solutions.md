@@ -2,6 +2,7 @@
 #preview
 title: Enterprise Software Engineering & Digital Solutions
 image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292338/se1_hekrnu.png
+video: https://res.cloudinary.com/drqgvncx1/video/upload/v1781358418/5_j1dqs9.mp4
 category: SOFTWARE ENGINEERING
 date: '2023-11-01'
 

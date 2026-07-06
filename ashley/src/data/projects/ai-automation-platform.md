@@ -2,6 +2,7 @@
 #preview
 title: AI Automation Platform for Intelligent Workflow Processing
 image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781473375/Cloud5_nyovs4.jpg
+video: https://res.cloudinary.com/drqgvncx1/video/upload/v1783293664/Perfect_Since_you_ve_subscrib_fzzyml.mp4
 category: AI & AUTOMATION
 date: '2024-09-01'
 
