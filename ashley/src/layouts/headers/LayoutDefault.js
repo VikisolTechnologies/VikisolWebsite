@@ -81,7 +81,15 @@ const DefaultHeader = ({ extraClass }) => {
                 alt="Vikisol"
                 />
                 </Link>
-            <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}>
+            <div
+                className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
+                onClick={() => setToggle(!toggle)}
+                onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setToggle(!toggle); } }}
+                role="button"
+                tabIndex={0}
+                aria-label={toggle ? "Close menu" : "Open menu"}
+                aria-expanded={toggle}
+            >
                 <span />
             </div>
         </div>
@@ -204,6 +212,11 @@ const DefaultHeader = ({ extraClass }) => {
             <div
                 className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
                 onClick={() => setToggle(!toggle)}
+                onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setToggle(!toggle); } }}
+                role="button"
+                tabIndex={0}
+                aria-label={toggle ? "Close menu" : "Open menu"}
+                aria-expanded={toggle}
             >
                 <span />
             </div>
