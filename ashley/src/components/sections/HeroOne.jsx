@@ -2,22 +2,16 @@ import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 
-const heroTitle = (
-    <>
-        Designing a Better<br /> World Today
-    </>
-);
-
-const heroDescription = "Driving digital transformation through SAP consulting, software engineering, artificial intelligence, cybersecurity, and strategic workforce solutions for global enterprises.";
+const heroDescription = "We deliver enterprise SAP, cloud, AI, and workforce technology programs for global clients - and build our own connected products, including Vikisol Arena, JennySol, and Vikisol One.";
 
 const heroButton1 = {
-    link: "/services",
-    label: "Explore solutions"
+    link: "/ecosystem",
+    label: "Explore the ecosystem"
 };
 
 const heroButton2 = {
-    link: "/projects",
-    label: "View our work"
+    link: "/services",
+    label: "Explore solutions"
 };
 
 const HeroOne = () => {
@@ -42,16 +36,17 @@ const HeroOne = () => {
                         <div className="mil-banner-content mil-up">
                             <h1 className="mil-muted mil-mb-60">
                             <span style={{ fontWeight: 100 }}>
-                                Designing 
+                                Technology
                             </span> {" "}
                             <span style={{ fontWeight: 500 }}>
-                                a Better
+                                Partner.
                             </span>
-                                
                             <br />
-                                 World {" "}
                             <span style={{ fontWeight: 100 }}>
-                                  Today
+                                Product
+                            </span> {" "}
+                            <span style={{ fontWeight: 500 }}>
+                                Builder.
                             </span>
                             </h1>
                             <div className="row">

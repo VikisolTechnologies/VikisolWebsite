@@ -15,6 +15,28 @@
                 "children": 0
             },
             {
+                "label": "Ecosystem",
+                "link": "/ecosystem",
+                "children": [
+                    {
+                        "label": "Why the Ecosystem",
+                        "link": "/ecosystem"
+                    },
+                    {
+                        "label": "Vikisol Arena",
+                        "link": "/products/arena"
+                    },
+                    {
+                        "label": "JennySol",
+                        "link": "/products/jennysol"
+                    },
+                    {
+                        "label": "Vikisol One",
+                        "link": "/products/vikisol-one"
+                    }
+                ]
+            },
+            {
                 "label": "Careers",
                 "link": "/careers",
                 "children": 0
@@ -115,42 +137,52 @@
             "text": "Vikisol."
         },
         "copy": "© 2026 Vikisol. All Rights Reserved.",
-        "menu": [
+        "ecosystem": [
             {
-                "label": "Home",
-                "link": "/"
-            },
-            {
-                    "label": "Portfolio",
-                    "link": "/projects"
-            },
-            {
-                "label": "Careers",
-                "link": "/careers"
+                "label": "Why the Ecosystem",
+                "link": "/ecosystem"
             },
             {
                 "label": "Vikisol Arena",
-                "link": "/vikisol-arena"
+                "link": "/products/arena"
             },
             {
-                "label": "Staffing Process",
-                "link": "/staffing-process"
+                "label": "JennySol",
+                "link": "/products/jennysol"
+            },
+            {
+                "label": "Vikisol One",
+                "link": "/products/vikisol-one"
+            }
+        ],
+        "menu": [
+            {
+                "label": "About Us",
+                "link": "/about"
+            },
+            {
+                "label": "Leadership Team",
+                "link": "/team"
             },
             {
                 "label": "Services",
                 "link": "/services"
             },
             {
-                "label": "Contact",
-                "link": "/contact"
+                "label": "Our Work",
+                "link": "/projects"
+            },
+            {
+                "label": "Careers",
+                "link": "/careers"
             },
             {
                 "label": "Blog",
                 "link": "/blog"
             },
             {
-                "label": "About Us",
-                "link": "/about"
+                "label": "Contact",
+                "link": "/contact"
             }
         ]
     },

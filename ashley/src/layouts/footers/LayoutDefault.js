@@ -22,10 +22,25 @@ const DefaultFooter = ( { extraClass } ) => {
                         <NewsletterForm className="mil-subscribe-form mil-up" />
 
                     </div>
-                    <div className="col-md-7 col-lg-6">
+                    <div className="col-md-8 col-lg-7">
                         <div className="row justify-content-end">
-                            <div className="col-md-6 col-lg-7">
+                            <div className="col-md-4 col-lg-5">
 
+                                <h6 className="mil-muted mil-up mil-mb-30">Ecosystem</h6>
+                                <nav className="mil-footer-menu mil-mb-60">
+                                    <ul>
+                                        {AppData.footer.ecosystem.map((item, key) => (
+                                        <li key={`footer-ecosystem-item-${key}`} className={((asPath.indexOf( item.link ) != -1 && item.link != '/' ) || asPath == item.link ) ? "mil-active mil-up" : "mil-up"}>
+                                            <Link href={item.link}>{item.label}</Link>
+                                        </li>
+                                        ))}
+                                    </ul>
+                                </nav>
+
+                            </div>
+                            <div className="col-md-4 col-lg-4">
+
+                                <h6 className="mil-muted mil-up mil-mb-30">Company</h6>
                                 <nav className="mil-footer-menu mil-mb-60">
                                     <ul>
                                         {AppData.footer.menu.map((item, key) => (
@@ -37,8 +52,9 @@ const DefaultFooter = ( { extraClass } ) => {
                                 </nav>
 
                             </div>
-                            <div className="col-md-6 col-lg-5">
+                            <div className="col-md-4 col-lg-3">
 
+                                <h6 className="mil-muted mil-up mil-mb-30">Legal</h6>
                                 <ul className="mil-menu-list mil-up mil-mb-60">
                                     <li><Link href="/privacy-policy" className="mil-light-soft">Privacy Policy</Link></li>
                                     <li><Link href="/terms-conditions" className="mil-light-soft">Terms and conditions</Link></li>

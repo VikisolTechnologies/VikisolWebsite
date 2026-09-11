@@ -131,7 +131,19 @@ const DefaultHeader = ({ extraClass }) => {
                           </div>
                           <div className="mil-menu-right">
                               <div className="row">
-                                  <div className="col-lg-8 mil-mb-60">
+                                  <div className="col-lg-4 mil-mb-60">
+
+                                      <h6 className="mil-muted mil-mb-30">Ecosystem</h6>
+
+                                      <ul className="mil-menu-list">
+                                          <li><Link href="/ecosystem" className="mil-light-soft">Why the Ecosystem</Link></li>
+                                          <li><Link href="/products/arena" className="mil-light-soft">Vikisol Arena</Link></li>
+                                          <li><Link href="/products/jennysol" className="mil-light-soft">JennySol</Link></li>
+                                          <li><Link href="/products/vikisol-one" className="mil-light-soft">Vikisol One</Link></li>
+                                      </ul>
+
+                                  </div>
+                                  <div className="col-lg-5 mil-mb-60">
 
                                       <h6 className="mil-muted mil-mb-30">Our Solutions</h6>
 
@@ -147,7 +159,7 @@ const DefaultHeader = ({ extraClass }) => {
                                       </ul>
 
                                   </div>
-                                  <div className="col-lg-4 mil-mb-60">
+                                  <div className="col-lg-3 mil-mb-60">
 
                                       <h6 className="mil-muted mil-mb-30">Company</h6>
 
