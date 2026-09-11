@@ -104,7 +104,7 @@ const StaffingProcess = () => {
             <div className="col-lg-8 mil-mb-30">
               <h3 className="mil-up">From requirement to deployment</h3>
               <p className="mil-text mil-up">
-                Six stages, applied consistently whether we're staffing one role or building an entire delivery team.
+                Six stages, applied consistently whether we&apos;re staffing one role or building an entire delivery team.
               </p>
             </div>
           </div>

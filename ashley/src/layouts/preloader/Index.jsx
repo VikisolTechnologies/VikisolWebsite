@@ -12,7 +12,7 @@ const PreloaderModule = () => {
                 <div className="mil-pos-abs mil-animation-2">
                     <div className="mil-reveal-frame">
                         <p className="mil-reveal-box" />
-                        <p className="mil-h3 mil-muted mil-thin">Vikisol <Tec>Technology</Tec></p>
+                        <p className="mil-h3 mil-muted mil-thin">Vikisol Technology</p>
                     </div>
                 </div>
             </div>

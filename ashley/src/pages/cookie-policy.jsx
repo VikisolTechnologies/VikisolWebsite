@@ -137,7 +137,7 @@ export default function CookiePolicy() {
 
               <Section title="6. Do Not Track">
                 <p>
-                  Some browsers have a &ldquo;Do Not Track&rdquo; (DNT) feature that signals to websites that you do not want your online activity tracked. Our website does not currently respond to DNT signals as there is no consistent industry standard for compliance. You can manage your tracking preferences through your browser's cookie settings described above.
+                  Some browsers have a &ldquo;Do Not Track&rdquo; (DNT) feature that signals to websites that you do not want your online activity tracked. Our website does not currently respond to DNT signals as there is no consistent industry standard for compliance. You can manage your tracking preferences through your browser&apos;s cookie settings described above.
                 </p>
               </Section>
 
