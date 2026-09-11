@@ -48,7 +48,7 @@ const HeroTwo = () => {
                                 <div className="mil-social-frame">
                                     <ul className="mil-social-icons mil-dark">
                                         {Data.bottom.social.map((social, key2) => (
-                                        <li key={`hero2-social-${key2}`}><a href={social.link} target="_blank" className="social-icon" title={social.title}> <i className={social.icon} /></a></li>
+                                        <li key={`hero2-social-${key2}`}><a href={social.link} target="_blank" rel="noopener noreferrer" className="social-icon" title={social.title}> <i className={social.icon} /></a></li>
                                         ))}
                                     </ul>
                                 </div>

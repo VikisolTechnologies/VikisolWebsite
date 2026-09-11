@@ -1,2 +1,17 @@
 node_modules
 .next
+out
+
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# deployment
+.vercel
+
+# OS / editor
+.DS_Store
+*.pem
+.idea
+*.iml

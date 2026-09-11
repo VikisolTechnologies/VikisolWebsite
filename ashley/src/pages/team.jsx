@@ -60,7 +60,7 @@ const Team = () => {
                                     <p className="mil-link mil-light-soft mil-mb-10">{item.role}</p>
                                     <ul className="mil-social-icons mil-center">
                                         {item.social.map((social_item, social_key) => (
-                                        <li key={`team-item-${key}-${social_key}`}><a href={social_item.link} target="_blank" className="social-icon"><i className={social_item.icon}></i></a></li>
+                                        <li key={`team-item-${key}-${social_key}`}><a href={social_item.link} target="_blank" rel="noopener noreferrer" className="social-icon"><i className={social_item.icon}></i></a></li>
                                         ))}
                                     </ul>
                                 </div>

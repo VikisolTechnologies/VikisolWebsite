@@ -31,7 +31,7 @@ const ProjectInner2 = ({ postData, prev, next }) => {
                         }
 
                         {typeof postData.demoLink != "undefined" &&
-                        <a data-no-swup href={postData.demoLink} target="_blank" className="mil-link mil-dark mil-up mil-arrow-place">
+                        <a data-no-swup href={postData.demoLink} target="_blank" rel="noopener noreferrer" className="mil-link mil-dark mil-up mil-arrow-place">
                             <span>Visit website</span>
                         </a>
                         }
