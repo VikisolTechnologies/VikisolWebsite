@@ -40,7 +40,7 @@ const HeroOne = () => {
                             </span> {" "}
                             <span style={{ fontWeight: 500 }}>
                                 Partner.
-                            </span>
+                            </span> {" "}
                             <br />
                             <span style={{ fontWeight: 100 }}>
                                 Product

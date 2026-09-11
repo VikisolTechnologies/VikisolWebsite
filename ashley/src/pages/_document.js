@@ -21,7 +21,13 @@ class MyDocument extends Document {
 
           {/* public assets begin */}
           <link rel="stylesheet" href="/css/plugins/bootstrap-grid.css" />
-          <link rel="stylesheet" href="/css/plugins/font-awesome.min.css" />
+          {/* /css/plugins/font-awesome.min.css's own @font-face rules point at
+              /fonts/webfonts/*.woff2 - that directory has never existed in this repo (confirmed
+              via git history), so every icon through that file 404s. Loading the real,
+              self-hosted CDN build instead - a <link>, not the blocking @import this used to be
+              layered under in variables.module.scss (removed in the font-loading perf commit,
+              which is what surfaced this: it had been silently the only working icon source). */}
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
           <link rel="stylesheet" href="/css/plugins/swiper.min.css" />
           <link rel="stylesheet" href="/css/plugins/magnific-popup.css" />
           {/* public assets end */}
