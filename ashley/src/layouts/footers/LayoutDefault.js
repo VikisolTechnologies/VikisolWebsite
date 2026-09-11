@@ -1,6 +1,6 @@
 import Link from "next/link";
 import AppData from "@data/app.json";
-import ArrowIcon from "@layouts/svg-icons/Arrow";
+import NewsletterForm from "@components/NewsletterForm";
 import { useRouter } from 'next/router';
 
 const DefaultFooter = ( { extraClass } ) => {
@@ -19,13 +19,7 @@ const DefaultFooter = ( { extraClass } ) => {
 
                         <p className="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
 
-                        <form action={AppData.settings.mailchimp.url} method="post" target="_blank" className="mil-subscribe-form mil-up">
-                            <input type="email" placeholder="Enter our email" name="EMAIL" required />
-                            <input type="hidden" name={AppData.settings.mailchimp.key} />
-                            <button type="submit" className="mil-button mil-icon-button-sm mil-arrow-place">
-                                <ArrowIcon />
-                            </button>
-                        </form>
+                        <NewsletterForm className="mil-subscribe-form mil-up" />
 
                     </div>
                     <div className="col-md-7 col-lg-6">
@@ -87,7 +81,7 @@ const DefaultFooter = ( { extraClass } ) => {
                             <div className="mil-mb-30">
                                 <ul className="mil-social-icons mil-up">
                                     {AppData.social.map((item, key) => (
-                                    <li key={`footer-social-item-${key}`}><a href={item.link} target="_blank" className="social-icon"><i className={item.icon} /></a></li>
+                                    <li key={`footer-social-item-${key}`}><a href={item.link} target="_blank" rel="noopener noreferrer" className="social-icon"><i className={item.icon} /></a></li>
                                     ))}
                                 </ul>
                             </div>

@@ -1,11 +1,7 @@
 {
     "settings": {
-        "siteName": "Vikisol Technologies | SAP Consulting, AI & Software Development for Global Enterprises",
-        "formspreeURL": "https://formspree.io/f/your_api_key",
-        "mailchimp": {
-            "url": "",
-            "key": ""
-        }
+        "siteName": "Vikisol Technologies | Enterprise Technology & the Vikisol Ecosystem",
+        "siteDescription": "Vikisol delivers enterprise SAP, cloud, AI, and workforce technology programs for global clients, and builds its own connected products - Vikisol Arena, JennySol, and Vikisol One."
     },
     "header": {
         "logo": {
