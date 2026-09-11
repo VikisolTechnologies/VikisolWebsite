@@ -1,12 +1,12 @@
-import Head from 'next/head';
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import AppData from "@data/app.json";
 
+import SEO from "@components/SEO";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 
-const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddingBottom, align, headingSize = 1 }) => {
+const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddingBottom, align, headingSize = 1, description, ogImage }) => {
   const { asPath } = useRouter();
   let clearBreadTitle;
   const safePageTitle = typeof pageTitle === 'string' ? pageTitle : '';
@@ -20,13 +20,11 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
   }
 
   const headTitle = `${AppData.settings.siteName} - ${clearBreadTitle}`;
-  
+
   return (
     <>
-      <Head>
-        <title>{headTitle}</title>
-      </Head>
-      
+      <SEO title={headTitle} description={description} ogImage={ogImage} />
+
       {/* banner */}
       <div className={paddingBottom ? "mil-inner-banner mil-p-0-120" : "mil-inner-banner"}>
         <div className={align == "center" ? "mil-banner-content mil-center mil-up" : "mil-banner-content mil-up"}>

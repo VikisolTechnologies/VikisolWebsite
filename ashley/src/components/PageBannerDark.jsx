@@ -1,12 +1,12 @@
-import Head from 'next/head';
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import AppData from "@data/app.json";
 
+import SEO from "@components/SEO";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 
-const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
+const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink, description, ogImage }) => {
   const { asPath } = useRouter();
   let clearBreadTitle;
 
@@ -21,10 +21,8 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
 
   return (
     <>
-      <Head>
-        <title>{headTitle}</title>
-      </Head>
-      
+      <SEO title={headTitle} description={description} ogImage={ogImage} />
+
       {/* banner */}
       <div className="mil-inner-banner">
         <div className="mi-invert-fix">

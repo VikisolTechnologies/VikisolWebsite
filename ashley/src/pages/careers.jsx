@@ -257,6 +257,7 @@ export default function Careers() {
         breadTitle={"Careers"}
         anchorLabel={"View openings"}
         anchorLink={"#openings"}
+        description="Open roles at Vikisol Technologies across SAP, software engineering, AI, cloud, cybersecurity, and delivery."
       />
 
       <section className="mil-soft-bg">

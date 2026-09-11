@@ -18,7 +18,7 @@ const Contact = () => {
 
   return (
     <Layouts>
-        <PageBanner pageTitle={"Let's Build <span className=\"mil-thin\">Together</span>"} breadTitle={"Contact"} anchorLabel={"Send a message"} anchorLink={"#contact"} paddingBottom={1} align={"center"} />
+        <PageBanner pageTitle={"Let's Build <span className=\"mil-thin\">Together</span>"} breadTitle={"Contact"} anchorLabel={"Send a message"} anchorLink={"#contact"} paddingBottom={1} align={"center"} description="Get in touch with Vikisol Technologies - offices in Hyderabad and Bengaluru, serving clients across India, the Middle East, the US, the UK, and Australia." />
 
         {/* map */}
         <div className="mil-map-frame mil-up">

@@ -74,6 +74,7 @@ const About = () => {
         anchorLabel={"About Vikisol"}
         anchorLink={"#about"}
         paddingBottom={1}
+        description="Vikisol Technologies is an enterprise technology and workforce partner founded in Hyderabad in 2021, delivering SAP, cloud, AI, and staffing programs for clients across India, the Middle East, the US, the UK, and Australia."
       />
 
       <section>
