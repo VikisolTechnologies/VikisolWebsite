@@ -15,7 +15,8 @@ const DefaultFooter = ( { extraClass } ) => {
                 <div className="row justify-content-between">
                     <div className="col-md-4 col-lg-4 mil-mb-60">
 
-                        <div className="mil-muted mil-logo mil-up mil-mb-30">{AppData.footer.logo.text}</div>
+                        <div className="mil-muted mil-logo mil-up mil-mb-15">{AppData.footer.logo.text}</div>
+                        <p className="mil-light-soft mil-up mil-mb-30" style={{ maxWidth: "280px" }}>Enterprise technology consulting - and the connected products we build ourselves.</p>
 
                         <p className="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
 
@@ -26,7 +27,8 @@ const DefaultFooter = ( { extraClass } ) => {
                         <div className="row justify-content-end">
                             <div className="col-md-4 col-lg-5">
 
-                                <h6 className="mil-muted mil-up mil-mb-30">Ecosystem</h6>
+                                <h6 className="mil-muted mil-up mil-mb-5">Ecosystem</h6>
+                                <p className="mil-light-soft mil-up mil-mb-15" style={{ fontSize: "12px", opacity: 0.55 }}>Products we build ourselves</p>
                                 <nav className="mil-footer-menu mil-mb-60">
                                     <ul>
                                         {AppData.footer.ecosystem.map((item, key) => (
@@ -40,7 +42,8 @@ const DefaultFooter = ( { extraClass } ) => {
                             </div>
                             <div className="col-md-4 col-lg-4">
 
-                                <h6 className="mil-muted mil-up mil-mb-30">Company</h6>
+                                <h6 className="mil-muted mil-up mil-mb-5">Company</h6>
+                                <p className="mil-light-soft mil-up mil-mb-15" style={{ fontSize: "12px", opacity: 0.55 }}>Who we are, how to join</p>
                                 <nav className="mil-footer-menu mil-mb-60">
                                     <ul>
                                         {AppData.footer.menu.map((item, key) => (
@@ -54,12 +57,15 @@ const DefaultFooter = ( { extraClass } ) => {
                             </div>
                             <div className="col-md-4 col-lg-3">
 
-                                <h6 className="mil-muted mil-up mil-mb-30">Legal</h6>
-                                <ul className="mil-menu-list mil-up mil-mb-60">
-                                    <li><Link href="/privacy-policy" className="mil-light-soft">Privacy Policy</Link></li>
-                                    <li><Link href="/terms-conditions" className="mil-light-soft">Terms and conditions</Link></li>
-                                    <li><Link href="/cookie-policy" className="mil-light-soft">Cookie Policy</Link></li>
-                                </ul>
+                                <h6 className="mil-muted mil-up mil-mb-5">Legal</h6>
+                                <p className="mil-light-soft mil-up mil-mb-15" style={{ fontSize: "12px", opacity: 0.55 }}>Policies</p>
+                                <nav className="mil-footer-menu mil-mb-60">
+                                    <ul>
+                                        <li className="mil-up"><Link href="/privacy-policy">Privacy Policy</Link></li>
+                                        <li className="mil-up"><Link href="/terms-conditions">Terms and conditions</Link></li>
+                                        <li className="mil-up"><Link href="/cookie-policy">Cookie Policy</Link></li>
+                                    </ul>
+                                </nav>
 
                             </div>
                         </div>
@@ -75,8 +81,7 @@ const DefaultFooter = ( { extraClass } ) => {
 
                                 <h6 className="mil-muted mil-up mil-mb-30">India</h6>
 
-                                <p className="mil-light-soft mil-up">Maximus Towers 2A, Mindspace, Hyderabad <span className="mil-no-wrap">+91 9063615796</span></p>
-                                                    <br/>
+                                <p className="mil-light-soft mil-up mil-mb-15">Maximus Towers 2A, Mindspace, Hyderabad <span className="mil-no-wrap">+91 9063615796</span></p>
                                 <p className="mil-light-soft mil-up">Meridian Towers 2nd and 3rd Floors, Kormangala, 2nd Block, Karnataka <span className="mil-no-wrap">+91 7989595796</span></p>
 
                             </div>

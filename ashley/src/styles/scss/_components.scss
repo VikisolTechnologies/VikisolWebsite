@@ -2033,27 +2033,25 @@ footer
 ------------------------------------------- */
 
 .mil-footer-menu {
-    margin-bottom: 120px;
-
     & ul {
         & li {
             list-style-type: none;
-            margin-bottom: 30px;
+            margin-bottom: 12px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
 
             & a {
                 display: block;
                 font-weight: 500;
-                font-size: $h4;
+                font-size: 15px;
                 color: $lt-90;
                 transition: $t-md;
 
                 &:hover {
-                    transform: translateX(10px);
+                    transform: translateX(6px);
                     color: $accent;
-                }
-
-                @media screen and (max-width: 768px) {
-                    font-size: $h4 - 6px;
                 }
             }
 
