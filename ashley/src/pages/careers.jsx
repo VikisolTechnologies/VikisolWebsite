@@ -521,10 +521,22 @@ export default function Careers() {
 
       <style jsx global>{`
         .career-stat {
+          position: relative;
           padding: 30px;
           background: #fff;
-          border-radius: 4px;
+          border-radius: 16px;
           min-height: 154px;
+          overflow: hidden;
+        }
+
+        .career-stat:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 3px;
+          width: 100%;
+          background-color: #ff9800;
         }
 
         .career-filter-list {
@@ -553,6 +565,8 @@ export default function Careers() {
         }
 
         .career-job-card {
+          position: relative;
+          overflow: hidden;
           border: 1px solid #eaeaea;
           border-radius: 4px;
           padding: 28px 32px 10px;
@@ -561,9 +575,24 @@ export default function Careers() {
           transition: box-shadow 0.2s ease, transform 0.2s ease;
         }
 
+        .career-job-card:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 3px;
+          width: 0;
+          background-color: #ff9800;
+          transition: width 0.5s cubic-bezier(0, 0, 0.3642, 1);
+        }
+
         .career-job-card:hover {
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
           transform: translateY(-2px);
+        }
+
+        .career-job-card:hover:before {
+          width: 100%;
         }
 
         .career-apply-cell {
