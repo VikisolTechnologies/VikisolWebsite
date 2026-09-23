@@ -1321,6 +1321,90 @@ services
     }
 }
 
+/* -------------------------------------------
+
+product cards
+
+------------------------------------------- */
+.mil-product-card {
+    position: relative;
+    display: block;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: $t-md;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 4px;
+        width: 0;
+        background-color: $accent;
+        transition: $t-lg;
+    }
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 30px 60px -20px $dt-20;
+
+        &:before {
+            width: 100%;
+        }
+
+        & .mil-product-card-icon {
+            transform: scale(1.08);
+        }
+    }
+
+    & .mil-product-card-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    & .mil-product-card-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background-color: $dark;
+        transition: $t-md;
+
+        & svg {
+            width: 26px;
+            height: 26px;
+            color: $accent;
+        }
+    }
+
+    & .mil-product-card-status {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $gs-60;
+
+        &:before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: $accent;
+        }
+    }
+
+    & .mil-product-card-stat {
+        font-size: 13px;
+        color: $gs-60;
+    }
+}
+
 .mil-services-grid {
     border-top: solid 1px $lt-10;
 

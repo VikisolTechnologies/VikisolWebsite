@@ -316,7 +316,7 @@ export default function Careers() {
                 </p>
               </div>
               <div className="col-lg-4 mil-mb-30 career-arena-cta">
-                <Link href="/vikisol-arena" className="mil-button mil-arrow-place mil-up">
+                <Link href="/products/arena" className="mil-button mil-arrow-place mil-up">
                   <span>Explore Vikisol Arena</span>
                   <ArrowIcon />
                 </Link>

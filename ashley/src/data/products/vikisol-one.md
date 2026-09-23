@@ -4,6 +4,7 @@ tagline: "Workforce operations for real organizations"
 category: "Workforce & Organization"
 status: "AVAILABLE"
 order: 3
+icon: "team"
 audience: "Organizations and their employees - access is organization-controlled, not open to the public"
 externalUrl: "https://hrlms.vikisol.in"
 ctaLabel: "Visit Vikisol One"

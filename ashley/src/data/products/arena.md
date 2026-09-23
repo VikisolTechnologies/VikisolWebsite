@@ -4,6 +4,7 @@ tagline: "Where a real need finds the right response"
 category: "Talent & Opportunity"
 status: "AVAILABLE"
 order: 1
+icon: "briefcase"
 audience: "Professionals, companies, and teams with a real need to fill"
 externalUrl: "https://arena.vikisol.in"
 ctaLabel: "Explore Arena"

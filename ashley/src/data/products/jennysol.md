@@ -4,6 +4,7 @@ tagline: "The intelligence layer that connects the Vikisol ecosystem"
 category: "AI & Intelligence"
 status: "AVAILABLE"
 order: 2
+icon: "bot"
 audience: "Anyone working across the Vikisol ecosystem"
 externalUrl: "https://jennysol.vikisol.in"
 ctaLabel: "Meet JennySol"
