@@ -3,7 +3,7 @@ import PageBanner from "@components/PageBanner";
 import Link from "next/link";
 
 const Section = ({ title, children }) => (
-  <div style={{ marginBottom: "48px" }}>
+  <div className="mil-up" style={{ marginBottom: "48px" }}>
     <h4 style={{ marginBottom: "16px", fontWeight: 700 }}>{title}</h4>
     {children}
   </div>
