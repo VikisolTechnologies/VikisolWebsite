@@ -7,6 +7,12 @@ $font-1: 'Outfit', sans-serif;
 $dark: rgba(0, 0, 0, 1);
 $light: rgba(255, 255, 255, 1);
 $accent: rgba(255, 152, 0, 1);
+// Same hue/saturation as $accent, lightness lowered from 50% to 30% - $accent measures ~2.15:1
+// contrast on white (fails WCAG AA at every text size); this measures ~5.4:1 on white and ~4.9:1
+// on $gs-5 (.mil-soft-bg), passing AA for normal text in both. Used only where .mil-accent text
+// sits on a light background - the existing $accent stays as-is (and stays excellent, ~9.7:1) for
+// dark-background usage, applied via the .mil-dark-bg override in _common.scss.
+$accent-on-light: rgba(153, 91, 0, 1);
 
 $dt-2: rgba(0, 0, 0, .02);
 $dt-5: rgba(0, 0, 0, .05);

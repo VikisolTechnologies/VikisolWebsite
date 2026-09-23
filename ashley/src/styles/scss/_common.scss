@@ -263,6 +263,14 @@ a {
 }
 
 .mil-accent {
+    color: $accent-on-light;
+}
+
+// .mil-dark-bg sections aren't a different background-color - they invert what's visually behind
+// them (see the "backgrounds" block below) while foreground text keeps its own literal color, so
+// $accent (not the light-background-safe shade above) is what actually renders there and already
+// measures ~9.7:1 on those sections - no accessibility reason to darken it in this context too.
+.mil-dark-bg .mil-accent {
     color: $accent;
 }
 
