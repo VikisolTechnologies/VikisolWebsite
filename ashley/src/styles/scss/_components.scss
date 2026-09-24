@@ -896,6 +896,19 @@ lines
     @include move-animation;
 }
 
+// The /services page puts .mil-lines-place in a short column (col-lg-5) next to a much taller
+// column of stacked service cards (col-lg-7, 8 services deep) - with no positioning of its own,
+// it just sits at the top and gets left behind, leaving a large empty gap below it for the rest
+// of that column's scroll. Sticky keeps it in view for as long as the service list scrolls past.
+#services .mil-lines-place {
+    position: sticky;
+    top: 140px;
+
+    @media screen and (max-width: 992px) {
+        position: static;
+    }
+}
+
 .mil-lines-place {
     & .mil-lines {
         opacity: 0.05;
