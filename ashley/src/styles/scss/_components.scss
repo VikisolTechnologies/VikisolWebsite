@@ -1189,6 +1189,36 @@ about
         top: -120px;
         left: -27%;
     }
+
+    & .mil-about-stat-card {
+        position: absolute;
+        left: -30px;
+        bottom: 40px;
+        z-index: 2;
+        background-color: $light;
+        border-radius: 16px;
+        padding: 24px 28px;
+        max-width: 220px;
+        box-shadow: 0 30px 60px -20px $dt-30;
+
+        @media screen and (max-width: 992px) {
+            left: 20px;
+        }
+    }
+
+    & .mil-about-stat-number {
+        font-size: 32px;
+        font-weight: 700;
+        color: $dark;
+        line-height: 1;
+    }
+
+    & .mil-about-stat-label {
+        font-size: 13px;
+        color: $gs-60;
+        margin-top: 8px;
+        line-height: 1.4;
+    }
 }
 
 /* -------------------------------------------
@@ -1415,6 +1445,41 @@ product cards
     & .mil-product-card-stat {
         font-size: 13px;
         color: $gs-60;
+    }
+}
+
+.mil-domain-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: $t-md;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 3px;
+        width: 0;
+        background-color: $accent;
+        transition: $t-lg;
+    }
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 40px -20px $dt-20;
+
+        &:before {
+            width: 100%;
+        }
+    }
+
+    & .mil-domain-card-index {
+        display: block;
+        font-size: 12px;
+        font-weight: 600;
+        color: $accent-on-light;
+        margin-bottom: 10px;
     }
 }
 

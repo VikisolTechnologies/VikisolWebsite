@@ -114,7 +114,8 @@ const Services = (props) => {
             <div className="row">
               {enterpriseCapabilities.map((item, key) => (
               <div className="col-md-6 col-lg-3" key={`domain-item-${key}`}>
-                <div className="mil-soft-bg mil-p-30-30 mil-mb-30">
+                <div className="mil-soft-bg mil-domain-card mil-p-30-30 mil-mb-30">
+                  <span className="mil-domain-card-index">{String(key + 1).padStart(2, "0")}</span>
                   <h5 className="mil-up">{item}</h5>
                 </div>
               </div>

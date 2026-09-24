@@ -48,6 +48,10 @@ const AboutSection = () => {
                                         <img src={Data.image.url} alt={Data.image.alt} className="mil-scale" data-value-1="1" data-value-2="1.2" />
                                     )}
                                 </div>
+                                <div className="mil-about-stat-card mil-up">
+                                    <div className="mil-about-stat-number">2021</div>
+                                    <div className="mil-about-stat-label">Founded, headquartered in Hyderabad</div>
+                                </div>
                             </div>
 
                         </div>
