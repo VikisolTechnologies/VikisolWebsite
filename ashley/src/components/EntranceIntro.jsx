@@ -5,9 +5,9 @@ import { useEffect, useRef, useState } from "react";
 // dormant src/layouts/preloader (dead template leftover - its own animation targeted CSS classes
 // that didn't even exist in its markup, and its copy was the unmodified ThemeForest demo text).
 const LINES = ["A real need.", "The right response.", "Welcome to the Vikisol ecosystem."];
-const LINE_MS = 650;
-const WORDMARK_HOLD_MS = 850;
-const EXIT_MS = 650;
+const LINE_MS = 1600;
+const WORDMARK_HOLD_MS = 1800;
+const EXIT_MS = 700;
 
 const EntranceIntro = () => {
   const [visible, setVisible] = useState(false);
