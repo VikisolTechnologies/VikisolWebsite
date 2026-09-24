@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 // A first-visit entrance for the homepage only - plays once per browser session (sessionStorage-
 // gated), skipped entirely for prefers-reduced-motion or any page other than "/". Replaces the old
@@ -13,9 +13,18 @@ const EntranceIntro = () => {
   const [visible, setVisible] = useState(false);
   const [lineIndex, setLineIndex] = useState(0);
   const [phase, setPhase] = useState("lines");
+  // Next's reactStrictMode (next.config.js) deliberately double-invokes every effect in dev -
+  // mount, run cleanup, mount again - to surface exactly this kind of bug. Without this guard,
+  // the first invocation schedules the timers below and the phantom cleanup immediately cancels
+  // them, but `visible` (already set to true) stays stuck - the one line that did render plays
+  // its own CSS fade-to-invisible animation independently of the cancelled JS timers, and the
+  // overlay is left permanently blank. The ref survives the double-invoke (only effects re-run,
+  // not state/refs), so the second invocation sees it and skips straight past.
+  const startedRef = useRef(false);
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
+    if (typeof window === "undefined" || startedRef.current) return;
+
     const reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const alreadySeen = window.sessionStorage.getItem("vikisol-intro-seen");
 
@@ -23,31 +32,29 @@ const EntranceIntro = () => {
       return;
     }
 
+    startedRef.current = true;
     window.sessionStorage.setItem("vikisol-intro-seen", "1");
     setVisible(true);
     document.documentElement.style.overflow = "hidden";
 
-    const timers = [];
     LINES.forEach((_, i) => {
-      timers.push(setTimeout(() => setLineIndex(i), i * LINE_MS));
+      setTimeout(() => setLineIndex(i), i * LINE_MS);
     });
     const wordmarkAt = LINES.length * LINE_MS;
     const exitAt = wordmarkAt + WORDMARK_HOLD_MS;
     const doneAt = exitAt + EXIT_MS;
 
-    timers.push(setTimeout(() => setPhase("wordmark"), wordmarkAt));
-    timers.push(setTimeout(() => setPhase("exit"), exitAt));
-    timers.push(
-      setTimeout(() => {
-        setPhase("done");
-        document.documentElement.style.overflow = "";
-      }, doneAt)
-    );
-
-    return () => {
-      timers.forEach(clearTimeout);
+    setTimeout(() => setPhase("wordmark"), wordmarkAt);
+    setTimeout(() => setPhase("exit"), exitAt);
+    setTimeout(() => {
+      setPhase("done");
       document.documentElement.style.overflow = "";
-    };
+    }, doneAt);
+
+    // Deliberately no cleanup here: this sequence is meant to run to completion once started
+    // (sessionStorage already guarantees it only ever starts once for real - see startedRef.
+    // above for why the StrictMode phantom mount must not be allowed to cancel it). On a genuine
+    // unmount mid-sequence, React 18 safely no-ops the remaining setState calls.
   }, []);
 
   if (!visible || phase === "done") return null;
