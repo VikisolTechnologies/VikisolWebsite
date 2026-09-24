@@ -785,6 +785,13 @@ spaces
     }
 }
 
+// Referenced by 6 files (ProductCard, services/about/ecosystem/staffing-process pages,
+// products/[slug]) expecting all-sides card padding - never actually defined, so every one of
+// them has been rendering with zero real padding around its content.
+.mil-p-30-30 {
+    padding: 30px;
+}
+
 .mil-p-120-120 {
     padding-top: 120px;
     padding-bottom: 120px;
