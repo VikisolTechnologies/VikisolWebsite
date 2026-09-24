@@ -897,10 +897,13 @@ lines
 }
 
 // The /services page puts .mil-lines-place in a short column (col-lg-5) next to a much taller
-// column of stacked service cards (col-lg-7, 8 services deep) - with no positioning of its own,
-// it just sits at the top and gets left behind, leaving a large empty gap below it for the rest
-// of that column's scroll. Sticky keeps it in view for as long as the service list scrolls past.
-#services .mil-lines-place {
+// column of stacked service cards (col-lg-7, 8 services deep). Sticky belongs on the COLUMN
+// itself with align-self: flex-start (the standard sticky-sidebar pattern) - putting sticky on
+// the icon while leaving the column to stretch (align-items: stretch is the row's default) only
+// worked for part of the scroll in practice, then the icon vanished for the rest of it. This
+// version doesn't depend on the column's stretched height being calculated a particular way.
+#services .row > .col-lg-5 {
+    align-self: flex-start;
     position: sticky;
     top: 140px;
 
