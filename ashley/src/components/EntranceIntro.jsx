@@ -1,40 +1,50 @@
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/router";
 
 // A first-visit entrance for the homepage only - plays once per browser session (sessionStorage-
 // gated), skipped entirely for prefers-reduced-motion or any page other than "/". Replaces the old
 // dormant src/layouts/preloader (dead template leftover - its own animation targeted CSS classes
 // that didn't even exist in its markup, and its copy was the unmodified ThemeForest demo text).
+//
+// Renders unconditionally on "/" from the very first paint (server-rendered, not triggered by a
+// client effect) - deciding whether to show it only in an effect meant a ~1s gap where the
+// browser painted the real homepage before React hydrated and the overlay appeared, i.e. exactly
+// the flash-of-homepage this was meant to prevent. sessionStorage/matchMedia aren't readable
+// during SSR, so the route match (router.pathname - identical on server and client, no hydration
+// mismatch risk) is what gates rendering; sessionStorage/reduced-motion only decide, post-hydration,
+// whether to run the sequence or dismiss it immediately via `skip`.
 const LINES = ["A real need.", "The right response.", "Welcome to the Vikisol ecosystem."];
 const LINE_MS = 1600;
 const WORDMARK_HOLD_MS = 1800;
 const EXIT_MS = 700;
 
 const EntranceIntro = () => {
-  const [visible, setVisible] = useState(false);
+  const router = useRouter();
+  const isHome = router.pathname === "/";
+
   const [lineIndex, setLineIndex] = useState(0);
   const [phase, setPhase] = useState("lines");
+  const [skip, setSkip] = useState(false);
   // Next's reactStrictMode (next.config.js) deliberately double-invokes every effect in dev -
   // mount, run cleanup, mount again - to surface exactly this kind of bug. Without this guard,
-  // the first invocation schedules the timers below and the phantom cleanup immediately cancels
-  // them, but `visible` (already set to true) stays stuck - the one line that did render plays
-  // its own CSS fade-to-invisible animation independently of the cancelled JS timers, and the
-  // overlay is left permanently blank. The ref survives the double-invoke (only effects re-run,
+  // the first invocation would schedule the timers below and a phantom cleanup would cancel them
+  // before the sequence ever got to run. The ref survives the double-invoke (only effects re-run,
   // not state/refs), so the second invocation sees it and skips straight past.
   const startedRef = useRef(false);
 
   useEffect(() => {
-    if (typeof window === "undefined" || startedRef.current) return;
+    if (typeof window === "undefined" || startedRef.current || !isHome) return;
+    startedRef.current = true;
 
     const reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const alreadySeen = window.sessionStorage.getItem("vikisol-intro-seen");
 
-    if (reducedMotion || alreadySeen || window.location.pathname !== "/") {
+    if (reducedMotion || alreadySeen) {
+      setSkip(true);
       return;
     }
 
-    startedRef.current = true;
     window.sessionStorage.setItem("vikisol-intro-seen", "1");
-    setVisible(true);
     document.documentElement.style.overflow = "hidden";
 
     LINES.forEach((_, i) => {
@@ -55,9 +65,9 @@ const EntranceIntro = () => {
     // (sessionStorage already guarantees it only ever starts once for real - see startedRef.
     // above for why the StrictMode phantom mount must not be allowed to cancel it). On a genuine
     // unmount mid-sequence, React 18 safely no-ops the remaining setState calls.
-  }, []);
+  }, [isHome]);
 
-  if (!visible || phase === "done") return null;
+  if (!isHome || skip || phase === "done") return null;
 
   return (
     <div className={`mil-entrance${phase === "exit" ? " mil-entrance-exit" : ""}`}>
