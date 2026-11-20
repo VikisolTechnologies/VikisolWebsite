@@ -23,7 +23,7 @@ const organizationJsonLd = {
   "@type": "Organization",
   name: "Vikisol Technologies",
   url: "https://vikisol.in",
-  logo: "https://res.cloudinary.com/drqgvncx1/image/upload/v1781490490/Vikisol_AppIcon-Big_ang4lu.png",
+  logo: "/media/images/vikisol-icon-512.png",
   sameAs: AppData.social.map((item) => item.link)
 };
 

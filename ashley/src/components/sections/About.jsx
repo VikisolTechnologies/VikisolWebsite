@@ -17,7 +17,7 @@ const AboutSection = () => {
                                 
                                 <div className="mil-about-quote">
                                     <div className="mil-avatar mil-up">
-                                        <img src="https://res.cloudinary.com/drqgvncx1/image/upload/v1781356301/avtar_hommmd.png" alt={Data.avatar.alt} />
+                                        <img src="/media/images/avatar-syam.jpg" alt={Data.avatar.alt} />
 
                                     </div>
                                     <h6 className="mil-quote mil-up" dangerouslySetInnerHTML={{__html : Data.subtitle}} />

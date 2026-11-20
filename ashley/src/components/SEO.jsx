@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import AppData from "@data/app.json";
 
 const SITE_URL = "https://vikisol.in";
-const DEFAULT_OG_IMAGE = "https://res.cloudinary.com/drqgvncx1/image/upload/v1781490490/Vikisol_AppIcon-Big_ang4lu.png";
+const DEFAULT_OG_IMAGE = "https://vikisol.in/media/images/vikisol-share.jpg";
 
 // Single source of truth for per-page <head> metadata - title, description, canonical, Open
 // Graph, and Twitter Card. PageBanner renders this for every page that uses it; pages with no

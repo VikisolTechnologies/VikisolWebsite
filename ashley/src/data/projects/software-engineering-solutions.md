@@ -1,8 +1,8 @@
 ---
 #preview
 title: Enterprise Software Engineering & Digital Solutions
-image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292338/se1_hekrnu.png
-video: https://res.cloudinary.com/drqgvncx1/video/upload/v1781358418/5_j1dqs9.mp4
+image: /media/images/project-se-1.jpg
+video: /media/videos/project-software.mp4
 category: SOFTWARE ENGINEERING
 date: '2023-11-01'
 
@@ -24,16 +24,16 @@ details:
 gallery: 
     enabled: 1
     items:
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292338/se1_hekrnu.png
+        - image: /media/images/project-se-1.jpg
           alt: "Software Architecture Design"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292338/se2_c5dch9.png
+        - image: /media/images/project-se-2.jpg
           alt: "Application Development"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292338/se3_ylqkvb.png
+        - image: /media/images/project-se-3.jpg
           alt: "System Integration"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292338/se4_bfjcnv.png
+        - image: /media/images/project-se-4.jpg
           alt: "Deployment & Delivery"
 
 description:

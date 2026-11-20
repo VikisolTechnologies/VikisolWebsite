@@ -90,10 +90,11 @@ const About = () => {
                         loop
                         playsInline
                         preload="auto"
+                        poster="/media/videos/about-global-team-poster.jpg"
                         className="about-video"
                       >
                         <source
-                          src="https://res.cloudinary.com/drqgvncx1/video/upload/v1781993199/diverse-team-collaboration-at-colorful-sticky-note-2025-12-17-17-47-05-utc_wwfmxp.mp4"
+                          src="/media/videos/about-global-team.mp4"
                           type="video/mp4"
                         />
                       </video>
