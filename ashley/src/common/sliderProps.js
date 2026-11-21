@@ -39,7 +39,7 @@ import "swiper/css/pagination";
 
 export const SliderProps = {
   milInfiniteSlider: {
-    slidesPerView: 2,
+    slidesPerView: 3,
     spaceBetween: 30,
     speed: 5000,
     autoplay: true,
@@ -49,13 +49,12 @@ export const SliderProps = {
     loop: true,
     freeMode: true,
     breakpoints: {
-        992: {
-            slidesPerView: 4,
-        },
+        576: { slidesPerView: 4 },
+        992: { slidesPerView: 6 },
     },
   },
   milInfiniteSliderReverse: {
-    slidesPerView: 2,
+    slidesPerView: 3,
     spaceBetween: 30,
     speed: 5000,
     autoplay: true,
@@ -66,9 +65,8 @@ export const SliderProps = {
     loop: true,
     freeMode: true,
     breakpoints: {
-        992: {
-            slidesPerView: 4,
-        },
+        576: { slidesPerView: 4 },
+        992: { slidesPerView: 6 },
     },
   },
   milPortfolioSlider: {

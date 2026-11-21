@@ -15,8 +15,9 @@ const PartnersSlider = () => {
             >
                 {Data.row1.map((item, key) => (
                 <SwiperSlide className="swiper-slide" key={`partners-slider-row1-item-${key}`}>
-                <div className="mil-partner-frame" style={{"width": "60px"}}>
+                <div className="mil-partner-frame">
                     <img src={item.image} alt={item.alt} title={item.alt} />
+                    <span className="mil-partner-name">{item.alt}</span>
                 </div>
                 </SwiperSlide>
                 ))}
@@ -27,8 +28,9 @@ const PartnersSlider = () => {
             >
                 {Data.row2.map((item, key) => (
                 <SwiperSlide className="swiper-slide" key={`partners-slider-row2-item-${key}`}>
-                <div className="mil-partner-frame" style={{"width": "60px"}}>
+                <div className="mil-partner-frame">
                     <img src={item.image} alt={item.alt} title={item.alt} />
+                    <span className="mil-partner-name">{item.alt}</span>
                 </div>
                 </SwiperSlide>
                 ))}
