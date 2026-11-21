@@ -2,7 +2,8 @@
 #preview
 title: 'Building High-Performing Delivery Teams for Enterprise Scale'
 date: '2026-05-28'
-image: "/media/images/blog-5.jpg"
+image: "/media/images/blog-delivery-teams-cover.jpg"
+video: "/media/videos/blog-delivery-teams-cover.mp4"
 category:
     - Operations
 categories:

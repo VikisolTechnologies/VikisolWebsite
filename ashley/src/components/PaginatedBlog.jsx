@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Date from '@library/date';
+import LazyVideo from "@components/LazyVideo";
 
 const PaginationPage = ({ items }) => {
     return (
@@ -9,7 +10,7 @@ const PaginationPage = ({ items }) => {
 
             <Link href={`/blog/${item.id}`} className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
                 <div className="mil-cover-frame mil-up">
-                    <img src={item.image} alt={item.title} />
+                    <LazyVideo src={item.image} video={item.video} alt={item.title} />
                 </div>
                 <div className="mil-post-descr">
                     <div className="mil-labels mil-up mil-mb-30">

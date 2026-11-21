@@ -2,7 +2,8 @@
 #preview
 title: 'AI Automation That Reduces Manual Work'
 date: '2026-05-20'
-image: "/media/images/blog-ai-automation.jpg"
+image: "/media/images/blog-ai-automation-cover.jpg"
+video: "/media/videos/blog-ai-automation-cover.mp4"
 category:
     - Technology
 categories:

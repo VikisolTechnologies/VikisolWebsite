@@ -1,6 +1,7 @@
 import Data from "@data/sections/related-posts.json";
 import Date from '@library/date';
 import Link from "next/link";
+import LazyVideo from "@components/LazyVideo";
 
 const RelatedPostsSection = ( Content ) => {
 
@@ -27,7 +28,7 @@ const RelatedPostsSection = ( Content ) => {
 
                             <Link href={`/blog/${item.id}`} className="mil-blog-card mil-mb-60">
                                 <div className="mil-cover-frame mil-up">
-                                    <img src={item.image} alt={item.title} />
+                                    <LazyVideo src={item.image} video={item.video} alt={item.title} />
                                 </div>
                                 <div className="mil-post-descr">
                                     <div className="mil-labels mil-up mil-mb-30">

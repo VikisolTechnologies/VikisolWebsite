@@ -11,6 +11,7 @@ layout: "four"
 
 #full details
 introTitle: Enterprise Cybersecurity <span class="mil-thin">Assessment</span> and Remediation
+fullImage: /media/images/cs1.png
 details:
     - label: "Client:"
       value: "Techglore"

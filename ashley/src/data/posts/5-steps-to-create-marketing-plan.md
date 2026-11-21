@@ -2,7 +2,8 @@
 #preview
 title: 'Enterprise Delivery Models That Reduce Fragmentation'
 date: '2026-06-02'
-image: "/media/images/blog-1.jpg"
+image: "/media/images/blog-fragmentation-cover.jpg"
+video: "/media/videos/blog-fragmentation-cover.mp4"
 category:
     - Delivery
 categories:

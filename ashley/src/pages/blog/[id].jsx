@@ -3,6 +3,7 @@ import { getAllPostsIds, getPostData, getRelatedPosts } from "@library/posts";
 import Date from '@library/date';
 import PageBanner from "@components/PageBanner";
 import RelatedPostsSection from "@components/sections/RelatedPosts";
+import LazyVideo from "@components/LazyVideo";
 
 const PostsDetail = ( props ) => {
   
@@ -19,7 +20,7 @@ const PostsDetail = ( props ) => {
                   <div className="col-lg-12">
 
                       <div className="mil-image-frame mil-horizontal mil-up">
-                          <img src={postData.image} alt={postData.title} className="mil-scale" data-value-1=".90" data-value-2="1.15" />
+                          <LazyVideo src={postData.image} video={postData.video} alt={postData.title} className="mil-scale" data-value-1=".90" data-value-2="1.15" />
                       </div>
                       <div className="mil-info mil-up mil-mb-90">
                           <div>Category: &nbsp;<span className="mil-dark">{postData.category}</span></div>

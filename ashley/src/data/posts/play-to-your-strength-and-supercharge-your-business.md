@@ -2,7 +2,8 @@
 #preview
 title: 'Why Vikisol Should Read as One Technology Partner'
 date: '2026-06-10'
-image: "/media/images/blog-team-collaboration.jpg"
+image: "/media/images/blog-one-partner-cover.jpg"
+video: "/media/videos/blog-one-partner-cover.mp4"
 category:
     - Strategy
 categories:

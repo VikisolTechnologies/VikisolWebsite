@@ -2,7 +2,8 @@
 #preview
 title: 'How Vikisol Builds Trust Through Quality and Accuracy'
 date: '2026-05-26'
-image: "/media/images/blog-6.jpg"
+image: "/media/images/blog-trust-quality.jpg"
+video: "/media/videos/blog-trust-quality.mp4"
 category:
     - Delivery
 categories:

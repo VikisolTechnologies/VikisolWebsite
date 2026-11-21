@@ -2,7 +2,8 @@
 #preview
 title: 'What Procurement Teams Expect From an Enterprise IT Partner'
 date: '2026-06-08'
-image: "/media/images/blog-4.jpg"
+image: "/media/images/blog-procurement-cover.jpg"
+video: "/media/videos/blog-procurement-cover.mp4"
 category:
     - Delivery
 categories:

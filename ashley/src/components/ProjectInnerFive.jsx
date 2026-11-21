@@ -3,6 +3,7 @@ import { SliderProps } from "@/src/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ImageView from "@components/ImageView";
 import InteractiveMediaFrame from "@components/InteractiveMediaFrame";
+import LazyVideo from "@components/LazyVideo";
 
 const ProjectInner5 = ({ postData, prev, next }) => {
     return (
@@ -10,13 +11,8 @@ const ProjectInner5 = ({ postData, prev, next }) => {
         {/* project */}
         <section className="mil-p-120-0">
             {typeof postData.fullImage != "undefined" &&
-            <div className="mil-up">
-                <InteractiveMediaFrame
-                    src={postData.fullImage}
-                    video={postData.video}
-                    alt={postData.title}
-                    frameClassName="mil-image-frame mil-fw"
-                />
+            <div className="mil-up mil-image-frame mil-fw">
+                <LazyVideo src={postData.fullImage} video={postData.video} alt={postData.title} />
             </div>
             }
             <div className="container mil-p-0-120" id="project">

@@ -5,6 +5,7 @@ import Date from '@library/date';
 import Link from "next/link";
 import PageBanner from "@components/PageBanner";
 import SubscribeSection from "@components/sections/Subscribe";
+import LazyVideo from "@components/LazyVideo";
 
 const PostsDetail = ( props ) => {
   
@@ -42,7 +43,7 @@ const PostsDetail = ( props ) => {
 
                       <a href={`/blog/${item.id}`} className="mil-blog-card mil-blog-card-hori mil-more mil-mb-60">
                           <div className="mil-cover-frame mil-up">
-                              <img src={item.image} alt={item.title} />
+                              <LazyVideo src={item.image} video={item.video} alt={item.title} />
                           </div>
                           <div className="mil-post-descr">
                               <div className="mil-labels mil-up mil-mb-30">

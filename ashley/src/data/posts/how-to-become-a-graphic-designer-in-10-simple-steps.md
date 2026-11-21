@@ -2,7 +2,8 @@
 #preview
 title: 'From SAP to Cloud: 10 Steps to Legacy System Modernization'
 date: '2026-05-12'
-image: "/media/images/blog-sap-legacy-modernization.jpg"
+image: "/media/images/blog-sap-to-cloud-cover.jpg"
+video: "/media/videos/blog-sap-to-cloud-cover.mp4"
 category:
     - Technology
 categories:

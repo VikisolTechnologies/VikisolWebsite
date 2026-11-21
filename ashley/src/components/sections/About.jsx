@@ -1,5 +1,6 @@
 import Data from "@data/sections/about.json";
 import LinesIcon from "@layouts/svg-icons/Lines";
+import LazyVideo from "@components/LazyVideo";
 
 const AboutSection = () => {
     return (
@@ -30,23 +31,14 @@ const AboutSection = () => {
                                     <LinesIcon />
                                 </div>
                                  <div className="mil-up mil-img-frame" style={{"paddingBottom": "125%"}}>
-                                    {Data.video ? (
-                                        <video
-                                            autoPlay
-                                            muted
-                                            loop
-                                            playsInline
-                                            poster={Data.image.url}
-                                            width="100%"
-                                            height="100%"
-                                            style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-                                        >
-                                            <source src={Data.video.url} type={Data.video.type || "video/mp4"} />
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    ) : (
-                                        <img src={Data.image.url} alt={Data.image.alt} className="mil-scale" data-value-1="1" data-value-2="1.2" />
-                                    )}
+                                    <LazyVideo
+                                        src={Data.image.url}
+                                        video={Data.video?.url}
+                                        alt={Data.image.alt}
+                                        className="mil-scale"
+                                        data-value-1="1"
+                                        data-value-2="1.2"
+                                    />
                                 </div>
                                 <div className="mil-about-stat-card mil-up">
                                     <div className="mil-about-stat-number">2021</div>

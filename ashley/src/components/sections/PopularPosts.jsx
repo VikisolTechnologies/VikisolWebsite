@@ -2,6 +2,7 @@ import Data from "@data/sections/popular-posts.json";
 import Date from '@library/date';
 import Link from "next/link";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
+import LazyVideo from "@components/LazyVideo";
 
 const PopularPostsSection = ( { posts } ) => {
     
@@ -29,7 +30,7 @@ const PopularPostsSection = ( { posts } ) => {
 
                             <Link href={`/blog/${item.id}`} className="mil-blog-card mil-mb-60">
                                 <div className="mil-cover-frame mil-up">
-                                    <img src={item.image} alt={item.title} />
+                                    <LazyVideo src={item.image} video={item.video} alt={item.title} />
                                 </div>
                                 <div className="mil-post-descr">
                                     <div className="mil-labels mil-up mil-mb-30">

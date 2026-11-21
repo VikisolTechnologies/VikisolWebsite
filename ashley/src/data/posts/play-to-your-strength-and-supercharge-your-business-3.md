@@ -2,7 +2,8 @@
 #preview
 title: 'SAP Programs That Stay Aligned to Business Outcomes'
 date: '2026-06-06'
-image: "/media/images/blog-3.jpg"
+image: "/media/images/blog-sap-aligned-cover.jpg"
+video: "/media/videos/blog-sap-aligned-cover.mp4"
 
 category:
   - Delivery
