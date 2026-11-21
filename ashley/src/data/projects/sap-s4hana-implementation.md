@@ -1,8 +1,8 @@
 ---
 #preview
 title: SAP S/4HANA Implementation and Process Transformation
-image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781472973/Cloud1_jlhas0.jpg
-video: https://res.cloudinary.com/drqgvncx1/video/upload/v1781358420/1_km5rol.mp4
+image: /media/images/cloud1-hero.jpg
+video: /media/videos/sap-bg.mp4
 category: SAP CONSULTING
 date: '2024-03-01'
 
@@ -11,7 +11,7 @@ layout: "four"
 
 #full details
 introTitle: "SAP S/4HANA <span class=\"mil-thin\">Implementation</span> and Process Transformation"
-fullImage: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292350/sap1_oibamk.png
+fullImage: /media/images/sap1.png
 details:
     - label: "Client:"
       value: "Altruist Services"
@@ -33,12 +33,12 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292351/sap2_ljurbe.png
+        - image: /media/images/sap2.png
           alt: "SAP Blueprint Design"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292352/sap3_pvngdw.png
+        - image: /media/images/sap3.png
           alt: "System Configuration"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292353/sap4_upccks.png
+        - image: /media/images/sap4.png
           alt: "Integration Architecture"
 ---

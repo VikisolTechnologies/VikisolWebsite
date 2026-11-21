@@ -2,7 +2,7 @@
 #preview
 title: 'Why Vikisol Should Read as One Technology Partner'
 date: '2026-06-10'
-image: "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352514/5_bdqm3o.jpg"
+image: "/media/images/blog-5.jpg"
 category:
     - Strategy
 categories:

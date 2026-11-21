@@ -2,7 +2,7 @@
 #preview
 title: 'How Vikisol Builds Trust Through Quality and Accuracy'
 date: '2026-05-26'
-image: "https://res.cloudinary.com/drqgvncx1/image/upload/v1781352514/6_r1l0yu.jpg"
+image: "/media/images/blog-6.jpg"
 category:
     - Delivery
 categories:

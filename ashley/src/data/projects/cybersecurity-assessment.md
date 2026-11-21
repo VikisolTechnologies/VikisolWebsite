@@ -1,8 +1,8 @@
 ---
 #preview
 title: Enterprise Cybersecurity Assessment and Remediation
-image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781472973/Cloud3_fka08u.jpg
-video: https://res.cloudinary.com/drqgvncx1/video/upload/v1781358415/2_uxid2o.mp4
+image: /media/images/cloud3-hero.jpg
+video: /media/videos/cs-bg.mp4
 category: CYBER SECURITY
 date: '2024-01-01'
 
@@ -24,16 +24,16 @@ details:
 gallery: 
     enabled: 1
     items:
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292375/cs1_t6esyg.png
+        - image: /media/images/cs1.png
           alt: "Security Assessment"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292377/cs2_zzjpd9.png
+        - image: /media/images/cs2.png
           alt: "Vulnerability Analysis"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292378/cs3_p0dahs.png
+        - image: /media/images/cs3.png
           alt: "Penetration Testing"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292380/cs4_sh4rfy.png
+        - image: /media/images/cs4.png
           alt: "Remediation Planning"
 
 description:

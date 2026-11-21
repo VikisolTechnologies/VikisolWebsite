@@ -1,8 +1,8 @@
 ---
 #preview
 title: AI Automation Platform for Intelligent Workflow Processing
-image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781473375/Cloud5_nyovs4.jpg
-video: https://res.cloudinary.com/drqgvncx1/video/upload/v1783293664/Perfect_Since_you_ve_subscrib_fzzyml.mp4
+image: /media/images/cloud5-hero.jpg
+video: /media/videos/ai-slideshow.mp4
 category: AI & AUTOMATION
 date: '2024-09-01'
 
@@ -11,7 +11,7 @@ layout: "four"
 
 #full details
 introTitle: <span class="mil-thin">AI</span> Automation <span class="mil-thin">Platform for</span> Workflow Processing
-fullImage: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292404/ai1_haniv7.png
+fullImage: /media/images/ai1.png
 
 details:
     - label: "Client:"
@@ -34,15 +34,15 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292404/ai1_haniv7.png
+        - image: /media/images/ai1.png
           alt: "Platform Architecture"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292406/ai2_oa4lv9.png
+        - image: /media/images/ai2.png
           alt: "AI Model Development"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292407/ai3_gnb0f6.png
+        - image: /media/images/ai3.png
           alt: "System Integration"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292408/ai4_kx0q4s.png
+        - image: /media/images/ai4.png
           alt: "Automation Dashboard"
 ---
