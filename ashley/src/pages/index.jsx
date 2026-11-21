@@ -15,7 +15,6 @@ import TeamSection from "@components/sections/Team";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import AppData from "@data/app.json";
 
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 
 const organizationJsonLd = {
@@ -42,7 +41,6 @@ const Home1 = (props) => {
       <AboutSection />
       <ServicesSection />
       <TeamSection />
-      <TestimonialSlider />
       <PartnersSlider />
       <LatestPostsSection posts={props.posts} />
     </Layouts>

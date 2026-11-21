@@ -2,7 +2,7 @@
 #preview
 title: 'From SAP to Cloud: 10 Steps to Legacy System Modernization'
 date: '2026-05-12'
-image: "/img/blog/6.jpg"
+image: "/media/images/blog-sap-legacy-modernization.jpg"
 category:
     - Technology
 categories:
@@ -16,7 +16,7 @@ author:
     name: "Vikisol Insights Team"
 
 gallery:
-    enabled: 1
+    enabled: 0
     items:
         - image: /img/blog/5.jpg
           alt: "team meeting"

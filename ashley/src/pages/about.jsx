@@ -82,7 +82,7 @@ const About = () => {
           <div className="row justify-content-between align-items-center flex-lg-row-reverse">
             <div className="col-lg-5 mil-mb-60">
               <div className="mil-about-photo">
-                <div className="mil-up mil-img-frame" style={{"paddingBottom": "135%"}}>
+                <div className="mil-up mil-img-frame" style={{"paddingBottom": "56.25%"}}>
                   <div className="about-video-wrapper">
                       <video
                         autoPlay
@@ -90,6 +90,7 @@ const About = () => {
                         loop
                         playsInline
                         preload="auto"
+                        poster="/media/images/about-bg-poster.jpg"
                         className="about-video"
                       >
                         <source
@@ -97,7 +98,7 @@ const About = () => {
                           type="video/mp4"
                         />
                       </video>
-                    </div>  
+                    </div>
                 </div>
               </div>
             </div>

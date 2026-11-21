@@ -2,7 +2,7 @@
 #preview
 title: 'Managed Services That Keep Operations Stable'
 date: '2026-05-16'
-image: "/media/images/managed.png"
+image: "/media/images/managed-services.jpg"
 category:
     - Operations
 categories:

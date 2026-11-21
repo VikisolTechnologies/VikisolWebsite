@@ -16,7 +16,7 @@ author:
     name: "Vikisol Insights Team"
 
 gallery:
-    enabled: 1
+    enabled: 0
     items:
         - image: /img/blog/2.jpg
           alt: "enterprise architecture"

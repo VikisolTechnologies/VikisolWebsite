@@ -27,7 +27,6 @@ const ServicesSection = () => {
                         </div>
 
                         <div className="mil-complex-text justify-content-center mil-up mil-mb-15">
-                            <span className="mil-text-image"><img src="/media/images/services-team-icon.jpg" alt="team" /></span>
                             <h2 className="mil-h1 mil-muted mil-center" dangerouslySetInnerHTML={{__html : Data.title1}} />
                         </div>
 

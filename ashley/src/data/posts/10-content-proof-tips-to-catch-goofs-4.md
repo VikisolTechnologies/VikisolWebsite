@@ -2,7 +2,7 @@
 #preview
 title: 'Cybersecurity Assessments That Lead to Remediation'
 date: '2026-05-18'
-image: "/img/blog/6.jpg"
+image: "/media/images/blog-cybersecurity-remediation.jpg"
 category:
     - Technology
 categories:
