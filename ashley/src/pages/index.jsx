@@ -15,7 +15,6 @@ import TeamSection from "@components/sections/Team";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import AppData from "@data/app.json";
 
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 
 const organizationJsonLd = {
@@ -23,7 +22,7 @@ const organizationJsonLd = {
   "@type": "Organization",
   name: "Vikisol Technologies",
   url: "https://vikisol.in",
-  logo: "https://res.cloudinary.com/drqgvncx1/image/upload/v1781490490/Vikisol_AppIcon-Big_ang4lu.png",
+  logo: "/media/images/vikisol-appicon-big.png",
   sameAs: AppData.social.map((item) => item.link)
 };
 
@@ -42,7 +41,6 @@ const Home1 = (props) => {
       <AboutSection />
       <ServicesSection />
       <TeamSection />
-      <TestimonialSlider />
       <PartnersSlider />
       <LatestPostsSection posts={props.posts} />
     </Layouts>

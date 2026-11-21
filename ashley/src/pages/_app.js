@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
           {/* seo begin */}
           <title>{AppData.settings.siteName}</title>
-          <link rel="icon" href="https://res.cloudinary.com/drqgvncx1/image/upload/v1781490490/Vikisol_AppIcon-Big_ang4lu.png" />
+          <link rel="icon" href="/media/images/vikisol-appicon-big.png" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           {/* seo end */}
       </Head>

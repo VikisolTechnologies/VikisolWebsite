@@ -1,8 +1,8 @@
 ---
 #preview
 title: DevOps Transformation Programme for Continuous Delivery
-image: https://res.cloudinary.com/drqgvncx1/image/upload/v1781472973/Cloud2_cdu30i.jpg
-video: https://res.cloudinary.com/drqgvncx1/video/upload/v1781358418/6_sj0hwa.mp4
+image: /media/images/cloud2-hero.jpg
+video: /media/videos/dev-bg.mp4
 category: CLOUD & DEVOPS
 date: '2024-08-01'
 
@@ -11,7 +11,7 @@ layout: "six"
 
 #full details
 introTitle: DevOps Transformation <span class="mil-thin">Programme</span> for Continuous Delivery
-fullImage: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292360/dev1_fyxo54.png
+fullImage: /media/images/dev1.png
 details:
     - label: "Client:"
       value: "Sourcebea"
@@ -33,15 +33,15 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292361/dev2_cahmq9.png
+        - image: /media/images/dev2.png
           alt: "CI/CD Pipeline Architecture"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292361/dev3_i9qdno.png
+        - image: /media/images/dev3.png
           alt: "Pipeline Implementation"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292362/dev4_ltb6yu.png
+        - image: /media/images/dev4.png
           alt: "Container Orchestration"
 
-        - image: https://res.cloudinary.com/drqgvncx1/image/upload/v1783292364/dev5_ahyldp.png
+        - image: /media/images/dev5.png
           alt: "Infrastructure as Code"
 ---

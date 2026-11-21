@@ -1,10 +1,10 @@
 {
     "image": {
-        "url": "/img/photo/1.jpg",
+        "url": "/media/images/founder-poster.jpg",
         "alt": "Vikisol Technologies"
     },
     "video": {
-        "url": "https://res.cloudinary.com/drqgvncx1/video/upload/v1751395820/founder.mov_iqnznf.mp4",
+        "url": "/media/videos/founder.mp4",
         "type": "video/mp4"
     },
     "avatar": {

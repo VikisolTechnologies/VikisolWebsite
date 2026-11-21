@@ -6,8 +6,8 @@ import { getAllProductSlugs } from "@library/products";
 
 const SITE_URL = "https://vikisol.in";
 
-// Static routes worth indexing - excludes /home-2 (unused template variant), /404, and
-// /sitemap.xml itself.
+// Static routes worth indexing - excludes /home-2, /projects-2, /projects-3 (unused
+// template variants), /404, and /sitemap.xml itself.
 const STATIC_ROUTES = [
   "/",
   "/ecosystem",
@@ -15,8 +15,6 @@ const STATIC_ROUTES = [
   "/team",
   "/services",
   "/projects",
-  "/projects-2",
-  "/projects-3",
   "/careers",
   "/staffing-process",
   "/blog",
